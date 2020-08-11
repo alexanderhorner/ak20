@@ -15,7 +15,7 @@ class PDFController extends Controller
 
     public function index()
     {
-        $pathToFile = storage_path().'/app/pdf/Abschlusszeitung2020.pdf';
+        $pathToFile = storage_path().'/app/public/pdf/Abschlusszeitung2020.pdf';
 
         return response()->file(
             $pathToFile,
@@ -25,7 +25,7 @@ class PDFController extends Controller
 
     public function download()
     {
-        $pathToFile = storage_path().'/app/pdf/Abschlusszeitung2020.pdf';
+        $pathToFile = storage_path().'/app/public/pdf/Abschlusszeitung2020.pdf';
 
         return response()->download(
             $pathToFile,
