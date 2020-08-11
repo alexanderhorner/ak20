@@ -1,7 +1,12 @@
 <template>
     <div>
-        <vueheader></vueheader>
-        <router-view></router-view>
+        <v-header></v-header>
+        <transition name="page">
+            <router-view></router-view>
+        </transition>
+        <div class="legal">
+            <span>Copyright © 2020 Alexander Horner. All rights reserved.</span>
+        </div>
     </div>
 </template>
 
@@ -11,22 +16,39 @@ import Header from './components/Header'
 export default {
     name: 'app',
     components: {
-        'vueheader': Header,
+        'v-header': Header,
     }
 }
 </script>
 
-<style lang="scss">
-html, body {
-    overflow-x: hidden;
-    font-family: 'Nunito Sans', sans-serif;
-    color: hsl(0, 0%, 15%);
-    background: linear-gradient(to right, #a8ff78, #78ffd6);
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    text-align: center;
+<style lang="scss" scoped>
+.page-enter-active {
+    animation: page-enter 0.4s;
+}
+.page-leave-active {
+    animation: page-leave 0.4s;
+}
+@keyframes page-enter {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes page-leave {
+    0% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 </style>

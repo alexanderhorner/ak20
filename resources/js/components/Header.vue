@@ -14,7 +14,7 @@ export default {
 
 <style lang="scss" scoped>
 .header {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: -1px;
     right: 0;

@@ -1,20 +1,32 @@
-require('./bootstrap');
+require('./bootstrap')
+
+require('./modernizr.min.js')
 
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import App from './App.vue'
 
-const Login = () => import('./views/Login.vue')
 import Home from './views/Home.vue'
-const Error404 = () => import('./views/Error404.vue')
 
 Vue.use(VueRouter)
 
 const routes = [
-    { path: '/login', component: Login },
-    { path: '/', component: Home },
-    { path: '/*', component: Error404 }
+    {
+        path: '/login',
+        name: 'Login',
+        component: () => import('./views/Login.vue')
+    },
+    {
+        path: '/',
+        name: 'Home',
+        component: Home
+    },
+    {
+        path: '/*',
+        name: '404',
+        component: () => import('./views/Error404.vue')
+    }
 ] 
 
 const router = new VueRouter({
@@ -24,5 +36,12 @@ const router = new VueRouter({
 
 const app = new Vue({
     router,
-    render: h => h(App)
-}).$mount('#app')
+    el: '#app',
+    components: {
+        App
+    }
+})
+
+window.routerPush = function(x) {
+    router.push(x)
+}

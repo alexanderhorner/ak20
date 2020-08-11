@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Middleware\AlreadyLoggedIn;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,6 +15,19 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::post('/api/v1/login', 'LoginController@login');
+
+Route::get('/logout', 'LoginController@logout');
+
+Route::get('/view', 'PDFController@index');
+
+Route::get('/download', 'PDFController@download');
+
+Route::get('/', 'HomeController@index');
+
+Route::get('/login', function () {
+    return view('home');
+})->middleware(AlreadyLoggedIn::class);
 
 Route::get('{any}', function () { 
     return view('home'); 

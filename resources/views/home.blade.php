@@ -3,6 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+        <meta name="login-status" content="{{ csrf_token() }}">
+
 
         <title>10a | AK20</title>
 
@@ -10,14 +13,14 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="{{ asset('css/all.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
     </head>
-    <body>
+    <body ontouchstart="">
         <div id="app">
             <app></app>
         </div>
-
         <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>

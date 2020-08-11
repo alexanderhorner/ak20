@@ -3,22 +3,21 @@
         <div class="content">
             <span class="title">Abschlusszeitung 2020</span>
 
-            <span class="description">Abschlusszeitung2020.pdf (20MB)</span>
+            <span class="description">Abschlusszeitung2020.pdf (18,8MB)</span>
 
             <div class="btn-group">
-                <a class="shadow-btn" href="#"><span>Anschauen</span></a>
-                <a class="shadow-btn" href="#" download><span>Download</span></a>
+                <a class="shadow-btn" href="/view"><span>Anschauen</span></a>
+                <a class="shadow-btn" href="/download" download><span>Download</span></a>
             </div>
-        </div>
-        <div class="legal">
-            <span>Copyright © 2020 Alexander Horner. All rights reserved.</span>
         </div>
     </div>
 </template>
 
 <script>
 export default {
-
+    data: () => ({
+        loginStatus: document.querySelector('meta[name="login-status"]').getAttribute('content'),
+    })
 }
 </script>
 
@@ -46,10 +45,12 @@ export default {
         font-family: 'Montserrat', sans-serif;
         font-size: 2.6rem;
         font-weight: bold;
+        line-height: 1.3;
         margin-bottom: 3px;
 
         @media (max-width: 444px) {
-            font-size: 9.5vw;
+            font-size: 9.8vw;
+            letter-spacing: -0.05em;
         }
     } 
 
@@ -123,29 +124,32 @@ export default {
                 transition: transform 0.15s;
                 transform: translate(-5px, 5px) translateZ(-1px);
             }
-
-            &:hover::before {
-                transform: translate(0, 0) translateZ(-1px);
-            }
-
-            &:hover {
-                transform: translate(-5px, 5px);
-            }
-
-            &:active {
-                transform: translate(-5px, 5px) scale(0.98);
-            }
         }
     }
 }
 
-.legal {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    padding-bottom: 2px;
-    font-size: 8px;
-    color: hsla(99, 20%, 70%, 0.7);
+.no-touchevents .content .btn-group .shadow-btn {
+    &:hover::before {
+        transform: translate(0, 0) translateZ(-1px);
+    }
+
+    &:hover {
+        transform: translate(-5px, 5px);
+    }
+
+    &:active {
+        transform: translate(-5px, 5px) scale(0.98);
+    }
 }
+
+.touchevents .content .btn-group .shadow-btn {
+    &:active::before {
+        transform: translate(0, 0) translateZ(-1px);
+    }
+
+    &:active {
+        transform: translate(-5px, 5px);
+    }
+}
+
 </style>

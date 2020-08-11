@@ -1,8 +1,26 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+html, body {
+    overflow-x: hidden;
+    background-color: #90ffa7;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
 
-// Variables
-@import 'variables';
+body {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    color: hsl(0, 0%, 15%);
+    background: linear-gradient(to right, #a8ff78, #78ffd6);
+}
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+.legal {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 2px;
+    font-size: 8px;
+    color: hsla(99, 20%, 70%, 0.7);
+}
