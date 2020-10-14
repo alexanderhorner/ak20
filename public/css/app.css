@@ -1,1 +1,29 @@
-body,html{overflow-x:hidden;background-color:#90ffa7;position:fixed;top:0;right:0;bottom:0;left:0}body{text-align:center;font-family:Nunito Sans,sans-serif;color:#262626;background:linear-gradient(90deg,#a8ff78,#78ffd6)}.legal{position:absolute;left:0;bottom:0;right:0;padding-bottom:2px;font-size:8px;color:rgba(174,194,163,.7)}
+html,
+body {
+  overflow-x: hidden;
+  background-color: #90ffa7;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+body {
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  color: #262626;
+  background: linear-gradient(to right, #a8ff78, #78ffd6);
+}
+
+.legal {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 2px;
+  font-size: 8px;
+  color: rgba(174, 194, 163, 0.7);
+}
+
+/* (ignored) *//* (ignored) *//* (ignored) *//* (ignored) *//* (ignored) *//* (ignored) *//* (ignored) *//* (ignored) *//* (ignored) *//* (ignored) *//* (ignored) *//* (ignored) *//* (ignored) *//* (ignored) *//* (ignored) */

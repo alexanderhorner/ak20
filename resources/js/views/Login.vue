@@ -24,7 +24,12 @@
 export default {
     data: () => ({
         csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
-    })
+    }),
+    mounted: function() {
+        alert("Mounted");
+        const login = new Login();
+        window.login = login;
+    }
 }
 
 
@@ -84,10 +89,10 @@ class Login {
     }
 }
 
-window.addEventListener('load', function () {
-  const login = new Login();
-  window.login = login;
-})
+// window.addEventListener('load', function () {
+//   const login = new Login();
+//   window.login = login;
+// })
 
 
 
