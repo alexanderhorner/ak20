@@ -26,7 +26,6 @@ export default {
         csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
     }),
     mounted: function() {
-        alert("Mounted");
         const login = new Login();
         window.login = login;
     }
