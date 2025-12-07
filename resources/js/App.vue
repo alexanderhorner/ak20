@@ -11,14 +11,14 @@
 </template>
 
 <script>
-import Header from './components/Header'
+import Header from "./components/Header.vue";
 
 export default {
-    name: 'app',
+    name: "app",
     components: {
-        'v-header': Header,
-    }
-}
+        "v-header": Header,
+    },
+};
 </script>
 
 <style lang="scss" scoped>

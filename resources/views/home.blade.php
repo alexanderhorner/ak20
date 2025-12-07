@@ -13,14 +13,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="{{ asset('css/all.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        @vite('resources/js/app.js')
 
     </head>
     <body ontouchstart="">
-        <div id="app">
-            <app></app>
-        </div>
-        <script src="{{ asset('js/app.js') }}"></script>
+        <div id="app"></div>
+        
     </body>
 </html>

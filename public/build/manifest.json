@@ -1,0 +1,39 @@
+{
+  "resources/js/app.js": {
+    "file": "assets/app-D9EePPX3.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/views/Login.vue",
+      "resources/js/views/Error404.vue"
+    ],
+    "css": [
+      "assets/app-YeFtENuI.css"
+    ]
+  },
+  "resources/js/views/Error404.vue": {
+    "file": "assets/Error404-B9tz-J66.js",
+    "name": "Error404",
+    "src": "resources/js/views/Error404.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/Error404-CJG_cgqn.css"
+    ]
+  },
+  "resources/js/views/Login.vue": {
+    "file": "assets/Login-BC_D-5ZI.js",
+    "name": "Login",
+    "src": "resources/js/views/Login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/Login-icNKirJ0.css"
+    ]
+  }
+}
