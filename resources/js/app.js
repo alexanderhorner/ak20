@@ -1,47 +1,44 @@
-require('./bootstrap')
+import "./bootstrap";
+import "./modernizr.min.js";
+import "../sass/app.scss";
+import "../css/reset.css";
 
-require('./modernizr.min.js')
+import Vue from "vue";
+import VueRouter from "vue-router";
 
-import Vue from 'vue'
-import VueRouter from 'vue-router'
+import App from "./App.vue";
+import Home from "./views/Home.vue";
 
-import App from './App.vue'
-
-import Home from './views/Home.vue'
-
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
 const routes = [
     {
-        path: '/login',
-        name: 'Login',
-        component: () => import('./views/Login.vue')
+        path: "/login",
+        name: "Login",
+        component: () => import("./views/Login.vue"),
     },
     {
-        path: '/',
-        name: 'Home',
-        component: Home
+        path: "/",
+        name: "Home",
+        component: Home,
     },
     {
-        path: '/*',
-        name: '404',
-        component: () => import('./views/Error404.vue')
-    }
-] 
+        path: "/*",
+        name: "404",
+        component: () => import("./views/Error404.vue"),
+    },
+];
 
 const router = new VueRouter({
     routes,
-    mode: 'history'
-})
+    mode: "history",
+});
 
-const app = new Vue({
+new Vue({
     router,
-    el: '#app',
-    components: {
-        App
-    }
-})
+    render: (h) => h(App),
+}).$mount("#app");
 
-window.routerPush = function(x) {
-    router.push(x)
-}
+window.routerPush = function (route) {
+    router.push(route);
+};

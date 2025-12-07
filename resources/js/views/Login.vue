@@ -1,52 +1,63 @@
 <template>
     <div>
         <div class="container">
-            <span class="question">Was ist Herr Schönberger's Lieblingswort?</span>
+            <span class="question"
+                >Was ist Herr Schönberger's Lieblingswort?</span
+            >
             <form class="login-form" method="post">
-                <input type="hidden" name="_token" :value="csrf">
+                <input type="hidden" name="_token" :value="csrf" />
 
                 <div class="sqr-shadow-container">
-                    <input autocomplete="current-password" class="textfield sqr-shadow-element" type="password" name="password" placeholder="Passwort...">
+                    <input
+                        autocomplete="current-password"
+                        class="textfield sqr-shadow-element"
+                        type="password"
+                        name="password"
+                        placeholder="Passwort..."
+                    />
                     <div class="sqr-shadow"></div>
                 </div>
 
                 <div class="sqr-shadow-container2">
-                    <input class="submit sqr-shadow-element" type="submit" value="Entsperren">
+                    <input
+                        class="submit sqr-shadow-element"
+                        type="submit"
+                        value="Entsperren"
+                    />
                     <div class="sqr-shadow"></div>
                 </div>
-                
             </form>
         </div>
     </div>
 </template>
 
 <script>
+import axios from "axios";
+import bycrypt from "bcryptjs";
+
 export default {
     data: () => ({
-        csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
+        csrf: document
+            .querySelector('meta[name="csrf-token"]')
+            .getAttribute("content"),
     }),
-    mounted: function() {
+    mounted: function () {
         const login = new Login();
         window.login = login;
-    }
-}
-
-
-
-const axios = require('axios').default;
-const bcrypt = require('bcryptjs');
+    },
+};
 
 class Login {
     constructor() {
         this.textfield = document.querySelector("form .textfield");
-        this.form = document.querySelector("form.login-form")
+        this.form = document.querySelector("form.login-form");
 
         this.formListener();
     }
 
     formListener() {
         var self = this;
-        this.form.addEventListener("submit", function() {
+        this.form.addEventListener("submit", function () {
             event.preventDefault();
             self.check();
         });
@@ -57,34 +68,37 @@ class Login {
     }
 
     getCsrfToken() {
-        return document.querySelector('form input[name=_token]').getAttribute('value')
+        return document
+            .querySelector("form input[name=_token]")
+            .getAttribute("value");
     }
 
     check() {
         var self = this;
         var csrfToken = self.getCsrfToken();
-        var input = self.input()
-        
-        // check password    
-        axios.post('/api/v1/login', {
-            password: input
-        })
-        .then(function (response) {
-            if (response.data.data.success) {
-                routerPush('/')
-            } else {
-                // trigger error animation
-                self.textfield.parentNode.classList.add("error"); // attach error class to trigger css animation
-                window.setTimeout(function() {
-                    self.textfield.parentNode.classList.remove("error"); // remove it so it can be triggered again
-                }, 500);
+        var input = self.input();
 
-                self.textfield.value = ''; // clear textfield
-            }
-        })
-        .catch(function (error) {
-            console.log(error);
-        });
+        // check password
+        axios
+            .post("/api/v1/login", {
+                password: input,
+            })
+            .then(function (response) {
+                if (response.data.data.success) {
+                    routerPush("/");
+                } else {
+                    // trigger error animation
+                    self.textfield.parentNode.classList.add("error"); // attach error class to trigger css animation
+                    window.setTimeout(function () {
+                        self.textfield.parentNode.classList.remove("error"); // remove it so it can be triggered again
+                    }, 500);
+
+                    self.textfield.value = ""; // clear textfield
+                }
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
     }
 }
 
@@ -92,10 +106,6 @@ class Login {
 //   const login = new Login();
 //   window.login = login;
 // })
-
-
-
-
 </script>
 
 <style lang="scss" scoped>
@@ -132,7 +142,7 @@ class Login {
         .submit {
             width: 100%;
             height: 100%;
-            background-color: #FFF;
+            background-color: #fff;
             color: #000;
             border: 2px solid black;
             font-weight: lighter;
@@ -155,11 +165,11 @@ class Login {
     .sqr-shadow-element {
         transition: transform 0.15s;
         outline: none !important;
-        background-color: #FFF;
+        background-color: #fff;
         border: 2px solid #000;
         height: 62px;
         font-size: 29px;
-        font-family: 'Nunito Sans', sans-serif;
+        font-family: "Nunito Sans", sans-serif;
 
         &:focus {
             transform: translate(-5px, 5px);
@@ -185,12 +195,24 @@ class Login {
 }
 
 @keyframes shake {
-    0% { transform: translateX(0) }
-    12.5% { transform: translateX(5px) }
-    37.5% { transform: translateX(-5px) }
-    62.5% { transform: translateX(5px) }
-    87.5% { transform: translateX(-5px) }
-    100% { transform: translateX(0) }
+    0% {
+        transform: translateX(0);
+    }
+    12.5% {
+        transform: translateX(5px);
+    }
+    37.5% {
+        transform: translateX(-5px);
+    }
+    62.5% {
+        transform: translateX(5px);
+    }
+    87.5% {
+        transform: translateX(-5px);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 
 .sqr-shadow-container2 {
@@ -204,11 +226,11 @@ class Login {
     .sqr-shadow-element {
         transition: transform 0.15s;
         outline: none !important;
-        background-color: #FFF;
+        background-color: #fff;
         border: 2px solid #000;
         height: 62px;
         font-size: 29px;
-        font-family: 'Nunito Sans', sans-serif;
+        font-family: "Nunito Sans", sans-serif;
 
         &:focus {
             transform: translate(-5px, 5px);
@@ -229,5 +251,4 @@ class Login {
 .sqr-shadow-container2 .sqr-shadow-element:hover {
     transform: translate(-5px, 5px);
 }
-
 </style>
