@@ -123,7 +123,7 @@ cover=f'''<span class="cover-label">ABSCHLUSSJAHRBUCH / 2020</span><div class="c
 <div class="year-seal">2020</div>
 {art(0,(0,0,86,110),38,350,86,110,'cover cutout',original=CATALOG['cover'][0])}
 {art(0,(0,0,6000,4000),38,413,519,346,'cover class photo',original=CATALOG['cover'][1])}
-{hands(31,392.5,106,106/3)}'''
+{hands(37,394.75,94,94/3)}'''
 photo_body=cover.replace('<span class="cover-label">ABSCHLUSSJAHRBUCH / 2020</span>','')
 front='<span class="cover-label">ABSCHLUSSJAHRBUCH / Klasse 10a</span><div class="abstract-cover-title"><h1>10a<span class="red-text">.</span></h1><p>2020</p></div>'
 add('Unser Jahr',front,'cover')

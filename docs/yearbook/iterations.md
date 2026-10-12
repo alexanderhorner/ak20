@@ -31,3 +31,11 @@ Every exported original-source photo is compared visually with the published
 PDF to check identity, orientation, reflection and cropping, in addition to
 content/placement/spacing/font checks. The removed decorative arrow remains in
 the source archive; it is omitted only at the user's request.
+
+### Smaller peeking hands
+
+Reduced the hands on the first paper page by about 11% (106 pt → 94 pt),
+keeping their center and grip aligned with the photo edge. The complete web PDF,
+52-page interior, HTML proof and opening/detail previews are refreshed. The
+larger-hands edition remains preserved at checkpoint `674500c`. All content,
+photo and layout checks pass for this refinement.
