@@ -36,7 +36,7 @@ footer{position:absolute;left:38pt;right:38pt;bottom:24pt;display:flex;justify-c
 @page{size:A4;margin:0}@media print{html,body{margin:0;padding:0;background:white}main{display:block}.page{break-after:page;break-inside:avoid}.page:last-child{break-after:auto}.native-art{visibility:hidden}a{color:inherit;text-decoration:none}}
 
 /* Broad page-scale curves are textures; chapter art has its own composition. */
-.profile-background{position:absolute;left:0;top:73pt;width:595.276pt;height:366pt;pointer-events:none}
+.profile-background{position:absolute;left:0;top:73pt;width:595.276pt;height:366pt;pointer-events:none;clip-path:inset(0 round 0 0 30pt 0)}
 .chapter-illustration{position:absolute;pointer-events:none;overflow:visible}
 .teacher-background{position:absolute;left:355pt;top:496pt;width:240pt;height:260pt;pointer-events:none;overflow:visible}
 .paper-grain{position:absolute;inset:0;pointer-events:none;background-image:url('../../../../../resources/design/yearbook/illustrations/grain.png');background-size:156pt;opacity:.18}
@@ -81,3 +81,4 @@ footer{position:absolute;left:38pt;right:38pt;bottom:24pt;display:flex;justify-c
 .student.side-left::before{border-radius:0 0 0 30pt}
 .memory.side-left::before,.teacher.side-left::before,.quotes.side-left::before{border-radius:0 0 0 24pt}
 .side-left .traits{border-radius:18pt 0 0 18pt}
+.side-left .profile-background{clip-path:inset(0 round 0 0 0 30pt)}

@@ -11,6 +11,7 @@ import json
 import pymupdf as fitz
 from PIL import Image, ImageDraw
 from playwright.sync_api import sync_playwright
+from make_jacket_proofs import page_label
 
 ROOT = Path(__file__).resolve().parents[2]
 EDITION = ROOT / 'docs/yearbook/iterations/yearbook-jacket'
@@ -25,7 +26,10 @@ MEASURE = r'''() => Array.from(document.querySelectorAll('.page')).map((p, i) =>
  const traits=get('.traits'); const notes=find('.traits ul');
  const lastItem=notes?.lastElementChild;
  const pseudo=getComputedStyle(p,'::before');
- return {page:i+1,classes:p.className,name:find('.profile-title h1')?.textContent,header:get('header'),footer:get('footer'),title:get('.profile-title'),facts:get('.facts'),notes:traits,notesHeading:get('.traits h2'),notesList:get('.traits ul'),lastNote:lastItem?element(lastItem):null,factsText:firstText(find('.fact-row dd')),notesText:firstText(find('.traits li')),caption:get('.teacher-caption')||get('.photo-caption.then'),badge:get('.teacher-badge'),mounts,photoRects:[...p.querySelectorAll('.native-art:not(.emoji):not(.peeking-hands)')].map(e=>({alt:e.alt,...rect(e)})),bodyBounds:[...p.querySelectorAll('.profile-copy,.teacher-traits,.quote-column,.class-list,.back-access')].map(element),quoteColumns:[...p.querySelectorAll('.quote-column')].map(element),quotes:[...p.querySelectorAll('.quote')].map(element),outerCorners:['borderTopLeftRadius','borderTopRightRadius','borderBottomRightRadius','borderBottomLeftRadius'].map(k=>pseudo[k]),overflow:[...p.querySelectorAll('.fact-row dd,.traits li,.teacher-traits li,.quote p,.surname,.nickname,.class-list')].map(element).filter(e=>e.scrollX>1||(e.scrollY>1&&e.overflowY!=='visible'))};
+ const texture=find('.profile-background');
+ const radii=texture?getComputedStyle(texture).clipPath.match(/round\s+([^)]*)/)?.[1].match(/[\d.]+/g).map(Number):null;
+ const textureRadii=radii?[radii[0],radii[1]??radii[0],radii[2]??radii[0],radii[3]??radii[1]??radii[0]]:null;
+ return {page:i+1,classes:p.className,name:find('.profile-title h1')?.textContent,header:get('header'),footer:get('footer'),title:get('.profile-title'),facts:get('.facts'),notes:traits,notesHeading:get('.traits h2'),notesList:get('.traits ul'),lastNote:lastItem?element(lastItem):null,factsText:firstText(find('.fact-row dd')),notesText:firstText(find('.traits li')),caption:get('.teacher-caption')||get('.photo-caption.then'),badge:get('.teacher-badge'),mounts,textureRadii,photoRects:[...p.querySelectorAll('.native-art:not(.emoji):not(.peeking-hands)')].map(e=>({alt:e.alt,...rect(e)})),bodyBounds:[...p.querySelectorAll('.profile-copy,.teacher-traits,.quote-column,.class-list,.back-access')].map(element),quoteColumns:[...p.querySelectorAll('.quote-column')].map(element),quotes:[...p.querySelectorAll('.quote')].map(element),outerCorners:['borderTopLeftRadius','borderTopRightRadius','borderBottomRightRadius','borderBottomLeftRadius'].map(k=>pseudo[k]),overflow:[...p.querySelectorAll('.fact-row dd,.traits li,.teacher-traits li,.quote p,.surname,.nickname,.class-list')].map(element).filter(e=>e.scrollX>1||(e.scrollY>1&&e.overflowY!=='visible'))};
 })'''
 
 
@@ -46,6 +50,7 @@ def run(output, render):
         n=page['page']
         if page['overflow']:issues.append({'page':n,'issue':'overflow','details':page['overflow']})
         if page['factsText'] and page['notesText']:
+            if page['textureRadii']!=[float(v.replace('px','')) for v in page['outerCorners']]:issues.append({'page':n,'issue':'background texture not clipped to header corners'})
             drift=page['notesText']['x']-page['factsText']['x']
             if abs(drift)>.3:issues.append({'page':n,'issue':'facts/anecdote text axes differ','difference_pt':round(drift,3)})
             if page['lastNote']['marginBottom']>.1:issues.append({'page':n,'issue':'extra margin after final anecdote','difference_pt':page['lastNote']['marginBottom']})
@@ -118,7 +123,7 @@ def run(output, render):
                 pix=pdf[start+offset].get_pixmap(matrix=fitz.Matrix(1.35,1.35),alpha=False)
                 image=Image.frombytes('RGB',(pix.width,pix.height),pix.samples)
                 x=(offset%2)*824+10;y=(offset//2)*1174+10
-                sheet.paste(image,(x,y));draw.text((x,y+1143),f'PDF {start+offset+1:02} / {pdf[start+offset].get_label()}',fill='#30243B')
+                sheet.paste(image,(x,y));draw.text((x,y+1143),f'PDF {start+offset+1:02} / {page_label(pdf[start+offset])}',fill='#30243B')
             sheet.save(output/f'review-{start+1:02}-{min(start+4,len(pdf)):02}.jpg',quality=95)
     print(json.dumps({'pages':len(data),'relationship_issues':len(issues),'minimum_body_footer_clearance':report['minimum_body_footer_clearance'],'issue_types':{name:sum(i['issue']==name for i in issues) for name in sorted({i['issue'] for i in issues})}},indent=2))
     return report

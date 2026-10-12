@@ -26,6 +26,7 @@
       "caption": null,
       "badge": null,
       "mounts": [],
+      "textureRadii": null,
       "photoRects": [],
       "bodyBounds": [],
       "quoteColumns": [],
@@ -55,6 +56,7 @@
       "caption": null,
       "badge": null,
       "mounts": [],
+      "textureRadii": null,
       "photoRects": [],
       "bodyBounds": [],
       "quoteColumns": [],
@@ -128,6 +130,7 @@
       "caption": null,
       "badge": null,
       "mounts": [],
+      "textureRadii": null,
       "photoRects": [
         {
           "alt": "cover cutout",
@@ -216,6 +219,7 @@
       "caption": null,
       "badge": null,
       "mounts": [],
+      "textureRadii": null,
       "photoRects": [],
       "bodyBounds": [
         {
@@ -515,6 +519,12 @@
             6.000005722045898
           ]
         }
+      ],
+      "textureRadii": [
+        0,
+        0,
+        40,
+        0
       ],
       "photoRects": [
         {
@@ -831,6 +841,12 @@
           ]
         }
       ],
+      "textureRadii": [
+        0,
+        0,
+        0,
+        40
+      ],
       "photoRects": [
         {
           "alt": "Anna Bauer: portrait",
@@ -1145,6 +1161,12 @@
             6.000005722045898
           ]
         }
+      ],
+      "textureRadii": [
+        0,
+        0,
+        40,
+        0
       ],
       "photoRects": [
         {
@@ -1461,6 +1483,12 @@
           ]
         }
       ],
+      "textureRadii": [
+        0,
+        0,
+        0,
+        40
+      ],
       "photoRects": [
         {
           "alt": "Felix Beckstein: portrait",
@@ -1775,6 +1803,12 @@
             6.000005722045898
           ]
         }
+      ],
+      "textureRadii": [
+        0,
+        0,
+        40,
+        0
       ],
       "photoRects": [
         {
@@ -2091,6 +2125,12 @@
           ]
         }
       ],
+      "textureRadii": [
+        0,
+        0,
+        0,
+        40
+      ],
       "photoRects": [
         {
           "alt": "Johannes Bullok: portrait",
@@ -2405,6 +2445,12 @@
             6.000005722045898
           ]
         }
+      ],
+      "textureRadii": [
+        0,
+        0,
+        40,
+        0
       ],
       "photoRects": [
         {
@@ -2721,6 +2767,12 @@
           ]
         }
       ],
+      "textureRadii": [
+        0,
+        0,
+        0,
+        40
+      ],
       "photoRects": [
         {
           "alt": "Simon Dirigl: portrait",
@@ -3035,6 +3087,12 @@
             6.000005722045898
           ]
         }
+      ],
+      "textureRadii": [
+        0,
+        0,
+        40,
+        0
       ],
       "photoRects": [
         {
@@ -3351,6 +3409,12 @@
           ]
         }
       ],
+      "textureRadii": [
+        0,
+        0,
+        0,
+        40
+      ],
       "photoRects": [
         {
           "alt": "Steven Feldbusch: portrait",
@@ -3665,6 +3729,12 @@
             6.000005722045898
           ]
         }
+      ],
+      "textureRadii": [
+        0,
+        0,
+        40,
+        0
       ],
       "photoRects": [
         {
@@ -3981,6 +4051,12 @@
           ]
         }
       ],
+      "textureRadii": [
+        0,
+        0,
+        0,
+        40
+      ],
       "photoRects": [
         {
           "alt": "Lena Girg: portrait",
@@ -4295,6 +4371,12 @@
             6.000005722045898
           ]
         }
+      ],
+      "textureRadii": [
+        0,
+        0,
+        40,
+        0
       ],
       "photoRects": [
         {
@@ -4611,6 +4693,12 @@
           ]
         }
       ],
+      "textureRadii": [
+        0,
+        0,
+        0,
+        40
+      ],
       "photoRects": [
         {
           "alt": "Lena Ihlow: portrait",
@@ -4925,6 +5013,12 @@
             6.000005722045898
           ]
         }
+      ],
+      "textureRadii": [
+        0,
+        0,
+        40,
+        0
       ],
       "photoRects": [
         {
@@ -5241,6 +5335,12 @@
           ]
         }
       ],
+      "textureRadii": [
+        0,
+        0,
+        0,
+        40
+      ],
       "photoRects": [
         {
           "alt": "Felix Koller: portrait",
@@ -5555,6 +5655,12 @@
             6.000005722045898
           ]
         }
+      ],
+      "textureRadii": [
+        0,
+        0,
+        40,
+        0
       ],
       "photoRects": [
         {
@@ -5871,6 +5977,12 @@
           ]
         }
       ],
+      "textureRadii": [
+        0,
+        0,
+        0,
+        40
+      ],
       "photoRects": [
         {
           "alt": "Isabell Lang: portrait",
@@ -6185,6 +6297,12 @@
             6.000005722045898
           ]
         }
+      ],
+      "textureRadii": [
+        0,
+        0,
+        40,
+        0
       ],
       "photoRects": [
         {
@@ -6501,6 +6619,12 @@
           ]
         }
       ],
+      "textureRadii": [
+        0,
+        0,
+        0,
+        40
+      ],
       "photoRects": [
         {
           "alt": "Anastasija Mededa: portrait",
@@ -6815,6 +6939,12 @@
             6.000005722045898
           ]
         }
+      ],
+      "textureRadii": [
+        0,
+        0,
+        40,
+        0
       ],
       "photoRects": [
         {
@@ -7131,6 +7261,12 @@
           ]
         }
       ],
+      "textureRadii": [
+        0,
+        0,
+        0,
+        40
+      ],
       "photoRects": [
         {
           "alt": "Moritz Rothfischer: portrait",
@@ -7445,6 +7581,12 @@
             6.000005722045898
           ]
         }
+      ],
+      "textureRadii": [
+        0,
+        0,
+        40,
+        0
       ],
       "photoRects": [
         {
@@ -7761,6 +7903,12 @@
           ]
         }
       ],
+      "textureRadii": [
+        0,
+        0,
+        0,
+        40
+      ],
       "photoRects": [
         {
           "alt": "Louis Scherübl: portrait",
@@ -8075,6 +8223,12 @@
             6.000005722045898
           ]
         }
+      ],
+      "textureRadii": [
+        0,
+        0,
+        40,
+        0
       ],
       "photoRects": [
         {
@@ -8391,6 +8545,12 @@
           ]
         }
       ],
+      "textureRadii": [
+        0,
+        0,
+        0,
+        40
+      ],
       "photoRects": [
         {
           "alt": "Gabriel Schreiner: portrait",
@@ -8705,6 +8865,12 @@
             6.000005722045898
           ]
         }
+      ],
+      "textureRadii": [
+        0,
+        0,
+        40,
+        0
       ],
       "photoRects": [
         {
@@ -9021,6 +9187,12 @@
           ]
         }
       ],
+      "textureRadii": [
+        0,
+        0,
+        0,
+        40
+      ],
       "photoRects": [
         {
           "alt": "Michael Stigler: portrait",
@@ -9335,6 +9507,12 @@
             6.000005722045898
           ]
         }
+      ],
+      "textureRadii": [
+        0,
+        0,
+        40,
+        0
       ],
       "photoRects": [
         {
@@ -9651,6 +9829,12 @@
           ]
         }
       ],
+      "textureRadii": [
+        0,
+        0,
+        0,
+        40
+      ],
       "photoRects": [
         {
           "alt": "Tim Wiedermann: portrait",
@@ -9763,6 +9947,7 @@
       "caption": null,
       "badge": null,
       "mounts": [],
+      "textureRadii": null,
       "photoRects": [
         {
           "alt": "photo-chapter repeat",
@@ -9921,6 +10106,7 @@
           ]
         }
       ],
+      "textureRadii": null,
       "photoRects": [
         {
           "alt": "memory-17-1",
@@ -10124,6 +10310,7 @@
           ]
         }
       ],
+      "textureRadii": null,
       "photoRects": [
         {
           "alt": "memory-18-1",
@@ -10296,6 +10483,7 @@
           ]
         }
       ],
+      "textureRadii": null,
       "photoRects": [
         {
           "alt": "memory-19-1",
@@ -10461,6 +10649,7 @@
           ]
         }
       ],
+      "textureRadii": null,
       "photoRects": [
         {
           "alt": "memory-20-1",
@@ -10626,6 +10815,7 @@
           ]
         }
       ],
+      "textureRadii": null,
       "photoRects": [
         {
           "alt": "memory-21-1",
@@ -10829,6 +11019,7 @@
           ]
         }
       ],
+      "textureRadii": null,
       "photoRects": [
         {
           "alt": "memory-22-1",
@@ -11039,6 +11230,7 @@
           ]
         }
       ],
+      "textureRadii": null,
       "photoRects": [
         {
           "alt": "memory-23-1",
@@ -11211,6 +11403,7 @@
           ]
         }
       ],
+      "textureRadii": null,
       "photoRects": [
         {
           "alt": "memory-24-1",
@@ -11376,6 +11569,7 @@
           ]
         }
       ],
+      "textureRadii": null,
       "photoRects": [
         {
           "alt": "memory-25-1",
@@ -11464,6 +11658,7 @@
       "caption": null,
       "badge": null,
       "mounts": [],
+      "textureRadii": null,
       "photoRects": [],
       "bodyBounds": [],
       "quoteColumns": [],
@@ -11620,6 +11815,7 @@
           ]
         }
       ],
+      "textureRadii": null,
       "photoRects": [
         {
           "alt": "Frau Bullard",
@@ -11808,6 +12004,7 @@
           ]
         }
       ],
+      "textureRadii": null,
       "photoRects": [
         {
           "alt": "Herr Schönberger",
@@ -11996,6 +12193,7 @@
           ]
         }
       ],
+      "textureRadii": null,
       "photoRects": [
         {
           "alt": "Herr Götz",
@@ -12184,6 +12382,7 @@
           ]
         }
       ],
+      "textureRadii": null,
       "photoRects": [
         {
           "alt": "Herr Hippe",
@@ -12289,6 +12488,7 @@
       "caption": null,
       "badge": null,
       "mounts": [],
+      "textureRadii": null,
       "photoRects": [],
       "bodyBounds": [
         {
@@ -12664,6 +12864,7 @@
       "caption": null,
       "badge": null,
       "mounts": [],
+      "textureRadii": null,
       "photoRects": [],
       "bodyBounds": [
         {
@@ -13039,6 +13240,7 @@
       "caption": null,
       "badge": null,
       "mounts": [],
+      "textureRadii": null,
       "photoRects": [],
       "bodyBounds": [
         {
@@ -13391,6 +13593,7 @@
       "caption": null,
       "badge": null,
       "mounts": [],
+      "textureRadii": null,
       "photoRects": [],
       "bodyBounds": [
         {
@@ -13720,6 +13923,7 @@
       "caption": null,
       "badge": null,
       "mounts": [],
+      "textureRadii": null,
       "photoRects": [],
       "bodyBounds": [
         {
@@ -13773,6 +13977,7 @@
       "caption": null,
       "badge": null,
       "mounts": [],
+      "textureRadii": null,
       "photoRects": [],
       "bodyBounds": [],
       "quoteColumns": [],
@@ -13802,6 +14007,7 @@
       "caption": null,
       "badge": null,
       "mounts": [],
+      "textureRadii": null,
       "photoRects": [],
       "bodyBounds": [],
       "quoteColumns": [],

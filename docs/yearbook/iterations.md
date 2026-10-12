@@ -52,3 +52,8 @@ The independent detail audit measures screen and print layouts and checks
 proximity, alignment, bounds and footer clearance. Larger review sheets cover
 all pages. Previous designs and the smaller-hands checkpoint `0c35485` remain
 preserved. Nothing is deployed.
+
+The alignment/spacing checkpoint is `d50cd16`. A final visual refinement clips
+profile textures to the same rounded edge as the header panel, preventing them
+from painting over the softened corner. The back-cover navigation label uses
+proper PDF Unicode encoding. Both changes preserve all content and geometry.

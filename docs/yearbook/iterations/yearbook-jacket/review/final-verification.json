@@ -1,0 +1,151 @@
+{
+  "all_56_pages_reviewed": true,
+  "all_page_text_unchanged_since_alignment_checkpoint": true,
+  "embedded_font_objects": 11,
+  "no_pdf_repairs_required": true,
+  "correct_unicode_back_cover_label": true,
+  "only_profile_backgrounds_change_pixels_since_alignment_checkpoint": true,
+  "changes_above_two_color_levels_are_confined_to_intended_corners": true,
+  "corner_changes": [
+    {
+      "page": 6,
+      "corner_pixel_bounds_at_72ppi": [
+        0,
+        414,
+        26,
+        439
+      ]
+    },
+    {
+      "page": 8,
+      "corner_pixel_bounds_at_72ppi": [
+        0,
+        414,
+        26,
+        439
+      ]
+    },
+    {
+      "page": 10,
+      "corner_pixel_bounds_at_72ppi": [
+        0,
+        414,
+        26,
+        439
+      ]
+    },
+    {
+      "page": 12,
+      "corner_pixel_bounds_at_72ppi": [
+        0,
+        414,
+        26,
+        439
+      ]
+    },
+    {
+      "page": 14,
+      "corner_pixel_bounds_at_72ppi": [
+        0,
+        414,
+        26,
+        439
+      ]
+    },
+    {
+      "page": 16,
+      "corner_pixel_bounds_at_72ppi": [
+        0,
+        414,
+        26,
+        439
+      ]
+    },
+    {
+      "page": 18,
+      "corner_pixel_bounds_at_72ppi": [
+        0,
+        414,
+        26,
+        439
+      ]
+    },
+    {
+      "page": 20,
+      "corner_pixel_bounds_at_72ppi": [
+        0,
+        414,
+        26,
+        439
+      ]
+    },
+    {
+      "page": 22,
+      "corner_pixel_bounds_at_72ppi": [
+        0,
+        414,
+        26,
+        439
+      ]
+    },
+    {
+      "page": 24,
+      "corner_pixel_bounds_at_72ppi": [
+        0,
+        414,
+        26,
+        439
+      ]
+    },
+    {
+      "page": 26,
+      "corner_pixel_bounds_at_72ppi": [
+        0,
+        414,
+        26,
+        439
+      ]
+    },
+    {
+      "page": 28,
+      "corner_pixel_bounds_at_72ppi": [
+        0,
+        414,
+        26,
+        439
+      ]
+    },
+    {
+      "page": 30,
+      "corner_pixel_bounds_at_72ppi": [
+        0,
+        414,
+        26,
+        439
+      ]
+    },
+    {
+      "page": 32,
+      "corner_pixel_bounds_at_72ppi": [
+        0,
+        414,
+        26,
+        439
+      ]
+    },
+    {
+      "page": 34,
+      "corner_pixel_bounds_at_72ppi": [
+        0,
+        414,
+        26,
+        439
+      ]
+    }
+  ],
+  "maximum_fact_anecdote_axis_drift_pt": 0.0,
+  "maximum_photo_frame_padding_imbalance_pt": 0.0117,
+  "minimum_profile_footer_clearance_pt": 73.711,
+  "pdf_sha256": "72fbc71260cbef1f43597b06d0f2263d0d00b8ae9c6e451f62a0c8bb72a2f07f",
+  "pdf_bytes": 18449471
+}

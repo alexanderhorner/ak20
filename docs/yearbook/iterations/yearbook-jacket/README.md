@@ -76,3 +76,8 @@ The report must have zero relationship issues. All 215 content units, 88 photo
 placements, 106 untouched source files and 34 contents destinations are checked
 by the complete export. The previous smaller-hands iteration remains available
 at Git checkpoint `0c35485`; earlier design directions retain their own PDFs.
+
+The final visual refinement clips the profile texture to its rounded header
+panel, including the mirrored outer corner. The background cannot paint over
+that corner. The back-cover navigation label is encoded as a proper Unicode
+PDF string. The preceding alignment refinement is preserved at `d50cd16`.

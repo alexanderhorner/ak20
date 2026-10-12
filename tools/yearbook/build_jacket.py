@@ -352,7 +352,10 @@ for link in contents_links:
 toc=[[1,'Unser Jahr',1],[1,'Klasse 10a',3],[1,'Inhalt',4],[1,'Steckbriefe',5]]+[[2,p['name'],i+5] for i,p in enumerate(profiles)]
 for section in ['Fotos','Unsere Lehrer','Historische Zitate','Rückseite']:toc.append([1,section,next(i+1 for i,p in enumerate(pages) if p['section']==section)])
 pdf.set_toc(toc);pdf.set_metadata({'title':'AK20 · Klasse 10a · Abschlussjahrbuch 2020','author':'Klasse 10a','subject':'Abschlussjahrbuch 2020; vollständiger Originalinhalt; ak20.alexanderhorner.de'})
-pdf.set_page_labels([{'startpage':0,'prefix':'Vorderseite'}, {'startpage':1,'prefix':'Vorderer Vorsatz'}, {'startpage':2,'style':'D','firstpagenum':1}, {'startpage':len(pdf)-2,'prefix':'Hinterer Vorsatz'}, {'startpage':len(pdf)-1,'prefix':'Rückseite'}])
+# The installed page-label helper escapes UTF-8 bytes in Unicode prefixes.
+# Encode the German back-cover label as a proper UTF-16 PDF text string.
+back_label='<FEFF'+'Rückseite'.encode('utf-16-be').hex().upper()+'>'
+pdf.xref_set_key(pdf.pdf_catalog(),'PageLabels',f'<</Nums[0<</P(Vorderseite)>>1<</P(Vorderer Vorsatz)>>2<</S/D>>{len(pdf)-2}<</P(Hinterer Vorsatz)>>{len(pdf)-1}<</P{back_label}>>]>>')
 FINAL=OUT/'AK20-Jahrbuch-Web.pdf';pdf.save(FINAL,garbage=4,deflate=True);pdf.close();pdf=fitz.open(FINAL)
 failures=[]
 for u in units:
