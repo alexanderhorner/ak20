@@ -315,7 +315,7 @@ assert not failures,json.dumps(failures,ensure_ascii=False,indent=2)
 # Confirm the PDF retained the HTML positions of independently measurable text.
 matched_spans=0;max_type_drift=0
 for page_info in dom:
-    spans=[s for b in pdf[page_info['page']-1].get_text('dict')['blocks'] if b['type']==0 for l in b['lines'] for s in l['spans']]
+    spans=[s for b in pdf[page_info['page']-1].get_text('dict',flags=fitz.TEXTFLAGS_DICT & ~fitz.TEXT_PRESERVE_IMAGES)['blocks'] if b['type']==0 for l in b['lines'] for s in l['spans']]
     for t in page_info['text']:
         matches=[s for s in spans if s['text'].strip()==t['text'].strip()]
         if not matches:continue  # wrapped text is covered by the complete-content check
