@@ -19,6 +19,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.21265587210655212,
+        -0.01487034559249878,
+        0.01487034559249878,
+        0.21265587210655212,
+        35.57562255859375,
+        -235.3241424560547
+      ],
       "crop_normalized": [
         0,
         0,
@@ -43,6 +52,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.08721259981393814,
+        0.0,
+        0.0,
+        0.08721259981393814,
+        36.0,
+        -174.42520141601562
+      ],
       "crop_normalized": [
         0,
         0,
@@ -69,6 +87,15 @@
       ],
       "exif_orientation": 8,
       "layout_rotation_degrees_clockwise": -90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        -0.03121354430913925,
+        0.03121354430913925,
+        0.0,
+        -541.455322265625,
+        -179.94708251953125
+      ],
       "crop_normalized": [
         0,
         0,
@@ -103,6 +130,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.11021742224693298,
+        0.0,
+        0.0,
+        0.11021742224693298,
+        -176.22573852539062,
+        -204.96188354492188
+      ],
       "crop_normalized": [
         0.0395964351486891,
         0,
@@ -137,6 +173,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.03258862346410751,
+        0.0,
+        0.0,
+        0.03258862346410751,
+        -541.5590209960938,
+        29.03741455078125
+      ],
       "crop_normalized": [
         0,
         0,
@@ -171,6 +216,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.4677848517894745,
+        0.0,
+        0.0,
+        0.4677848517894745,
+        -172.31069946289062,
+        191.29324340820312
+      ],
       "crop_normalized": [
         0.00982114052641948,
         0,
@@ -205,6 +259,15 @@
       ],
       "exif_orientation": 8,
       "layout_rotation_degrees_clockwise": -90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        -0.03464103117585182,
+        0.03464103117585182,
+        0.0,
+        40.1114501953125,
+        -180.05601501464844
+      ],
       "crop_normalized": [
         0.09818633273346872,
         0.09946709624532969,
@@ -239,6 +302,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.47286829352378845,
+        0.0,
+        0.0,
+        0.47286829352378845,
+        408.88134765625,
+        -204.96188354492188
+      ],
       "crop_normalized": [
         0.11552837163148096,
         0,
@@ -273,6 +345,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.03791743889451027,
+        0.0,
+        0.0,
+        0.03791743889451027,
+        53.7598876953125,
+        29.026763916015625
+      ],
       "crop_normalized": [
         0,
         0,
@@ -307,6 +388,15 @@
       ],
       "exif_orientation": 6,
       "layout_rotation_degrees_clockwise": 90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        0.059267859905958176,
+        -0.059267859905958176,
+        0.0,
+        566.6130981445312,
+        191.29324340820312
+      ],
       "crop_normalized": [
         0.1930761301101207,
         0,
@@ -341,6 +431,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.035335104912519455,
+        0.0,
+        0.0,
+        0.035335104912519455,
+        -541.5191040039062,
+        -367.2283630371094
+      ],
       "crop_normalized": [
         0,
         0,
@@ -375,6 +474,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.260553240776062,
+        0.0,
+        0.0,
+        0.260553240776062,
+        -170.98867797851562,
+        -208.08450317382812
+      ],
       "crop_normalized": [
         0,
         0.015463966993720456,
@@ -409,6 +517,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.045313213020563126,
+        0.0,
+        0.0,
+        0.045313213020563126,
+        -541.5590209960938,
+        29.03741455078125
+      ],
       "crop_normalized": [
         0,
         0,
@@ -443,6 +560,15 @@
       ],
       "exif_orientation": 6,
       "layout_rotation_degrees_clockwise": 90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        0.043725330382585526,
+        -0.043725330382585526,
+        0.0,
+        -49.730133056640625,
+        191.29324340820312
+      ],
       "crop_normalized": [
         0.08294062771045352,
         0,
@@ -477,6 +603,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.03842044249176979,
+        0.0,
+        0.0,
+        0.03842044249176979,
+        53.716552734375,
+        -367.21771240234375
+      ],
       "crop_normalized": [
         0,
         0,
@@ -511,6 +646,15 @@
       ],
       "exif_orientation": 6,
       "layout_rotation_degrees_clockwise": 90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        0.045038577169179916,
+        -0.045038577169179916,
+        0.0,
+        551.45849609375,
+        -204.96188354492188
+      ],
       "crop_normalized": [
         0.06626510343517163,
         0,
@@ -545,6 +689,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.03499751538038254,
+        0.0,
+        0.0,
+        0.03499751538038254,
+        53.716552734375,
+        29.03741455078125
+      ],
       "crop_normalized": [
         0,
         0,
@@ -579,6 +732,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.16348235309123993,
+        0.0,
+        0.0,
+        0.16348235309123993,
+        346.85595703125,
+        171.69964599609375
+      ],
       "crop_normalized": [
         0.29602187982430433,
         0.09987620535661507,
@@ -613,6 +775,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0355672650039196,
+        0.0,
+        0.0,
+        0.0355672650039196,
+        -541.6608276367188,
+        -367.2283630371094
+      ],
       "crop_normalized": [
         0.0008157221145786365,
         0,
@@ -647,6 +818,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.16485567390918732,
+        0.0,
+        0.0,
+        0.16485567390918732,
+        -171.86544799804688,
+        -204.96188354492188
+      ],
       "crop_normalized": [
         0.007393350500849315,
         0,
@@ -681,6 +861,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0468829944729805,
+        0.0,
+        0.0,
+        0.0468829944729805,
+        -555.3687133789062,
+        29.026763916015625
+      ],
       "crop_normalized": [
         0.09964700882367837,
         0,
@@ -715,6 +904,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.5482693314552307,
+        0.0,
+        0.0,
+        0.5482693314552307,
+        -172.08462524414062,
+        191.29324340820312
+      ],
       "crop_normalized": [
         0.009004150303518995,
         0,
@@ -749,6 +947,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 180,
+      "layout_reflected_vertical_before_rotation": true,
+      "image_transform": [
+        -0.034618016332387924,
+        0.0,
+        0.0,
+        0.034618016332387924,
+        178.33706665039062,
+        -367.2283630371094
+      ],
       "crop_normalized": [
         0.0014217928063287356,
         0,
@@ -783,6 +990,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.22964361310005188,
+        0.0,
+        0.0,
+        0.22964361310005188,
+        420.05499267578125,
+        -204.96188354492188
+      ],
       "crop_normalized": [
         0.031993517870384174,
         0,
@@ -817,6 +1033,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.04139668494462967,
+        0.0,
+        0.0,
+        0.04139668494462967,
+        53.76458740234375,
+        29.026763916015625
+      ],
       "crop_normalized": [
         0,
         0,
@@ -851,6 +1076,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.08622892946004868,
+        0.0,
+        0.0,
+        0.08622892946004868,
+        357.30755615234375,
+        191.29324340820312
+      ],
       "crop_normalized": [
         0.2528522752303894,
         0,
@@ -885,6 +1119,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.043042127043008804,
+        0.0,
+        0.0,
+        0.043042127043008804,
+        -541.6807250976562,
+        -367.2283630371094
+      ],
       "crop_normalized": [
         0.0009746838815196954,
         0,
@@ -919,6 +1162,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.2832641005516052,
+        0.0,
+        0.0,
+        0.2832641005516052,
+        -183.73556518554688,
+        -204.96188354492188
+      ],
       "crop_normalized": [
         0.09740262011625632,
         0,
@@ -953,6 +1205,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.034360162913799286,
+        0.0,
+        0.0,
+        0.034360162913799286,
+        -541.5203247070312,
+        29.026763916015625
+      ],
       "crop_normalized": [
         0,
         0,
@@ -987,6 +1248,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.3144003748893738,
+        0.0,
+        0.0,
+        0.3144003748893738,
+        -170.93630981445312,
+        187.20968627929688
+      ],
       "crop_normalized": [
         0,
         0.019531423902253257,
@@ -1021,6 +1291,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.046532392501831055,
+        0.0,
+        0.0,
+        0.046532392501831055,
+        53.7713623046875,
+        -367.2283630371094
+      ],
       "crop_normalized": [
         0,
         0,
@@ -1055,6 +1334,15 @@
       ],
       "exif_orientation": 6,
       "layout_rotation_degrees_clockwise": 90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        0.04369274899363518,
+        -0.04369274899363518,
+        0.0,
+        551.5517578125,
+        -204.96188354492188
+      ],
       "crop_normalized": [
         0.03679841756641708,
         0,
@@ -1089,6 +1377,15 @@
       ],
       "exif_orientation": 8,
       "layout_rotation_degrees_clockwise": -90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        -0.03121354430913925,
+        0.03121354430913925,
+        0.0,
+        53.82025146484375,
+        216.3080291748047
+      ],
       "crop_normalized": [
         0,
         0,
@@ -1123,6 +1420,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.06295867264270782,
+        0.0,
+        0.0,
+        0.06295867264270782,
+        418.1102294921875,
+        188.40887451171875
+      ],
       "crop_normalized": [
         0.04671770272197937,
         0.013980375555354389,
@@ -1157,6 +1463,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.03867107257246971,
+        0.0,
+        0.0,
+        0.03867107257246971,
+        -541.5146484375,
+        -367.2283630371094
+      ],
       "crop_normalized": [
         0,
         0,
@@ -1191,6 +1506,15 @@
       ],
       "exif_orientation": 6,
       "layout_rotation_degrees_clockwise": 90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        0.06264494359493256,
+        -0.06264494359493256,
+        0.0,
+        -26.808563232421875,
+        -267.9733581542969
+      ],
       "crop_normalized": [
         0.23890729534341,
         0.24946699681490878,
@@ -1225,6 +1549,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.04265884682536125,
+        0.0,
+        0.0,
+        0.04265884682536125,
+        -541.5093383789062,
+        29.026763916015625
+      ],
       "crop_normalized": [
         0,
         0,
@@ -1259,6 +1592,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.058753177523612976,
+        0.0,
+        0.0,
+        0.058753177523612976,
+        -170.94949340820312,
+        191.29324340820312
+      ],
       "crop_normalized": [
         0,
         0,
@@ -1293,6 +1635,15 @@
       ],
       "exif_orientation": 8,
       "layout_rotation_degrees_clockwise": -90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        -0.03121354430913925,
+        0.03121354430913925,
+        0.0,
+        53.82025146484375,
+        -179.94708251953125
+      ],
       "crop_normalized": [
         0,
         0,
@@ -1327,6 +1678,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.052658844739198685,
+        0.0,
+        0.0,
+        0.052658844739198685,
+        424.322021484375,
+        -204.96188354492188
+      ],
       "crop_normalized": [
         0,
         0,
@@ -1361,6 +1721,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.04581350088119507,
+        0.0,
+        0.0,
+        0.04581350088119507,
+        53.716552734375,
+        29.03741455078125
+      ],
       "crop_normalized": [
         0,
         0,
@@ -1395,6 +1764,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.17738354206085205,
+        0.0,
+        0.0,
+        0.17738354206085205,
+        420.09869384765625,
+        191.29324340820312
+      ],
       "crop_normalized": [
         0.031523583195936386,
         0,
@@ -1429,6 +1807,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.041771575808525085,
+        0.0,
+        0.0,
+        0.041771575808525085,
+        -541.5590209960938,
+        -367.21771240234375
+      ],
       "crop_normalized": [
         0,
         0,
@@ -1463,6 +1850,15 @@
       ],
       "exif_orientation": 0,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.04588080570101738,
+        0.0,
+        0.0,
+        0.04588080570101738,
+        -175.17691040039062,
+        -204.96188354492188
+      ],
       "crop_normalized": [
         0.031696204215567444,
         0,
@@ -1497,6 +1893,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.042339641600847244,
+        0.0,
+        0.0,
+        0.042339641600847244,
+        -541.6788330078125,
+        29.026763916015625
+      ],
       "crop_normalized": [
         0.000959573740040084,
         0,
@@ -1531,6 +1936,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.11507538706064224,
+        0.0,
+        0.0,
+        0.11507538706064224,
+        -239.80520629882812,
+        191.29324340820312
+      ],
       "crop_normalized": [
         0.26913257146458114,
         0,
@@ -1565,6 +1979,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0411776565015316,
+        0.0,
+        0.0,
+        0.0411776565015316,
+        53.7642822265625,
+        -367.2283630371094
+      ],
       "crop_normalized": [
         0,
         0,
@@ -1599,6 +2022,15 @@
       ],
       "exif_orientation": 6,
       "layout_rotation_degrees_clockwise": 90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        0.07654786854982376,
+        -0.07654786854982376,
+        0.0,
+        541.9154663085938,
+        -206.49151611328125
+      ],
       "crop_normalized": [
         0,
         0.007805739662861129,
@@ -1633,6 +2065,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.037699420005083084,
+        0.0,
+        0.0,
+        0.037699420005083084,
+        53.716552734375,
+        29.03741455078125
+      ],
       "crop_normalized": [
         0,
         0,
@@ -1667,6 +2108,15 @@
       ],
       "exif_orientation": 6,
       "layout_rotation_degrees_clockwise": 90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        0.04853946343064308,
+        -0.04853946343064308,
+        0.0,
+        550.489501953125,
+        171.68328857421875
+      ],
       "crop_normalized": [
         0.14021176781717978,
         0.10019846993526649,
@@ -1701,6 +2151,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0418698750436306,
+        0.0,
+        0.0,
+        0.0418698750436306,
+        -541.4547729492188,
+        -367.2283630371094
+      ],
       "crop_normalized": [
         0,
         0,
@@ -1735,6 +2194,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.08622892946004868,
+        0.0,
+        0.0,
+        0.08622892946004868,
+        -176.72598266601562,
+        -204.96188354492188
+      ],
       "crop_normalized": [
         0.043317533186299495,
         0,
@@ -1769,6 +2237,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.038973767310380936,
+        0.0,
+        0.0,
+        0.038973767310380936,
+        -541.5401611328125,
+        29.026763916015625
+      ],
       "crop_normalized": [
         0,
         0,
@@ -1803,6 +2280,15 @@
       ],
       "exif_orientation": 6,
       "layout_rotation_degrees_clockwise": 90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        0.047222454100847244,
+        -0.047222454100847244,
+        0.0,
+        -39.685028076171875,
+        180.0
+      ],
       "crop_normalized": [
         0.08051119255502995,
         0.05931296038600699,
@@ -1837,6 +2323,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.03763103485107422,
+        0.0,
+        0.0,
+        0.03763103485107422,
+        53.716552734375,
+        -367.21771240234375
+      ],
       "crop_normalized": [
         0,
         0,
@@ -1871,6 +2366,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.45519036054611206,
+        0.0,
+        0.0,
+        0.45519036054611206,
+        402.6763916015625,
+        -204.96188354492188
+      ],
       "crop_normalized": [
         0.14149922429937167,
         0,
@@ -1905,6 +2409,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.06890981644392014,
+        0.0,
+        0.0,
+        0.06890981644392014,
+        18.38836669921875,
+        1.40234375
+      ],
       "crop_normalized": [
         0.16953464356117154,
         0.09942406999688612,
@@ -1939,6 +2452,15 @@
       ],
       "exif_orientation": 6,
       "layout_rotation_degrees_clockwise": 90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        0.04861995950341225,
+        -0.04861995950341225,
+        0.0,
+        548.403076171875,
+        175.85769653320312
+      ],
       "crop_normalized": [
         0.15582614622980367,
         0.07873845855431849,
@@ -1973,6 +2495,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.04579498991370201,
+        0.0,
+        0.0,
+        0.04579498991370201,
+        -555.41015625,
+        -367.2283630371094
+      ],
       "crop_normalized": [
         0.09992059171172964,
         0,
@@ -2007,6 +2538,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.2484562247991562,
+        0.0,
+        0.0,
+        0.2484562247991562,
+        -184.43521118164062,
+        -204.96188354492188
+      ],
       "crop_normalized": [
         0.10250062432151924,
         0,
@@ -2041,6 +2581,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.03998751938343048,
+        0.0,
+        0.0,
+        0.03998751938343048,
+        -541.5394897460938,
+        29.026763916015625
+      ],
       "crop_normalized": [
         0,
         0,
@@ -2075,6 +2624,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.2501845955848694,
+        0.0,
+        0.0,
+        0.2501845955848694,
+        -177.98495483398438,
+        191.29324340820312
+      ],
       "crop_normalized": [
         0.05316437290846484,
         0,
@@ -2109,6 +2667,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.08721259981393814,
+        0.0,
+        0.0,
+        0.08721259981393814,
+        36.0,
+        -384.94488525390625
+      ],
       "crop_normalized": [
         0,
         0,
@@ -2143,6 +2710,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.3270472586154938,
+        0.0,
+        0.0,
+        0.3270472586154938,
+        36.0,
+        -6.968505859375
+      ],
       "crop_normalized": [
         0,
         0,
@@ -2177,6 +2753,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.3406742215156555,
+        0.0,
+        0.0,
+        0.3406742215156555,
+        -559.2755737304688,
+        -384.94488525390625
+      ],
       "crop_normalized": [
         0,
         0,
@@ -2211,6 +2796,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.30226561427116394,
+        0.0,
+        0.0,
+        0.30226561427116394,
+        -264.8150634765625,
+        -487.876953125
+      ],
       "crop_normalized": [
         0.005213921074574823,
         0.21283447788324952,
@@ -2245,6 +2839,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.3270472586154938,
+        0.0,
+        0.0,
+        0.3274463415145874,
+        -559.275634765625,
+        -7.99072265625
+      ],
       "crop_normalized": [
         0,
         0.002601486799101005,
@@ -2279,6 +2882,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        1.0766074657440186,
+        0.0,
+        0.0,
+        1.0766074657440186,
+        30.459716796875,
+        -12.546707153320312
+      ],
       "crop_normalized": [
         0.010368174730196557,
         0,
@@ -2313,6 +2925,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.29388004541397095,
+        0.0,
+        0.0,
+        0.29388004541397095,
+        121.30975341796875,
+        -469.00958251953125
+      ],
       "crop_normalized": [
         0.005663632759002942,
         0.1787819113177773,
@@ -2347,6 +2968,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        1.0557005405426025,
+        0.0,
+        0.0,
+        1.0557005405426025,
+        -559.2755737304688,
+        -384.94488525390625
+      ],
       "crop_normalized": [
         0,
         0,
@@ -2381,6 +3011,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        1.3954015970230103,
+        0.0,
+        0.0,
+        1.3954015970230103,
+        -559.275634765625,
+        43.223175048828125
+      ],
       "crop_normalized": [
         0,
         0,
@@ -2415,6 +3054,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.4037620425224304,
+        0.0,
+        0.0,
+        0.4037620425224304,
+        36.0,
+        -7.511810302734375
+      ],
       "crop_normalized": [
         0,
         0,
@@ -2449,6 +3097,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.3501732349395752,
+        0.0,
+        0.0,
+        0.3501732349395752,
+        36.0,
+        -385.68896484375
+      ],
       "crop_normalized": [
         0,
         0.001888791091586769,
@@ -2483,6 +3140,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        1.0557005405426025,
+        0.0,
+        0.0,
+        1.0557005405426025,
+        -559.2755737304688,
+        -10.942840576171875
+      ],
       "crop_normalized": [
         0,
         0.11881481428948491,
@@ -2517,6 +3183,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.24528543651103973,
+        0.0,
+        0.0,
+        0.24528543651103973,
+        -559.2755737304688,
+        -384.94488525390625
+      ],
       "crop_normalized": [
         0,
         0,
@@ -2551,6 +3226,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.29419541358947754,
+        0.0,
+        0.0,
+        0.29419541358947754,
+        -256.6465759277344,
+        -384.94488525390625
+      ],
       "crop_normalized": [
         0.04599242906073895,
         0,
@@ -2585,6 +3269,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.29419541358947754,
+        0.0,
+        0.0,
+        0.29419541358947754,
+        36.0,
+        -7.5118408203125
+      ],
       "crop_normalized": [
         0,
         0,
@@ -2619,6 +3312,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.25219085812568665,
+        0.0,
+        0.0,
+        0.25219085812568665,
+        256.6466064453125,
+        -18.56048583984375
+      ],
       "crop_normalized": [
         0.08141603307925298,
         0.027381655390565345,
@@ -2653,6 +3355,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.12978065013885498,
+        0.0,
+        0.0,
+        0.12978065013885498,
+        36.0,
+        -428.5511779785156
+      ],
       "crop_normalized": [
         0,
         0.11111109383102874,
@@ -2687,6 +3398,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.5537023544311523,
+        0.0,
+        0.0,
+        0.5537023544311523,
+        -559.2755737304688,
+        -412.25634765625
+      ],
       "crop_normalized": [
         0,
         0.0692733612653371,
@@ -2721,6 +3441,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.16945452988147736,
+        0.0,
+        0.0,
+        0.16945452988147736,
+        -559.2755737304688,
+        -7.511810302734375
+      ],
       "crop_normalized": [
         0,
         0.08053447191104898,
@@ -2755,6 +3484,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.5110113024711609,
+        0.0,
+        0.0,
+        0.5110113024711609,
+        36.0,
+        -410.4566955566406
+      ],
       "crop_normalized": [
         0,
         0.06500541989825832,
@@ -2789,6 +3527,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.12978065013885498,
+        0.0,
+        0.0,
+        0.12978065013885498,
+        36.0,
+        18.0
+      ],
       "crop_normalized": [
         0,
         0,
@@ -2823,6 +3570,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.27000001072883606,
+        0.0,
+        0.0,
+        0.27000001072883606,
+        -231.9552001953125,
+        100.62991333007812
+      ],
       "crop_normalized": [
         0,
         0,
@@ -2857,6 +3613,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.27000001072883606,
+        0.0,
+        0.0,
+        0.27000001072883606,
+        -231.9552001953125,
+        -253.70079040527344
+      ],
       "crop_normalized": [
         0,
         0,
@@ -2891,6 +3656,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.27000001072883606,
+        0.0,
+        0.0,
+        0.27000001072883606,
+        363.32037353515625,
+        -300.4724426269531
+      ],
       "crop_normalized": [
         0,
         0,
@@ -2925,6 +3699,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.27000001072883606,
+        0.0,
+        0.0,
+        0.27000001072883606,
+        363.32037353515625,
+        118.34646606445312
+      ],
       "crop_normalized": [
         0,
         0,
@@ -2959,6 +3742,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.4511660933494568,
+        0.0,
+        0.0,
+        0.4511660933494568,
+        428.88189697265625,
+        364.50897216796875
+      ],
       "crop_normalized": [
         0,
         0,
@@ -2995,6 +3787,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.03842044249176979,
+        0.0,
+        0.0,
+        0.03842044249176979,
+        53.716552734375,
+        -367.21771240234375
+      ],
       "crop_normalized": [
         0,
         0,
@@ -3019,6 +3820,15 @@
       ],
       "exif_orientation": 6,
       "layout_rotation_degrees_clockwise": 90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        0.045038577169179916,
+        -0.045038577169179916,
+        0.0,
+        551.45849609375,
+        -204.96188354492188
+      ],
       "crop_normalized": [
         0.06626510343517163,
         0,
@@ -3043,6 +3853,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.03499751538038254,
+        0.0,
+        0.0,
+        0.03499751538038254,
+        53.716552734375,
+        29.03741455078125
+      ],
       "crop_normalized": [
         0,
         0,
@@ -3067,6 +3886,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.16348235309123993,
+        0.0,
+        0.0,
+        0.16348235309123993,
+        346.85595703125,
+        171.69964599609375
+      ],
       "crop_normalized": [
         0.29602187982430433,
         0.09987620535661507,
@@ -3091,6 +3919,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.035335104912519455,
+        0.0,
+        0.0,
+        0.035335104912519455,
+        -541.5191040039062,
+        -367.2283630371094
+      ],
       "crop_normalized": [
         0,
         0,
@@ -3115,6 +3952,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.260553240776062,
+        0.0,
+        0.0,
+        0.260553240776062,
+        -170.98867797851562,
+        -208.08450317382812
+      ],
       "crop_normalized": [
         0,
         0.015463966993720456,
@@ -3139,6 +3985,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.045313213020563126,
+        0.0,
+        0.0,
+        0.045313213020563126,
+        -541.5590209960938,
+        29.03741455078125
+      ],
       "crop_normalized": [
         0,
         0,
@@ -3163,6 +4018,15 @@
       ],
       "exif_orientation": 6,
       "layout_rotation_degrees_clockwise": 90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        0.043725330382585526,
+        -0.043725330382585526,
+        0.0,
+        -49.730133056640625,
+        191.29324340820312
+      ],
       "crop_normalized": [
         0.08294062771045352,
         0,
@@ -3187,6 +4051,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 180,
+      "layout_reflected_vertical_before_rotation": true,
+      "image_transform": [
+        -0.034618016332387924,
+        0.0,
+        0.0,
+        0.034618016332387924,
+        178.33706665039062,
+        -367.2283630371094
+      ],
       "crop_normalized": [
         0.0014217928063287356,
         0,
@@ -3211,6 +4084,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.22964361310005188,
+        0.0,
+        0.0,
+        0.22964361310005188,
+        420.05499267578125,
+        -204.96188354492188
+      ],
       "crop_normalized": [
         0.031993517870384174,
         0,
@@ -3235,6 +4117,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.04139668494462967,
+        0.0,
+        0.0,
+        0.04139668494462967,
+        53.76458740234375,
+        29.026763916015625
+      ],
       "crop_normalized": [
         0,
         0,
@@ -3259,6 +4150,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.08622892946004868,
+        0.0,
+        0.0,
+        0.08622892946004868,
+        357.30755615234375,
+        191.29324340820312
+      ],
       "crop_normalized": [
         0.2528522752303894,
         0,
@@ -3283,6 +4183,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0355672650039196,
+        0.0,
+        0.0,
+        0.0355672650039196,
+        -541.6608276367188,
+        -367.2283630371094
+      ],
       "crop_normalized": [
         0.0008157221145786365,
         0,
@@ -3307,6 +4216,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.16485567390918732,
+        0.0,
+        0.0,
+        0.16485567390918732,
+        -171.86544799804688,
+        -204.96188354492188
+      ],
       "crop_normalized": [
         0.007393350500849315,
         0,
@@ -3331,6 +4249,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0468829944729805,
+        0.0,
+        0.0,
+        0.0468829944729805,
+        -555.3687133789062,
+        29.026763916015625
+      ],
       "crop_normalized": [
         0.09964700882367837,
         0,
@@ -3355,6 +4282,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.5482693314552307,
+        0.0,
+        0.0,
+        0.5482693314552307,
+        -172.08462524414062,
+        191.29324340820312
+      ],
       "crop_normalized": [
         0.009004150303518995,
         0,
@@ -3379,6 +4315,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.046532392501831055,
+        0.0,
+        0.0,
+        0.046532392501831055,
+        53.7713623046875,
+        -367.2283630371094
+      ],
       "crop_normalized": [
         0,
         0,
@@ -3403,6 +4348,15 @@
       ],
       "exif_orientation": 6,
       "layout_rotation_degrees_clockwise": 90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        0.04369274899363518,
+        -0.04369274899363518,
+        0.0,
+        551.5517578125,
+        -204.96188354492188
+      ],
       "crop_normalized": [
         0.03679841756641708,
         0,
@@ -3427,6 +4381,15 @@
       ],
       "exif_orientation": 8,
       "layout_rotation_degrees_clockwise": -90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        -0.03121354430913925,
+        0.03121354430913925,
+        0.0,
+        53.82025146484375,
+        216.3080291748047
+      ],
       "crop_normalized": [
         0,
         0,
@@ -3451,6 +4414,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.06295867264270782,
+        0.0,
+        0.0,
+        0.06295867264270782,
+        418.1102294921875,
+        188.40887451171875
+      ],
       "crop_normalized": [
         0.04671770272197937,
         0.013980375555354389,
@@ -3475,6 +4447,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.043042127043008804,
+        0.0,
+        0.0,
+        0.043042127043008804,
+        -541.6807250976562,
+        -367.2283630371094
+      ],
       "crop_normalized": [
         0.0009746838815196954,
         0,
@@ -3499,6 +4480,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.2832641005516052,
+        0.0,
+        0.0,
+        0.2832641005516052,
+        -183.73556518554688,
+        -204.96188354492188
+      ],
       "crop_normalized": [
         0.09740262011625632,
         0,
@@ -3523,6 +4513,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.034360162913799286,
+        0.0,
+        0.0,
+        0.034360162913799286,
+        -541.5203247070312,
+        29.026763916015625
+      ],
       "crop_normalized": [
         0,
         0,
@@ -3547,6 +4546,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.3144003748893738,
+        0.0,
+        0.0,
+        0.3144003748893738,
+        -170.93630981445312,
+        187.20968627929688
+      ],
       "crop_normalized": [
         0,
         0.019531423902253257,
@@ -3571,6 +4579,15 @@
       ],
       "exif_orientation": 8,
       "layout_rotation_degrees_clockwise": -90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        -0.03121354430913925,
+        0.03121354430913925,
+        0.0,
+        53.82025146484375,
+        -179.94708251953125
+      ],
       "crop_normalized": [
         0,
         0,
@@ -3595,6 +4612,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.052658844739198685,
+        0.0,
+        0.0,
+        0.052658844739198685,
+        424.322021484375,
+        -204.96188354492188
+      ],
       "crop_normalized": [
         0,
         0,
@@ -3619,6 +4645,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.04581350088119507,
+        0.0,
+        0.0,
+        0.04581350088119507,
+        53.716552734375,
+        29.03741455078125
+      ],
       "crop_normalized": [
         0,
         0,
@@ -3643,6 +4678,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.17738354206085205,
+        0.0,
+        0.0,
+        0.17738354206085205,
+        420.09869384765625,
+        191.29324340820312
+      ],
       "crop_normalized": [
         0.031523583195936386,
         0,
@@ -3667,6 +4711,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.03867107257246971,
+        0.0,
+        0.0,
+        0.03867107257246971,
+        -541.5146484375,
+        -367.2283630371094
+      ],
       "crop_normalized": [
         0,
         0,
@@ -3691,6 +4744,15 @@
       ],
       "exif_orientation": 6,
       "layout_rotation_degrees_clockwise": 90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        0.06264494359493256,
+        -0.06264494359493256,
+        0.0,
+        -26.808563232421875,
+        -267.9733581542969
+      ],
       "crop_normalized": [
         0.23890729534341,
         0.24946699681490878,
@@ -3715,6 +4777,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.04265884682536125,
+        0.0,
+        0.0,
+        0.04265884682536125,
+        -541.5093383789062,
+        29.026763916015625
+      ],
       "crop_normalized": [
         0,
         0,
@@ -3739,6 +4810,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.058753177523612976,
+        0.0,
+        0.0,
+        0.058753177523612976,
+        -170.94949340820312,
+        191.29324340820312
+      ],
       "crop_normalized": [
         0,
         0,
@@ -3763,6 +4843,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0411776565015316,
+        0.0,
+        0.0,
+        0.0411776565015316,
+        53.7642822265625,
+        -367.2283630371094
+      ],
       "crop_normalized": [
         0,
         0,
@@ -3787,6 +4876,15 @@
       ],
       "exif_orientation": 6,
       "layout_rotation_degrees_clockwise": 90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        0.07654786854982376,
+        -0.07654786854982376,
+        0.0,
+        541.9154663085938,
+        -206.49151611328125
+      ],
       "crop_normalized": [
         0,
         0.007805739662861129,
@@ -3811,6 +4909,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.037699420005083084,
+        0.0,
+        0.0,
+        0.037699420005083084,
+        53.716552734375,
+        29.03741455078125
+      ],
       "crop_normalized": [
         0,
         0,
@@ -3835,6 +4942,15 @@
       ],
       "exif_orientation": 6,
       "layout_rotation_degrees_clockwise": 90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        0.04853946343064308,
+        -0.04853946343064308,
+        0.0,
+        550.489501953125,
+        171.68328857421875
+      ],
       "crop_normalized": [
         0.14021176781717978,
         0.10019846993526649,
@@ -3859,6 +4975,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.041771575808525085,
+        0.0,
+        0.0,
+        0.041771575808525085,
+        -541.5590209960938,
+        -367.21771240234375
+      ],
       "crop_normalized": [
         0,
         0,
@@ -3883,6 +5008,15 @@
       ],
       "exif_orientation": 0,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.04588080570101738,
+        0.0,
+        0.0,
+        0.04588080570101738,
+        -175.17691040039062,
+        -204.96188354492188
+      ],
       "crop_normalized": [
         0.031696204215567444,
         0,
@@ -3907,6 +5041,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.042339641600847244,
+        0.0,
+        0.0,
+        0.042339641600847244,
+        -541.6788330078125,
+        29.026763916015625
+      ],
       "crop_normalized": [
         0.000959573740040084,
         0,
@@ -3931,6 +5074,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.11507538706064224,
+        0.0,
+        0.0,
+        0.11507538706064224,
+        -239.80520629882812,
+        191.29324340820312
+      ],
       "crop_normalized": [
         0.26913257146458114,
         0,
@@ -3955,6 +5107,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.03763103485107422,
+        0.0,
+        0.0,
+        0.03763103485107422,
+        53.716552734375,
+        -367.21771240234375
+      ],
       "crop_normalized": [
         0,
         0,
@@ -3979,6 +5140,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.45519036054611206,
+        0.0,
+        0.0,
+        0.45519036054611206,
+        402.6763916015625,
+        -204.96188354492188
+      ],
       "crop_normalized": [
         0.14149922429937167,
         0,
@@ -4003,6 +5173,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.06890981644392014,
+        0.0,
+        0.0,
+        0.06890981644392014,
+        18.38836669921875,
+        1.40234375
+      ],
       "crop_normalized": [
         0.16953464356117154,
         0.09942406999688612,
@@ -4027,6 +5206,15 @@
       ],
       "exif_orientation": 6,
       "layout_rotation_degrees_clockwise": 90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        0.04861995950341225,
+        -0.04861995950341225,
+        0.0,
+        548.403076171875,
+        175.85769653320312
+      ],
       "crop_normalized": [
         0.15582614622980367,
         0.07873845855431849,
@@ -4051,6 +5239,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0418698750436306,
+        0.0,
+        0.0,
+        0.0418698750436306,
+        -541.4547729492188,
+        -367.2283630371094
+      ],
       "crop_normalized": [
         0,
         0,
@@ -4075,6 +5272,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.08622892946004868,
+        0.0,
+        0.0,
+        0.08622892946004868,
+        -176.72598266601562,
+        -204.96188354492188
+      ],
       "crop_normalized": [
         0.043317533186299495,
         0,
@@ -4099,6 +5305,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.038973767310380936,
+        0.0,
+        0.0,
+        0.038973767310380936,
+        -541.5401611328125,
+        29.026763916015625
+      ],
       "crop_normalized": [
         0,
         0,
@@ -4123,6 +5338,15 @@
       ],
       "exif_orientation": 6,
       "layout_rotation_degrees_clockwise": 90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        0.047222454100847244,
+        -0.047222454100847244,
+        0.0,
+        -39.685028076171875,
+        180.0
+      ],
       "crop_normalized": [
         0.08051119255502995,
         0.05931296038600699,
@@ -4147,6 +5371,15 @@
       ],
       "exif_orientation": 8,
       "layout_rotation_degrees_clockwise": -90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        -0.03464103117585182,
+        0.03464103117585182,
+        0.0,
+        40.1114501953125,
+        -180.05601501464844
+      ],
       "crop_normalized": [
         0.09818633273346872,
         0.09946709624532969,
@@ -4171,6 +5404,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.47286829352378845,
+        0.0,
+        0.0,
+        0.47286829352378845,
+        408.88134765625,
+        -204.96188354492188
+      ],
       "crop_normalized": [
         0.11552837163148096,
         0,
@@ -4195,6 +5437,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.03791743889451027,
+        0.0,
+        0.0,
+        0.03791743889451027,
+        53.7598876953125,
+        29.026763916015625
+      ],
       "crop_normalized": [
         0,
         0,
@@ -4219,6 +5470,15 @@
       ],
       "exif_orientation": 6,
       "layout_rotation_degrees_clockwise": 90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        0.059267859905958176,
+        -0.059267859905958176,
+        0.0,
+        566.6130981445312,
+        191.29324340820312
+      ],
       "crop_normalized": [
         0.1930761301101207,
         0,
@@ -4243,6 +5503,15 @@
       ],
       "exif_orientation": 8,
       "layout_rotation_degrees_clockwise": -90,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.0,
+        -0.03121354430913925,
+        0.03121354430913925,
+        0.0,
+        -541.455322265625,
+        -179.94708251953125
+      ],
       "crop_normalized": [
         0,
         0,
@@ -4267,6 +5536,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.11021742224693298,
+        0.0,
+        0.0,
+        0.11021742224693298,
+        -176.22573852539062,
+        -204.96188354492188
+      ],
       "crop_normalized": [
         0.0395964351486891,
         0,
@@ -4291,6 +5569,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.03258862346410751,
+        0.0,
+        0.0,
+        0.03258862346410751,
+        -541.5590209960938,
+        29.03741455078125
+      ],
       "crop_normalized": [
         0,
         0,
@@ -4315,6 +5602,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.4677848517894745,
+        0.0,
+        0.0,
+        0.4677848517894745,
+        -172.31069946289062,
+        191.29324340820312
+      ],
       "crop_normalized": [
         0.00982114052641948,
         0,
@@ -4339,6 +5635,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.21265587210655212,
+        -0.01487034559249878,
+        0.01487034559249878,
+        0.21265587210655212,
+        35.57562255859375,
+        -235.3241424560547
+      ],
       "crop_normalized": [
         0,
         0,
@@ -4363,6 +5668,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.08721259981393814,
+        0.0,
+        0.0,
+        0.08721259981393814,
+        36.0,
+        -174.42520141601562
+      ],
       "crop_normalized": [
         0,
         0,
@@ -4387,6 +5701,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.04579498991370201,
+        0.0,
+        0.0,
+        0.04579498991370201,
+        -555.41015625,
+        -367.2283630371094
+      ],
       "crop_normalized": [
         0.09992059171172964,
         0,
@@ -4411,6 +5734,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.2484562247991562,
+        0.0,
+        0.0,
+        0.2484562247991562,
+        -184.43521118164062,
+        -204.96188354492188
+      ],
       "crop_normalized": [
         0.10250062432151924,
         0,
@@ -4435,6 +5767,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.03998751938343048,
+        0.0,
+        0.0,
+        0.03998751938343048,
+        -541.5394897460938,
+        29.026763916015625
+      ],
       "crop_normalized": [
         0,
         0,
@@ -4459,6 +5800,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.2501845955848694,
+        0.0,
+        0.0,
+        0.2501845955848694,
+        -177.98495483398438,
+        191.29324340820312
+      ],
       "crop_normalized": [
         0.05316437290846484,
         0,
@@ -4483,6 +5833,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.08721259981393814,
+        0.0,
+        0.0,
+        0.08721259981393814,
+        36.0,
+        -384.94488525390625
+      ],
       "crop_normalized": [
         0,
         0,
@@ -4507,6 +5866,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.3270472586154938,
+        0.0,
+        0.0,
+        0.3270472586154938,
+        36.0,
+        -6.968505859375
+      ],
       "crop_normalized": [
         0,
         0,
@@ -4531,6 +5899,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.5537023544311523,
+        0.0,
+        0.0,
+        0.5537023544311523,
+        -559.2755737304688,
+        -412.25634765625
+      ],
       "crop_normalized": [
         0,
         0.0692733612653371,
@@ -4555,6 +5932,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.16945452988147736,
+        0.0,
+        0.0,
+        0.16945452988147736,
+        -559.2755737304688,
+        -7.511810302734375
+      ],
       "crop_normalized": [
         0,
         0.08053447191104898,
@@ -4579,6 +5965,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.5110113024711609,
+        0.0,
+        0.0,
+        0.5110113024711609,
+        36.0,
+        -410.4566955566406
+      ],
       "crop_normalized": [
         0,
         0.06500541989825832,
@@ -4603,6 +5998,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.12978065013885498,
+        0.0,
+        0.0,
+        0.12978065013885498,
+        36.0,
+        18.0
+      ],
       "crop_normalized": [
         0,
         0,
@@ -4627,6 +6031,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.4511660933494568,
+        0.0,
+        0.0,
+        0.4511660933494568,
+        428.88189697265625,
+        364.50897216796875
+      ],
       "crop_normalized": [
         0,
         0,
@@ -4651,6 +6064,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        1.0557005405426025,
+        0.0,
+        0.0,
+        1.0557005405426025,
+        -559.2755737304688,
+        -10.942840576171875
+      ],
       "crop_normalized": [
         0,
         0.11881481428948491,
@@ -4675,6 +6097,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.24528543651103973,
+        0.0,
+        0.0,
+        0.24528543651103973,
+        -559.2755737304688,
+        -384.94488525390625
+      ],
       "crop_normalized": [
         0,
         0,
@@ -4699,6 +6130,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.29419541358947754,
+        0.0,
+        0.0,
+        0.29419541358947754,
+        -256.6465759277344,
+        -384.94488525390625
+      ],
       "crop_normalized": [
         0.04599242906073895,
         0,
@@ -4723,6 +6163,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.29419541358947754,
+        0.0,
+        0.0,
+        0.29419541358947754,
+        36.0,
+        -7.5118408203125
+      ],
       "crop_normalized": [
         0,
         0,
@@ -4747,6 +6196,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.25219085812568665,
+        0.0,
+        0.0,
+        0.25219085812568665,
+        256.6466064453125,
+        -18.56048583984375
+      ],
       "crop_normalized": [
         0.08141603307925298,
         0.027381655390565345,
@@ -4771,6 +6229,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.12978065013885498,
+        0.0,
+        0.0,
+        0.12978065013885498,
+        36.0,
+        -428.5511779785156
+      ],
       "crop_normalized": [
         0,
         0.11111109383102874,
@@ -4795,6 +6262,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.27000001072883606,
+        0.0,
+        0.0,
+        0.27000001072883606,
+        -231.9552001953125,
+        100.62991333007812
+      ],
       "crop_normalized": [
         0,
         0,
@@ -4819,6 +6295,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.27000001072883606,
+        0.0,
+        0.0,
+        0.27000001072883606,
+        -231.9552001953125,
+        -253.70079040527344
+      ],
       "crop_normalized": [
         0,
         0,
@@ -4843,6 +6328,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.27000001072883606,
+        0.0,
+        0.0,
+        0.27000001072883606,
+        363.32037353515625,
+        -300.4724426269531
+      ],
       "crop_normalized": [
         0,
         0,
@@ -4867,6 +6361,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.27000001072883606,
+        0.0,
+        0.0,
+        0.27000001072883606,
+        363.32037353515625,
+        118.34646606445312
+      ],
       "crop_normalized": [
         0,
         0,
@@ -4891,6 +6394,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        1.0557005405426025,
+        0.0,
+        0.0,
+        1.0557005405426025,
+        -559.2755737304688,
+        -384.94488525390625
+      ],
       "crop_normalized": [
         0,
         0,
@@ -4915,6 +6427,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        1.3954015970230103,
+        0.0,
+        0.0,
+        1.3954015970230103,
+        -559.275634765625,
+        43.223175048828125
+      ],
       "crop_normalized": [
         0,
         0,
@@ -4939,6 +6460,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.4037620425224304,
+        0.0,
+        0.0,
+        0.4037620425224304,
+        36.0,
+        -7.511810302734375
+      ],
       "crop_normalized": [
         0,
         0,
@@ -4963,6 +6493,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.3501732349395752,
+        0.0,
+        0.0,
+        0.3501732349395752,
+        36.0,
+        -385.68896484375
+      ],
       "crop_normalized": [
         0,
         0.001888791091586769,
@@ -4987,6 +6526,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.3406742215156555,
+        0.0,
+        0.0,
+        0.3406742215156555,
+        -559.2755737304688,
+        -384.94488525390625
+      ],
       "crop_normalized": [
         0,
         0,
@@ -5011,6 +6559,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.30226561427116394,
+        0.0,
+        0.0,
+        0.30226561427116394,
+        -264.8150634765625,
+        -487.876953125
+      ],
       "crop_normalized": [
         0.005213921074574823,
         0.21283447788324952,
@@ -5035,6 +6592,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.3270472586154938,
+        0.0,
+        0.0,
+        0.3274463415145874,
+        -559.275634765625,
+        -7.99072265625
+      ],
       "crop_normalized": [
         0,
         0.002601486799101005,
@@ -5059,6 +6625,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        1.0766074657440186,
+        0.0,
+        0.0,
+        1.0766074657440186,
+        30.459716796875,
+        -12.546707153320312
+      ],
       "crop_normalized": [
         0.010368174730196557,
         0,
@@ -5083,6 +6658,15 @@
       ],
       "exif_orientation": 1,
       "layout_rotation_degrees_clockwise": 0,
+      "layout_reflected_vertical_before_rotation": false,
+      "image_transform": [
+        0.29388004541397095,
+        0.0,
+        0.0,
+        0.29388004541397095,
+        121.30975341796875,
+        -469.00958251953125
+      ],
       "crop_normalized": [
         0.005663632759002942,
         0.1787819113177773,

@@ -18,6 +18,8 @@ def derivative(package, item, target_size_pt, destination, crop=True):
     rotations = {90: Image.Transpose.ROTATE_270, -90: Image.Transpose.ROTATE_90,
                  180: Image.Transpose.ROTATE_180, -180: Image.Transpose.ROTATE_180}
     rotation = item['layout_rotation_degrees_clockwise']
+    if item.get('layout_reflected_vertical_before_rotation', False):
+        image = image.transpose(Image.Transpose.FLIP_TOP_BOTTOM)
     if rotation in rotations:
         image = image.transpose(rotations[rotation])
     uncropped_size = image.size
@@ -45,6 +47,7 @@ def derivative(package, item, target_size_pt, destination, crop=True):
     destination = destination.with_suffix(suffix)
     return destination, {'file': item['file'], 'original_sha256': item['sha256'],
                          'layout_rotation_degrees_clockwise': rotation,
+                         'layout_reflected_vertical_before_rotation': item.get('layout_reflected_vertical_before_rotation', False),
                          'original_layout_pixels': list(uncropped_size),
                          'crop_normalized': bounds, 'crop_pixels': list(box),
                          'cropped_source_pixels': list(crop_size),

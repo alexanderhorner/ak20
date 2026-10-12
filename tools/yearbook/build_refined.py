@@ -10,6 +10,7 @@ import pymupdf as fitz
 from playwright.sync_api import sync_playwright
 from PIL import Image, ImageDraw
 from photo_derivatives import derivative
+from verify_photos import correlation
 
 ROOT = Path(__file__).resolve().parents[2]
 SOURCE = ROOT/'storage/app/public/pdf/Abschlusszeitung2020.pdf'
@@ -53,6 +54,12 @@ def art(src,bbox,x,y,w,h,key,extra='',kind='photo',original=None):
     pw,ph=iw*scale,ih*scale
     xx,yy=x+(w-pw)/2,y+(h-ph)/2
     export['effective_ppi']=round(min(iw/pw,ih/ph)*72,1)
+    if src>0:
+        pix=source[src].get_pixmap(matrix=fitz.Matrix(1,1),clip=b,alpha=False)
+        before=Image.frombytes('RGB',(pix.width,pix.height),pix.samples)
+        with Image.open(path) as after: score=correlation(before,after)
+        assert score>.90,('photo differs from original PDF',key,score)
+        export['visual_correlation_with_original_pdf']=round(score,5)
     item['derivative']=str(path);item['original']=export
     filename=path.name
     mount=f'<span class="gallery-mount" style="left:{xx-3:.4f}pt;top:{yy-3:.4f}pt;width:{pw+6:.4f}pt;height:{ph+6:.4f}pt"></span>' if extra=='gallery-photo' else ''
@@ -304,6 +311,18 @@ for p in dom:
         if item['kind']=='photo':photos.append({'id':item['key'],'source_page':item['source']+1,'source_bbox':item['clip'],'output_page':p['page'],'original':item['original']})
 # The complete originals are archived separately. Avoid attaching an 18 MB
 # duplicate to a PDF intended for reading on the web.
+# Replace Chromium's named anchors with portable, explicit PDF destinations.
+# Absolute-positioned HTML can leave the first zero-height anchor unresolved,
+# and named destinations do not survive extraction of the interior reliably.
+anchor_pages={f'student-{n}':n+2 for n in range(30)}
+anchor_pages.update({'memory-intro':32,'teacher-intro':42,'quotes-start':47})
+contents_links=pdf[1].get_links()
+assert len(contents_links)==34
+for link in contents_links:
+    anchor=link.get('nameddest')
+    assert anchor in anchor_pages,('unexpected contents destination',link)
+    pdf[1].delete_link(link)
+    pdf[1].insert_link({'kind':fitz.LINK_GOTO,'from':link['from'],'page':anchor_pages[anchor],'to':fitz.Point(0,0)})
 toc=[[1,'Unser Jahr',1],[1,'Inhalt',2],[1,'Steckbriefe',3]]+[[2,p['name'],i+3] for i,p in enumerate(profiles)]
 for section in ['Fotos','Unsere Lehrer','Historische Zitate','Bis bald']:toc.append([1,section,next(i+1 for i,p in enumerate(pages) if p['section']==section)])
 pdf.set_toc(toc);pdf.set_metadata({'title':'AK20 · Klasse 10a · 2020 — Verfeinert','author':'Klasse 10a','subject':'Abschlussjahrbuch 2020; vollständiger Originalinhalt; ak20.alexanderhorner.de'})
@@ -351,7 +370,7 @@ assert len(source_units)==len([u for u in units if u['kind']=='profile'])+4+len(
 # Independently confirm all extracted source paragraphs were recorded intact.
 recorded=''.join(norm(u['text']) for u in units)
 for t in source_units:assert norm(t) in recorded,('unrecorded source text',t)
-report={'source_sha256':hashlib.sha256(SOURCE.read_bytes()).hexdigest(),'version_one_unchanged_sha256':original_v1_hash,'version_two_unchanged_sha256':original_v2_hash,'favorite_color_version_unchanged_sha256':original_v3_hash,'redesigned_pages':len(pdf),'student_profiles':30,'verified_content_units':len(units),'original_photo_placements':len(photos),'visible_website':NEW_URL,'original_archive_files_verified':len(archive_manifest['files']),'originals_archived_separately':True,'original_photo_files_used':len({p['original']['file'] for p in photos}),'pdf_bytes':FINAL.stat().st_size,'photo_export_target_ppi':240,'jpeg_quality':91,'cover_access_removed':True,'access_on_last_page_only':True,'html_and_pdf_share_layout':True,'all_pages_pass_dom_geometry_checks':True,'html_pdf_matched_text_spans':matched_spans,'maximum_type_position_drift_pt':round(max_type_drift,3),'page_size_mm':[210,297],'verification':'PASS','units':units,'photos':photos,'geometry':dom}
+report={'source_sha256':hashlib.sha256(SOURCE.read_bytes()).hexdigest(),'version_one_unchanged_sha256':original_v1_hash,'version_two_unchanged_sha256':original_v2_hash,'favorite_color_version_unchanged_sha256':original_v3_hash,'redesigned_pages':len(pdf),'student_profiles':30,'verified_content_units':len(units),'original_photo_placements':len(photos),'visible_website':NEW_URL,'original_archive_files_verified':len(archive_manifest['files']),'originals_archived_separately':True,'original_photo_files_used':len({p['original']['file'] for p in photos}),'pdf_bytes':FINAL.stat().st_size,'photo_export_target_ppi':240,'all_exported_photos_match_original_orientation_and_crop':True,'minimum_source_photo_visual_correlation':min(p['original'].get('visual_correlation_with_original_pdf',1) for p in photos),'jpeg_quality':91,'cover_access_removed':True,'access_on_last_page_only':True,'html_and_pdf_share_layout':True,'contents_links_resolve':34,'all_pages_pass_dom_geometry_checks':True,'html_pdf_matched_text_spans':matched_spans,'maximum_type_position_drift_pt':round(max_type_drift,3),'page_size_mm':[210,297],'verification':'PASS','units':units,'photos':photos,'geometry':dom}
 (OUT/'content-audit.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
 # Every page gets rendered for visual inspection. Selected pages are shared.
 thumbs=[]

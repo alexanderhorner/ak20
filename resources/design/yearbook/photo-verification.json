@@ -1,0 +1,524 @@
+{
+  "comparison": "Original PDF raster vs independently linked original-source crop",
+  "compared_regions": 86,
+  "minimum_correlation": 0.92258,
+  "threshold": 0.9,
+  "results": [
+    {
+      "file": "Links/kinderfoto-00006.jpg",
+      "source_page": 12,
+      "correlation": 0.92258,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00016.jpg",
+      "source_page": 9,
+      "correlation": 0.95966,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00010.jpg",
+      "source_page": 5,
+      "correlation": 0.96659,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00014.jpg",
+      "source_page": 16,
+      "correlation": 0.9713,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00024.jpg",
+      "source_page": 2,
+      "correlation": 0.97285,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00019.jpg",
+      "source_page": 4,
+      "correlation": 0.97874,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00030.JPG",
+      "source_page": 8,
+      "correlation": 0.9812,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00023.jpg",
+      "source_page": 10,
+      "correlation": 0.98164,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00021.jpg",
+      "source_page": 7,
+      "correlation": 0.98353,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00013.JPG",
+      "source_page": 3,
+      "correlation": 0.98362,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00030.jpg",
+      "source_page": 8,
+      "correlation": 0.98429,
+      "reflected": false
+    },
+    {
+      "file": "Links/Bildschirmfoto 2020-05-19 um 22.52.06.png",
+      "source_page": 29,
+      "correlation": 0.98482,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00001.jpg",
+      "source_page": 11,
+      "correlation": 0.98483,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00009.JPG",
+      "source_page": 3,
+      "correlation": 0.985,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00012.jpg",
+      "source_page": 11,
+      "correlation": 0.98567,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00008.jpg",
+      "source_page": 2,
+      "correlation": 0.98581,
+      "reflected": false
+    },
+    {
+      "file": "Links/IMG_3052.jpeg",
+      "source_page": 26,
+      "correlation": 0.98584,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00015.JPG",
+      "source_page": 4,
+      "correlation": 0.986,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00020.JPG",
+      "source_page": 6,
+      "correlation": 0.98666,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00016.JPG",
+      "source_page": 9,
+      "correlation": 0.98713,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00013.jpg",
+      "source_page": 3,
+      "correlation": 0.98734,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00027.JPG",
+      "source_page": 10,
+      "correlation": 0.98743,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00029.jpg",
+      "source_page": 14,
+      "correlation": 0.98789,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00024.JPG",
+      "source_page": 2,
+      "correlation": 0.98792,
+      "reflected": false
+    },
+    {
+      "file": "Links/WhatsApp Image 2020-05-18 at 21.07.58.jpeg",
+      "source_page": 19,
+      "correlation": 0.98793,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00020.jpg",
+      "source_page": 6,
+      "correlation": 0.98843,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00001.JPG",
+      "source_page": 11,
+      "correlation": 0.98881,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00022.jpg",
+      "source_page": 15,
+      "correlation": 0.98895,
+      "reflected": false
+    },
+    {
+      "file": "Links/IMG_2957.jpeg",
+      "source_page": 27,
+      "correlation": 0.98971,
+      "reflected": false
+    },
+    {
+      "file": "Links/IMG_2952.jpeg",
+      "source_page": 26,
+      "correlation": 0.99011,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00019.JPG",
+      "source_page": 4,
+      "correlation": 0.99054,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00002.jpg",
+      "source_page": 14,
+      "correlation": 0.9906,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00011.jpg",
+      "source_page": 13,
+      "correlation": 0.99077,
+      "reflected": false
+    },
+    {
+      "file": "Links/IMG_2953.jpeg",
+      "source_page": 27,
+      "correlation": 0.99078,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00026.JPG",
+      "source_page": 6,
+      "correlation": 0.99106,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00003.jpg",
+      "source_page": 16,
+      "correlation": 0.99124,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00002.JPG",
+      "source_page": 14,
+      "correlation": 0.99152,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00003.JPG",
+      "source_page": 16,
+      "correlation": 0.9916,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00005.JPG",
+      "source_page": 9,
+      "correlation": 0.99178,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00021.JPG",
+      "source_page": 7,
+      "correlation": 0.99281,
+      "reflected": true
+    },
+    {
+      "file": "Links/kinderfoto-00017.jpg",
+      "source_page": 5,
+      "correlation": 0.99295,
+      "reflected": false
+    },
+    {
+      "file": "Links/IMG_2941.jpg",
+      "source_page": 19,
+      "correlation": 0.99355,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00015.jpg",
+      "source_page": 4,
+      "correlation": 0.99422,
+      "reflected": false
+    },
+    {
+      "file": "Links/IMG_291F7B889C18-1.jpeg",
+      "source_page": 22,
+      "correlation": 0.9943,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00005.jpg",
+      "source_page": 9,
+      "correlation": 0.9944,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00018.jpg",
+      "source_page": 15,
+      "correlation": 0.99449,
+      "reflected": false
+    },
+    {
+      "file": "Links/IMG_5375.jpeg",
+      "source_page": 23,
+      "correlation": 0.9947,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00027.jpg",
+      "source_page": 10,
+      "correlation": 0.9948,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00025.jpg",
+      "source_page": 12,
+      "correlation": 0.99504,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00006.JPG",
+      "source_page": 12,
+      "correlation": 0.99518,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00004.jpg",
+      "source_page": 13,
+      "correlation": 0.99518,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00009.jpg",
+      "source_page": 3,
+      "correlation": 0.99526,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00023.JPG",
+      "source_page": 10,
+      "correlation": 0.99545,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00007.jpg",
+      "source_page": 7,
+      "correlation": 0.99602,
+      "reflected": false
+    },
+    {
+      "file": "Links/7a3da4a4-737a-4569-81de-ffa9b35a9da0.JPG",
+      "source_page": 18,
+      "correlation": 0.99634,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00007.JPG",
+      "source_page": 7,
+      "correlation": 0.99637,
+      "reflected": false
+    },
+    {
+      "file": "Links/IMG_2922.jpg",
+      "source_page": 15,
+      "correlation": 0.99656,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00028.jpg",
+      "source_page": 8,
+      "correlation": 0.99673,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00012.JPG",
+      "source_page": 11,
+      "correlation": 0.99684,
+      "reflected": false
+    },
+    {
+      "file": "Links/IMG_C834F0841B5A-1.jpeg",
+      "source_page": 20,
+      "correlation": 0.9971,
+      "reflected": false
+    },
+    {
+      "file": "Links/IMG_2916.jpg",
+      "source_page": 21,
+      "correlation": 0.99719,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00017.JPG",
+      "source_page": 5,
+      "correlation": 0.9974,
+      "reflected": false
+    },
+    {
+      "file": "Links/IMG_5167.jpg",
+      "source_page": 24,
+      "correlation": 0.99747,
+      "reflected": false
+    },
+    {
+      "file": "Links/IMG_9291.JPG",
+      "source_page": 17,
+      "correlation": 0.99753,
+      "reflected": false
+    },
+    {
+      "file": "Links/Bildschirmfoto 2020-05-31 um 19.08.17.png",
+      "source_page": 24,
+      "correlation": 0.99771,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00004.JPG",
+      "source_page": 13,
+      "correlation": 0.99784,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00028.JPG",
+      "source_page": 8,
+      "correlation": 0.99812,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00008.JPG",
+      "source_page": 2,
+      "correlation": 0.99817,
+      "reflected": false
+    },
+    {
+      "file": "Links/IMG_5125.jpeg",
+      "source_page": 25,
+      "correlation": 0.99826,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00014.JPG",
+      "source_page": 16,
+      "correlation": 0.99829,
+      "reflected": false
+    },
+    {
+      "file": "Links/kinderfoto-00026.jpg",
+      "source_page": 6,
+      "correlation": 0.99833,
+      "reflected": false
+    },
+    {
+      "file": "Links/721acb2e-ccbf-4c70-952d-7b013efc02f0.JPG",
+      "source_page": 18,
+      "correlation": 0.99838,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00010.JPG",
+      "source_page": 5,
+      "correlation": 0.99857,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00022.JPG",
+      "source_page": 15,
+      "correlation": 0.99865,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00025.JPG",
+      "source_page": 12,
+      "correlation": 0.99881,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00029.JPG",
+      "source_page": 14,
+      "correlation": 0.99884,
+      "reflected": false
+    },
+    {
+      "file": "Links/aktuellesfoto-00011.JPG",
+      "source_page": 13,
+      "correlation": 0.99903,
+      "reflected": false
+    },
+    {
+      "file": "Links/IMG_2917.jpg",
+      "source_page": 20,
+      "correlation": 0.99907,
+      "reflected": false
+    },
+    {
+      "file": "Links/WhatsApp Image 2020-05-18 at 22.54.07.jpeg",
+      "source_page": 22,
+      "correlation": 0.99917,
+      "reflected": false
+    },
+    {
+      "file": "Links/80f68a3d-a698-4517-a156-61d3a3f84ff2.JPG",
+      "source_page": 23,
+      "correlation": 0.99926,
+      "reflected": false
+    },
+    {
+      "file": "Links/WhatsApp Image 2020-05-18 at 22.54.08 (2).jpeg",
+      "source_page": 22,
+      "correlation": 0.99927,
+      "reflected": false
+    },
+    {
+      "file": "Links/edf55a97-ae9d-4e33-b371-1351dd4d5cd5.JPG",
+      "source_page": 25,
+      "correlation": 0.99939,
+      "reflected": false
+    },
+    {
+      "file": "Links/9b5385e7-f408-4347-88eb-10996aa1f45b.JPG",
+      "source_page": 18,
+      "correlation": 0.99987,
+      "reflected": false
+    },
+    {
+      "file": "Links/WhatsApp Image 2020-05-18 at 21.07.59.jpeg",
+      "source_page": 23,
+      "correlation": 0.9999,
+      "reflected": false
+    },
+    {
+      "file": "Links/WhatsApp Image 2020-05-18 at 22.54.08.jpeg",
+      "source_page": 21,
+      "correlation": 0.99991,
+      "reflected": false
+    },
+    {
+      "file": "Links/WhatsApp Image 2020-05-18 at 22.54.08 (1).jpeg",
+      "source_page": 17,
+      "correlation": 0.99995,
+      "reflected": false
+    }
+  ]
+}
