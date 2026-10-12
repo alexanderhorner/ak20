@@ -1,0 +1,28 @@
+# AK20 PDF redesign
+
+A print-ready A4 yearbook preview on `design/yearbook-2020`. This does not change the website, replace the original PDF, or deploy anything.
+
+## Outputs
+
+- `previews/yearbook/AK20-Jahrbuch-Redesign.pdf`: 52-page redesign with bookmarks and an embedded, byte-identical copy of the original PDF.
+- `previews/yearbook/preview.jpg`: eight-page visual overview.
+- `previews/yearbook/page-*.png`: selected full-page previews.
+- `previews/yearbook/content-audit.json`: source checksum, content checks, and photo placement inventory. Contains the same personal information as the source PDF; keep it with the yearbook.
+
+## Rebuild
+
+Use Python 3 in an isolated virtual environment, install `tools/yearbook/requirements.txt`, then run:
+
+```sh
+python tools/yearbook/build.py
+```
+
+The script expects the FreeSans regular, bold, and oblique fonts in `/usr/share/fonts/truetype/freefont/`. It reads only the existing source at `storage/app/public/pdf/Abschlusszeitung2020.pdf` and writes the preview directory.
+
+## Preservation checks
+
+All 30 student profiles, childhood pictures and portraits, nine original photo spreads, four teacher profiles, and three pages of historical quotes are included. Original photo artwork is placed directly from the source PDF, preserving orientation and original clipping without resampling. The cover includes the original cutout, and the small image printed on the quotes page is included on the closing page.
+
+Every factual text block is verified against its redesigned page. Comparison ignores whitespace, capitalization of field labels, label colons, and discretionary hyphens introduced by the original line wrapping. The original dinosaur/heart emoji uses a custom Type3 font; its artwork is rendered inline and preserved in the embedded original. Decorative oversized title fragments and shadows are replaced by the new design. No wording, names, dates, wishes, anecdotes, or quotes are edited or shortened.
+
+The build also checks profile text bounds, the source-image placement count, and byte identity of the embedded original. The original blank last page becomes a designed back cover.

@@ -1,0 +1,2272 @@
+{
+  "source_sha256": "bc64299a72ff032f92b9e6446e26e8de7b6e1ce96fc9456e9138552720d4153c",
+  "source_pages": 31,
+  "redesigned_pages": 52,
+  "student_profiles": 30,
+  "verified_content_blocks": 215,
+  "photo_placements": 88,
+  "original_attachment_byte_identical": true,
+  "text_verification": "PASS (line wraps and discretionary hyphens normalized; original emoji artwork retained inline)",
+  "units": [
+    {
+      "kind": "cover",
+      "source_page": 1,
+      "output_page": 1,
+      "text": "Klasse 10a"
+    },
+    {
+      "kind": "cover",
+      "source_page": 1,
+      "output_page": 1,
+      "text": "ak20.alexanderhorner.com"
+    },
+    {
+      "kind": "cover",
+      "source_page": 1,
+      "output_page": 1,
+      "text": "Passwort: Parameterverfahren"
+    },
+    {
+      "kind": "profile",
+      "source_page": 2,
+      "output_page": 3,
+      "text": "Manuel Axinger\n„Manu“"
+    },
+    {
+      "kind": "profile",
+      "source_page": 2,
+      "output_page": 3,
+      "text": "Wohnt in Hohenschambach\nGeboren am 23.7.2004\nNach dem Abschluss: Bauzeichner"
+    },
+    {
+      "kind": "profile",
+      "source_page": 2,
+      "output_page": 3,
+      "text": "Will in der Zukunft: Gesundheit und Erfolg"
+    },
+    {
+      "kind": "profile",
+      "source_page": 2,
+      "output_page": 3,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 2,
+      "output_page": 3,
+      "text": "•\t Liebt Fleisch über alles\n•\t Lebt sich künstlerisch an den Pinnwänden aus\n•\t Ist auf seiner Subcard schon 18"
+    },
+    {
+      "kind": "profile",
+      "source_page": 2,
+      "output_page": 4,
+      "text": "Anna Bauer"
+    },
+    {
+      "kind": "profile",
+      "source_page": 2,
+      "output_page": 4,
+      "text": "Wohnt in Oberweickenhof\nGeboren am 27.3.2004\nNach dem Abschluss: FOS Neumarkt oder WGG Neu­\nmarkt -> Architektin\nWill in der Zukunft: Karriere, Familie, Gesundheit, \nGlück"
+    },
+    {
+      "kind": "profile",
+      "source_page": 2,
+      "output_page": 4,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 2,
+      "output_page": 4,
+      "text": "•\t Immer am Essen (schnorrt sich immer die Reis­\nwaffeln von Leander)\n•\t Ihr Tisch ist immer unordentlich\n•\t Könnte sich mit Isi und Emilia eigentlich ein \nFedermäppchen teilen"
+    },
+    {
+      "kind": "profile",
+      "source_page": 3,
+      "output_page": 5,
+      "text": "Emilia Bauer"
+    },
+    {
+      "kind": "profile",
+      "source_page": 3,
+      "output_page": 5,
+      "text": "Wohnt in Oberweickenhof\nGeboren am 27.3.2004\nNach dem Abschluss: Kirchenmalerin"
+    },
+    {
+      "kind": "profile",
+      "source_page": 3,
+      "output_page": 5,
+      "text": "Will in der Zukunft: Gesund und glücklich sein"
+    },
+    {
+      "kind": "profile",
+      "source_page": 3,
+      "output_page": 5,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 3,
+      "output_page": 5,
+      "text": "•\t Wurde auf der Abschlussfahrt von einer Frau \nattackiert\n•\t Quietscht mehr beim Lachen, als dass sie richtig \nlacht\n•\t „Ihr Fieslinge!“, „Mir liegts in die Finger“"
+    },
+    {
+      "kind": "profile",
+      "source_page": 3,
+      "output_page": 6,
+      "text": "Felix Beckstein\n„Becki“"
+    },
+    {
+      "kind": "profile",
+      "source_page": 3,
+      "output_page": 6,
+      "text": "Wohnt in Beratzhausen\nGeboren am 3.11.2003\nNach dem Abschluss: Kp\nWill in der Zukunft: Gesundheit für Familie und \nFreunde."
+    },
+    {
+      "kind": "profile",
+      "source_page": 3,
+      "output_page": 6,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 3,
+      "output_page": 6,
+      "text": "•\t Schläft gern in Badewannen\n•\t In Sport immer sehr aktiv unterwegs\n•\t Sieht seit der 6. fast gleich aus"
+    },
+    {
+      "kind": "profile",
+      "source_page": 4,
+      "output_page": 7,
+      "text": "Vincent Bergler\n„Vin“"
+    },
+    {
+      "kind": "profile",
+      "source_page": 4,
+      "output_page": 7,
+      "text": "Wohnt in Hohenfels\nGeboren am 12.9.2004\nNach dem Abschluss: Bankkaufmann\nWill in der Zukunft: Großes Haus mit glücklicher Fa­\nmilie"
+    },
+    {
+      "kind": "profile",
+      "source_page": 4,
+      "output_page": 7,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 4,
+      "output_page": 7,
+      "text": "•\t Sehr klein\n•\t Ist an ALLEM Schuld\n•\t Ist ein Buggla"
+    },
+    {
+      "kind": "profile",
+      "source_page": 4,
+      "output_page": 8,
+      "text": "Johannes Bullok\n„Jo“"
+    },
+    {
+      "kind": "profile",
+      "source_page": 4,
+      "output_page": 8,
+      "text": "Wohnt in Brunn\nGeboren am 7.10.2003\nNach dem Abschluss: Ausbildung zum Kfz-Mechatro­\nniker"
+    },
+    {
+      "kind": "profile",
+      "source_page": 4,
+      "output_page": 8,
+      "text": "Will in der Zukunft: Feuerwehrmann, eigenes Haus"
+    },
+    {
+      "kind": "profile",
+      "source_page": 4,
+      "output_page": 8,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 4,
+      "output_page": 8,
+      "text": "•\t Liebt rot\n•\t Hat interessante Gespräche mit Manuel\n•\t Redefreudig"
+    },
+    {
+      "kind": "profile",
+      "source_page": 5,
+      "output_page": 9,
+      "text": "Eric Danner"
+    },
+    {
+      "kind": "profile",
+      "source_page": 5,
+      "output_page": 9,
+      "text": "Wohnt in Hinterzhof\nGeboren am 9.1.2004\nNach dem Abschluss: Kfz-Mechatroniker"
+    },
+    {
+      "kind": "profile",
+      "source_page": 5,
+      "output_page": 9,
+      "text": "Will in der Zukunft: Gesundheit, Familie und Erfolg"
+    },
+    {
+      "kind": "profile",
+      "source_page": 5,
+      "output_page": 9,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 5,
+      "output_page": 9,
+      "text": "•\t Sportlich\n•\t Hilfsbereit\n•\t Kreativ"
+    },
+    {
+      "kind": "profile",
+      "source_page": 5,
+      "output_page": 10,
+      "text": "Simon Dirigl\n„Simon (englisch), Dirigl“"
+    },
+    {
+      "kind": "profile",
+      "source_page": 5,
+      "output_page": 10,
+      "text": "Wohnt in Willenhofen\nGeboren am 23.5.2004\nNach dem Abschluss: FOS Regensburg"
+    },
+    {
+      "kind": "profile",
+      "source_page": 5,
+      "output_page": 10,
+      "text": "Will in der Zukunft: Elektrotecknik studieren"
+    },
+    {
+      "kind": "profile",
+      "source_page": 5,
+      "output_page": 10,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 5,
+      "output_page": 10,
+      "text": "•\t Pennt in der Schule mehr als daheim\n•\t Stellt oft dumme Fragen\n•\t Zitat aus den Besinnungstagen: Unsere Freund­\nschaft is auf einer anderen Ebene"
+    },
+    {
+      "kind": "profile",
+      "source_page": 6,
+      "output_page": 11,
+      "text": "Jonas Dürr\n„Joni“"
+    },
+    {
+      "kind": "profile",
+      "source_page": 6,
+      "output_page": 11,
+      "text": "Wohnt in Langenthonhausen\nGeboren am 22.7.2004\nNach dem Abschluss: Elektroniker"
+    },
+    {
+      "kind": "profile",
+      "source_page": 6,
+      "output_page": 11,
+      "text": "Will in der Zukunft: Gesundheit, Familie"
+    },
+    {
+      "kind": "profile",
+      "source_page": 6,
+      "output_page": 11,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 6,
+      "output_page": 11,
+      "text": "•\t Lernt zu viel\n•\t Sagt vor jeder Stunde: „Wir schreiben eine Ex“\n•\t Zweiradfan"
+    },
+    {
+      "kind": "profile",
+      "source_page": 6,
+      "output_page": 12,
+      "text": "Steven Feldbusch\n„Stepan“"
+    },
+    {
+      "kind": "profile",
+      "source_page": 6,
+      "output_page": 12,
+      "text": "Wohnt in Lengenfeld\nGeboren am 3.8.2004\nNach dem Abschluss: Gymnasium/FOS"
+    },
+    {
+      "kind": "profile",
+      "source_page": 6,
+      "output_page": 12,
+      "text": "Will in der Zukunft: Gute Arbeit"
+    },
+    {
+      "kind": "profile",
+      "source_page": 6,
+      "output_page": 12,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 6,
+      "output_page": 12,
+      "text": "•\t Ist irgendwie lustig\n•\t Denkt, seine Englischsätze sind immer richtig\n•\t Durak suchti"
+    },
+    {
+      "kind": "profile",
+      "source_page": 7,
+      "output_page": 13,
+      "text": "Marcel Georgi"
+    },
+    {
+      "kind": "profile",
+      "source_page": 7,
+      "output_page": 13,
+      "text": "Wohnt in Deuerling\nGeboren am 14.12.2003\nNach dem Abschluss: Elektroniker"
+    },
+    {
+      "kind": "profile",
+      "source_page": 7,
+      "output_page": 13,
+      "text": "Will in der Zukunft: Gesundheit, Familie"
+    },
+    {
+      "kind": "profile",
+      "source_page": 7,
+      "output_page": 13,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 7,
+      "output_page": 13,
+      "text": "•\t Rundengehsuchti\n•\t Chemie-Profi\n•\t Hasst es, wenn Leute an den Schnüren vom \nHoodie ziehen"
+    },
+    {
+      "kind": "profile",
+      "source_page": 7,
+      "output_page": 14,
+      "text": "Lena Girg\n„Lenni“"
+    },
+    {
+      "kind": "profile",
+      "source_page": 7,
+      "output_page": 14,
+      "text": "Wohnt in Parsberg\nGeboren am 18.2.2004\nNach dem Abschluss: FOS\nWill in der Zukunft: Weltreise machen, schönen, ab­\nwechslungsreichen Job haben"
+    },
+    {
+      "kind": "profile",
+      "source_page": 7,
+      "output_page": 14,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 7,
+      "output_page": 14,
+      "text": "•\t Hat zu viele Spitznamen\n•\t Zweitkleinste in der Klasse\n•\t Brilliant"
+    },
+    {
+      "kind": "profile",
+      "source_page": 8,
+      "output_page": 15,
+      "text": "Alexander Horner\n„Horny“"
+    },
+    {
+      "kind": "profile",
+      "source_page": 8,
+      "output_page": 15,
+      "text": "Wohnt in Velburg\nGeboren am 24.9.2002\nNach dem Abschluss: Gymnasium/FOS\nWill in der Zukunft: Schule schaffen, dann Informatik \nund künstliche Intelligenz studieren. Plan B: McDo­\nnalds"
+    },
+    {
+      "kind": "profile",
+      "source_page": 8,
+      "output_page": 15,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 8,
+      "output_page": 15,
+      "text": "•\t „Computerprofi“\n•\t Schmeißt gute Hauspartys\n•\t Sympathisch"
+    },
+    {
+      "kind": "profile",
+      "source_page": 8,
+      "output_page": 16,
+      "text": "Lena Ihlow\n„Tomate“"
+    },
+    {
+      "kind": "profile",
+      "source_page": 8,
+      "output_page": 16,
+      "text": "Wohnt in Großetzenberg\nGeboren am 17.4.2004\nNach dem Abschluss: FOS\nWill in der Zukunft: Grundschullehrerin, Kinderpsy­\nchologin"
+    },
+    {
+      "kind": "profile",
+      "source_page": 8,
+      "output_page": 16,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 8,
+      "output_page": 16,
+      "text": "•\t Redet nicht (vielleicht stumm)\n•\t Liest immer und überall\n•\t Impulsiv"
+    },
+    {
+      "kind": "profile",
+      "source_page": 9,
+      "output_page": 17,
+      "text": "Eva Kerstensteiner\n„Eva“"
+    },
+    {
+      "kind": "profile",
+      "source_page": 9,
+      "output_page": 17,
+      "text": "Wohnt in Albertshofen\nGeboren am 4.12.2003\nNach dem Abschluss: Technische Systemplanerin"
+    },
+    {
+      "kind": "profile",
+      "source_page": 9,
+      "output_page": 17,
+      "text": "Will in der Zukunft: Ein gesundes, glückliches Leben"
+    },
+    {
+      "kind": "profile",
+      "source_page": 9,
+      "output_page": 17,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 9,
+      "output_page": 17,
+      "text": "•\t Englisch ist nicht so ihr Ding\n•\t Leiht immer Geld und Stifte\n•\t Teilt immer Süßigkeiten"
+    },
+    {
+      "kind": "profile",
+      "source_page": 9,
+      "output_page": 18,
+      "text": "Felix Koller\n„Koller“"
+    },
+    {
+      "kind": "profile",
+      "source_page": 9,
+      "output_page": 18,
+      "text": "Wohnt in Velburg\nGeboren am 21.11.2003\nNach dem Abschluss: Technischer Systemplaner"
+    },
+    {
+      "kind": "profile",
+      "source_page": 9,
+      "output_page": 18,
+      "text": "Will in der Zukunft: Abitur, Studium"
+    },
+    {
+      "kind": "profile",
+      "source_page": 9,
+      "output_page": 18,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 9,
+      "output_page": 18,
+      "text": "•\t Guter Skifahrer\n•\t Kreativ\n•\t Stylisch"
+    },
+    {
+      "kind": "profile",
+      "source_page": 10,
+      "output_page": 19,
+      "text": "Dominik \nKudaschow\n„Dodo“"
+    },
+    {
+      "kind": "profile",
+      "source_page": 10,
+      "output_page": 19,
+      "text": "Wohnt in Beratzhausen\nGeboren am 2.7.2003\nNach dem Abschluss: Gymnasium/FOS\nWill in der Zukunft: Abitur schaf­\nfen, Gesundheit, Medizin oder \nInformatik  studieren, einen er­\nfolgreichen Job haben"
+    },
+    {
+      "kind": "profile",
+      "source_page": 10,
+      "output_page": 19,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 10,
+      "output_page": 19,
+      "text": "•\t Liebt Kommunismus\n•\t Schüchtert mit seiner Stimme Lehrer ein\n•\t Long boi"
+    },
+    {
+      "kind": "profile",
+      "source_page": 10,
+      "output_page": 20,
+      "text": "Isabell Lang\n„Isi“"
+    },
+    {
+      "kind": "profile",
+      "source_page": 10,
+      "output_page": 20,
+      "text": "Wohnt in Batzhausen\nGeboren am 22.7.2003\nNach dem Abschluss: Willibald Gluck Gymnasium"
+    },
+    {
+      "kind": "profile",
+      "source_page": 10,
+      "output_page": 20,
+      "text": "Will in der Zukunft: Wissen, was sie werden will"
+    },
+    {
+      "kind": "profile",
+      "source_page": 10,
+      "output_page": 20,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 10,
+      "output_page": 20,
+      "text": "•\t Redet so laut wie andere flüstern\n•\t „Kinna mia mal bitte lüften“: reißt dann eigen­\nständig die Fenster auf\n•\t Gibt in Taschenrechner immer die falschen \nZahlen und checkts ned"
+    },
+    {
+      "kind": "profile",
+      "source_page": 11,
+      "output_page": 21,
+      "text": "Leander Lutter"
+    },
+    {
+      "kind": "profile",
+      "source_page": 11,
+      "output_page": 21,
+      "text": "Wohnt in Velburg\nGeboren am 15.3.2004\nNach dem Abschluss: FOS\nWill in der Zukunft: Herausfinden, was er nach der \nFOS machen will und einen erfolgreichen Beruf haben"
+    },
+    {
+      "kind": "profile",
+      "source_page": 11,
+      "output_page": 21,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 11,
+      "output_page": 21,
+      "text": "•\t Immer hungrig und müde, wirkt deshalb immer \nultra genervt\n•\t Stalkt besser als das FBI\n•\t Malt immer alle seine Hefte und Blätter an"
+    },
+    {
+      "kind": "profile",
+      "source_page": 11,
+      "output_page": 22,
+      "text": "Anastasija Mededa"
+    },
+    {
+      "kind": "profile",
+      "source_page": 11,
+      "output_page": 22,
+      "text": "Wohnt in Velburg\nGeboren am 21.3.2002\nNach dem Abschluss: Zahnärztin oder Bio - Chemike­\nrin (Wissenschaftlerin)\nWill in der Zukunft: Sich selbst entwickeln und nie­\nmals aufgeben"
+    },
+    {
+      "kind": "profile",
+      "source_page": 11,
+      "output_page": 22,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 11,
+      "output_page": 22,
+      "text": "•\t Mein Dinosaurier 🦖♥️\n•\t Besser in Chemie als Pirzer\n•\t Mit Abstand die schönste Schrift der Klasse"
+    },
+    {
+      "kind": "profile",
+      "source_page": 12,
+      "output_page": 23,
+      "text": "Dominik Rappl\n„Domi“"
+    },
+    {
+      "kind": "profile",
+      "source_page": 12,
+      "output_page": 23,
+      "text": "Wohnt in Laaber\nGeboren am 1.4.2004\nNach dem Abschluss: Ausbildung: Mechatroniker\nWill in der Zukunft: Familie, Gesundheit und eine \neigene Tuning-Werkstatt"
+    },
+    {
+      "kind": "profile",
+      "source_page": 12,
+      "output_page": 23,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 12,
+      "output_page": 23,
+      "text": "•\t Autofreak\n•\t Liebt MTB‘s\n•\t Verliert beim Kickern immer gegen Vincent"
+    },
+    {
+      "kind": "profile",
+      "source_page": 12,
+      "output_page": 24,
+      "text": "Moritz Rothfischer\n„Mo“"
+    },
+    {
+      "kind": "profile",
+      "source_page": 12,
+      "output_page": 24,
+      "text": "Wohnt in Deuerling\nGeboren am 16.4.2003\nNach dem Abschluss: FOS"
+    },
+    {
+      "kind": "profile",
+      "source_page": 12,
+      "output_page": 24,
+      "text": "Will in der Zukunft: Die FOS schaffen"
+    },
+    {
+      "kind": "profile",
+      "source_page": 12,
+      "output_page": 24,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 12,
+      "output_page": 24,
+      "text": "•\t Braucht immer Geld für den Nachmittagsunter­\nricht\n•\t Nimmt gerne Tipp-Ex von anderen\n•\t Macht nie seine Englisch-Hausaufgaben"
+    },
+    {
+      "kind": "profile",
+      "source_page": 13,
+      "output_page": 25,
+      "text": "Johanna Saake\n„Jojo“"
+    },
+    {
+      "kind": "profile",
+      "source_page": 13,
+      "output_page": 25,
+      "text": "Wohnt in Parsberg\nGeboren am 21.10.2003\nNach dem Abschluss: Ausbildung zur Krankenpflege­\nrin und FOS\nWill in der Zukunft: Fröhlich sein, heiraten, große Fa­\nmilie, Kind bleiben, besser Gitarre \nspielen (: Humor behalten, Theater \nspielen und in einer Band singen"
+    },
+    {
+      "kind": "profile",
+      "source_page": 13,
+      "output_page": 25,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 13,
+      "output_page": 25,
+      "text": "•\t Singt pausenlos (oft Kinderlieder)\n•\t Ist verrückt und lebt manchmal woanders\n•\t Niest wie ein Nilpferd"
+    },
+    {
+      "kind": "profile",
+      "source_page": 13,
+      "output_page": 26,
+      "text": "Louis Scherübl\n„Scherübl“"
+    },
+    {
+      "kind": "profile",
+      "source_page": 13,
+      "output_page": 26,
+      "text": "Wohnt in Batzhausen\nGeboren am 20.1.2004\nNach dem Abschluss: Anlagenmechaniker"
+    },
+    {
+      "kind": "profile",
+      "source_page": 13,
+      "output_page": 26,
+      "text": "Will in der Zukunft: Gesundheit, Familie, Haus"
+    },
+    {
+      "kind": "profile",
+      "source_page": 13,
+      "output_page": 26,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 13,
+      "output_page": 26,
+      "text": "•\t Versteht sich gut mit Lehrern\n•\t „Bester Leser“\n•\t Hat immer freshe Klamotten an"
+    },
+    {
+      "kind": "profile",
+      "source_page": 14,
+      "output_page": 27,
+      "text": "Lilli Schön\n„Lillllllli“"
+    },
+    {
+      "kind": "profile",
+      "source_page": 14,
+      "output_page": 27,
+      "text": "Wohnt in Herrnried\nGeboren am 2.6.2004\nNach dem Abschluss: FOS Regensburg\nWill in der Zukunft: Per Anhalter durch Europa reisen, \netwas in der Welt bewegen"
+    },
+    {
+      "kind": "profile",
+      "source_page": 14,
+      "output_page": 27,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 14,
+      "output_page": 27,
+      "text": "•\t Hört seeeeehr schlecht\n•\t Wohnt eigentlich bei Jojo\n•\t Steht auf (Einfühlungs-)Vermögen"
+    },
+    {
+      "kind": "profile",
+      "source_page": 14,
+      "output_page": 28,
+      "text": "Gabriel Schreiner\n„Gabs“"
+    },
+    {
+      "kind": "profile",
+      "source_page": 14,
+      "output_page": 28,
+      "text": "Wohnt in Waldetzenberg\nGeboren am 9.5.2004\nNach dem Abschluss: FOS"
+    },
+    {
+      "kind": "profile",
+      "source_page": 14,
+      "output_page": 28,
+      "text": "Will in der Zukunft: Einen guten Job"
+    },
+    {
+      "kind": "profile",
+      "source_page": 14,
+      "output_page": 28,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 14,
+      "output_page": 28,
+      "text": "•\t Brett\n•\t Kloana suffkopf\n•\t Sagt, dass er diesmal nicht so viel trinkt"
+    },
+    {
+      "kind": "profile",
+      "source_page": 15,
+      "output_page": 29,
+      "text": "Dominik Söllner\n„Domi“"
+    },
+    {
+      "kind": "profile",
+      "source_page": 15,
+      "output_page": 29,
+      "text": "Wohnt in Hohenfels\nGeboren am 11.9.2004\nNach dem Abschluss: Verwaltungsfachangestellter"
+    },
+    {
+      "kind": "profile",
+      "source_page": 15,
+      "output_page": 29,
+      "text": "Will in der Zukunft: Langes und erfülltes Leben"
+    },
+    {
+      "kind": "profile",
+      "source_page": 15,
+      "output_page": 29,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 15,
+      "output_page": 29,
+      "text": "•\t Kennt Bayern besser als sich selbst\n•\t IT - „Experte“\n•\t Hat nie Bücher dabei"
+    },
+    {
+      "kind": "profile",
+      "source_page": 15,
+      "output_page": 30,
+      "text": "Michael Stigler\n„Michi“"
+    },
+    {
+      "kind": "profile",
+      "source_page": 15,
+      "output_page": 30,
+      "text": "Wohnt in Harenzhofen\nGeboren am 11.10.2004\nNach dem Abschluss: Landwirt"
+    },
+    {
+      "kind": "profile",
+      "source_page": 15,
+      "output_page": 30,
+      "text": "Will in der Zukunft: Eigener Hof"
+    },
+    {
+      "kind": "profile",
+      "source_page": 15,
+      "output_page": 30,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 15,
+      "output_page": 30,
+      "text": "•\t Essen\n•\t Immer gut drauf\n•\t Bester Freund vom Konradin"
+    },
+    {
+      "kind": "profile",
+      "source_page": 16,
+      "output_page": 31,
+      "text": "Sabrina Uhlich\n„Sabi“"
+    },
+    {
+      "kind": "profile",
+      "source_page": 16,
+      "output_page": 31,
+      "text": "Wohnt in Kemnathen\nGeboren am 17.5.2004\nNach dem Abschluss: Maskenbildnerin\nWill in der Zukunft: In eine große Stadt ziehen und \neinen erfolgreichen Job haben und ein Haustier kau­\nfen"
+    },
+    {
+      "kind": "profile",
+      "source_page": 16,
+      "output_page": 31,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 16,
+      "output_page": 31,
+      "text": "•\t Die „Neue“\n•\t Trotz Mathezweig zu dumm fürs Einmaleins\n•\t Lacht und kann dann nicht mehr aufhören"
+    },
+    {
+      "kind": "profile",
+      "source_page": 16,
+      "output_page": 32,
+      "text": "Tim Wiedermann"
+    },
+    {
+      "kind": "profile",
+      "source_page": 16,
+      "output_page": 32,
+      "text": "Wohnt in Diesenhof\nGeboren am 29.11.2003\nNach dem Abschluss: Nutzfahrzeugmechaniker"
+    },
+    {
+      "kind": "profile",
+      "source_page": 16,
+      "output_page": 32,
+      "text": "Will in der Zukunft: Gesundheit, lustige Kollegen"
+    },
+    {
+      "kind": "profile",
+      "source_page": 16,
+      "output_page": 32,
+      "text": "Typische Eigenschaften:"
+    },
+    {
+      "kind": "profile",
+      "source_page": 16,
+      "output_page": 32,
+      "text": "•\t Kommt immer zu spät zu vereinbarten Treff­\npunkten\n•\t Erzählt viel über seine Maschinen\n•\t Sagt, was er denkt"
+    },
+    {
+      "kind": "teacher-name",
+      "source_page": 26,
+      "output_page": 44,
+      "text": "Frau Bullard:"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 26,
+      "output_page": 44,
+      "text": "\tKoffeinabhängig\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 26,
+      "output_page": 44,
+      "text": "\tMicheal, Horny, Simon (englisch ausge­\nsprochen)\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 26,
+      "output_page": 44,
+      "text": "\tBesitzt mindestens 300 Brillen und 20 \nPaar Schuhe für jedes Outfit\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 26,
+      "output_page": 44,
+      "text": "\tGeht 5 Stunden „kopieren“\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 26,
+      "output_page": 44,
+      "text": "\tFackelt gern ihre Mikrowelle mit Masken \nab\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 26,
+      "output_page": 44,
+      "text": "\tHat behauptet, dass sie ein Hausschwein \nhat\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 26,
+      "output_page": 44,
+      "text": "\tHat im Speaking Test ne entspannende \nWirkung\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 26,
+      "output_page": 44,
+      "text": "\tIst auf Abschlussfahrt gechillt und lässt \nuns unseren Freiraum"
+    },
+    {
+      "kind": "teacher-name",
+      "source_page": 26,
+      "output_page": 45,
+      "text": "Herr Schönberger:"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 26,
+      "output_page": 45,
+      "text": "\tSagt jedes Jahr, dass dies das schwerste \nwird\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 26,
+      "output_page": 45,
+      "text": "\tLacht, wenn Aufgaben schwer sind\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 26,
+      "output_page": 45,
+      "text": "\t„Wenn’s ihr des net kinnst, holt eich der \nTeifel“\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 26,
+      "output_page": 45,
+      "text": "\tMacht langweilige Themen spaßig\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 26,
+      "output_page": 45,
+      "text": "\tErstellt Schulaufgaben mit Anwalt\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 26,
+      "output_page": 45,
+      "text": "\t„So schafft ihr die nächste Jahrgangs­\nstufe niad“\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 26,
+      "output_page": 45,
+      "text": "\tVerflucht die Autoren des Mathebuchs\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 26,
+      "output_page": 45,
+      "text": "\tSchuldet uns noch eine Klassenfahrt"
+    },
+    {
+      "kind": "teacher-name",
+      "source_page": 27,
+      "output_page": 46,
+      "text": "Herr Götz:"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 27,
+      "output_page": 46,
+      "text": "\tIst immer gut gelaunt\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 27,
+      "output_page": 46,
+      "text": "\tLacht immer \n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 27,
+      "output_page": 46,
+      "text": "\tWill nur das Beste für uns\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 27,
+      "output_page": 46,
+      "text": "\tBleibt sogar nachmittags für uns da\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 27,
+      "output_page": 46,
+      "text": "\tErklärt‘s so lange, bis es selbst der Letz­\nte checkt\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 27,
+      "output_page": 46,
+      "text": "\tMacht beim Denken die Augen zu. \n(Denkt vielleicht besser, wenn er uns \nnicht sieht)\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 27,
+      "output_page": 46,
+      "text": "\tSchaut gequält, wenn wir ihn inkompe­\ntent begrüßen\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 27,
+      "output_page": 46,
+      "text": "\tZerstört Physikmaterialien und setzt \nden Pyhsiksaal unter Wasser\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 27,
+      "output_page": 46,
+      "text": "\tWahrscheinlich Cyborg\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 27,
+      "output_page": 46,
+      "text": "\tBringt uns Krapfen mit, weil wir zu in­\nkompetent für Elektromotoren waren\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 27,
+      "output_page": 46,
+      "text": "\tFlambiert seine Armhaare\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 27,
+      "output_page": 46,
+      "text": "\t„Wer nicht leise ist, muss am radioaktiven Präparat lutschen“\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 27,
+      "output_page": 46,
+      "text": "\tEr ist nicht sauer, sondern enttäuscht, was irgendwie viel mehr \nweh tut"
+    },
+    {
+      "kind": "teacher-name",
+      "source_page": 27,
+      "output_page": 47,
+      "text": "Herr Hippe:"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 27,
+      "output_page": 47,
+      "text": "\tSticht ohne Bart nicht aus einer Fünft­\nklässler-Gruppe heraus\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 27,
+      "output_page": 47,
+      "text": "\tHat bestimmt schon tausend Fehler in \nder Zeitung gefunden\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 27,
+      "output_page": 47,
+      "text": "\tIst immer pünktlich\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 27,
+      "output_page": 47,
+      "text": "\tTrägt nur Tommy Hilfiger\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 27,
+      "output_page": 47,
+      "text": "\tSchaut Wendler-Videos mit uns an\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 27,
+      "output_page": 47,
+      "text": "\tLäuft immer vor und zurück. (Wir lösen \nmöglicherweise Stresszustände aus)\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 27,
+      "output_page": 47,
+      "text": "\tGibt gute Rückmeldung für Aufsätze\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 27,
+      "output_page": 47,
+      "text": "\tKorrigiert Aufsätze sogar in seiner Frei­\nzeit\n"
+    },
+    {
+      "kind": "teacher-trait",
+      "source_page": 27,
+      "output_page": 47,
+      "text": "\tVergisst andauernd seine eigene E-Mail-\nAdresse"
+    },
+    {
+      "kind": "quote",
+      "source_page": 28,
+      "output_page": 48,
+      "text": "Frau Bullard: „Moritz, mein Sohn...“\nFrau Bullard: „Ich bin nicht deine Mami“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 28,
+      "output_page": 48,
+      "text": "Herr Buckow: „Die meisten von euch werden auch mal im Ausland ar­\nbeiten... außer der Stigler, der stirbt vorher“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 28,
+      "output_page": 48,
+      "text": "Emila: „Darf die Eva an Joghurt essen, weil sie hat gestern ihre Spange \ngekriegt?“\nHerr Hippe: „Aber nur wenn sie nicht kleckert“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 28,
+      "output_page": 48,
+      "text": "Johanna zu Lilli: *Sagt irgendwas* \nLilli: „Was?“\nJohanna: „Du brauchst echt a Hörgerät“\nLilli: „Was?“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 28,
+      "output_page": 48,
+      "text": "Johanna: *Steht im Mülleimer vor dem Lehrerzimmer, keiner bemerkt sie*"
+    },
+    {
+      "kind": "quote",
+      "source_page": 28,
+      "output_page": 48,
+      "text": "Manu, Isabell, Anna und Emilia: *Reden über Sternzeichen* \nIsabell zu Anna: „Was seid ihr eigentlich für ein Sternzeichen?“ \nAnna: „Widder“\nManu zu Emilia: „Und du?“\nEmilia: „Bist du dumm?“ (Sind Zwillinge)"
+    },
+    {
+      "kind": "quote",
+      "source_page": 28,
+      "output_page": 48,
+      "text": "Tim antwortet in Erdkunde-Ex: „Sovjet-Ion“ (sollte Sowjetunion heißen)"
+    },
+    {
+      "kind": "quote",
+      "source_page": 28,
+      "output_page": 48,
+      "text": "Tim über Michi: „Wenn da Stigler mit o pakt is des, wie wenn zwoa los­\nlassen“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 28,
+      "output_page": 48,
+      "text": "Herr Götz: „Wenn man mit einem spitzen Messer auf die Haut drückt, \nmit demselben Druck wie mit einem breiten Gegenstand, dann fühlt es \nsich nach mehr Druck an... Da kann man übrigens ganz schöne Schüler­\nversuche machen“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 28,
+      "output_page": 48,
+      "text": "Frau Fitas zu Leander: „Leander, wenn du schon in der Ex abschreibst, \ndann pass wenigstens auf.“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 28,
+      "output_page": 49,
+      "text": "Marcel, Moritz und Gabs: *Reden* \nFrau Bullard: „Marcel, du musst jetzt keinen Stuhlkreis bilden“\n- etwas später-\nLilli: „Eigentlich besteht ja ein Kreis nicht aus drei Personen...“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 29,
+      "output_page": 49,
+      "text": "Frau Bullard: „Wir fahren auf jeden Fall nicht ans Wasser, weil wir dann \neinen Sportlehrer brauchen.“\nAlexander: „Wie wärs dann mit Nord- oder Ostsee?“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 29,
+      "output_page": 49,
+      "text": "Lilli rechnet: „1000-50=995“ (Das passiert, wenn man um halb 12 Haus­\naufgaben macht)"
+    },
+    {
+      "kind": "quote",
+      "source_page": 29,
+      "output_page": 49,
+      "text": "Herr Götz: *Berührt einen heißen Gegenstand*\nWieder Herr Götz: „Das dürft ihr nicht anfassen, das wird sehr heiß“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 29,
+      "output_page": 49,
+      "text": "Frau Bullard in Englisch: „Becki, was heißt Grundschulausbildung?“ \nBecki: „basement-schooltraining“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 29,
+      "output_page": 49,
+      "text": "Leander: „Ich find, in Chemiesälen ist‘s immer so ... voller Chemie“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 29,
+      "output_page": 49,
+      "text": "Eva: „Kommt in der Schulaufgabe kein behinderter Winkelscheiß dran?“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 29,
+      "output_page": 49,
+      "text": "Moritz: *Schreibt zur Kategorie Vögel Marcel hin* \nFrau Bullard: „Ja, das ist ein richtiger Vogel“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 29,
+      "output_page": 49,
+      "text": "Eric: *Klopft mit dem Stift auf den Tisch*\nFrau Bullard: „Eric, nimm deine Tableten!“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 29,
+      "output_page": 49,
+      "text": "Frau Bullard: *schreibt einen Vokabeltest*\nFrau Bullard: „Jonas hat‘s richtig“\nAlle: *Klatschen*\nFrau Bullard: „Ne Leute, des akzeptiere ich nicht! Ihr lasst alle an Jonas \nin Ruhe“\nJonas: „Ja, ich fühl mich schon richtig gemobbt“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 29,
+      "output_page": 49,
+      "text": "Herr Götz: „Leute mit Herzschrittmacher haben keinen Indunktions­\nherd zuhause... Zumindest nicht lange“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 29,
+      "output_page": 50,
+      "text": "Herr Schönberger: *Will die Aufgabe erklären*\nMoritz: *Haut Gabs mit einem Stift unter der Bank auf die Hand*\nHerr Schönberger: „Könnt ihr mal bitte aufhören, rum zu schwulen? \nDanke.“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 29,
+      "output_page": 50,
+      "text": "Frau Pirzer: *Fragt Louis aus*\nLouis: *Sagt nichts*\nFrau Pirzer: „Redest du nicht mit mir?“\nLouis: „Na“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 30,
+      "output_page": 50,
+      "text": "Alex: *Trägt Sonnenbrille*\nFrau Fitas: *Beschwert sich*\nAlex: „Ich versteh Sie nicht, zu dunkel... hätten Sie heller gesprochen, \nhätte ich Sie gehört.“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 30,
+      "output_page": 50,
+      "text": "Tim: „Schaut mal, wen ich mitgebracht habe: Unseren Sonnenschein“\nFrau Lichtenegger: *Kommt im gelben T-shirt rein und schaut böse*"
+    },
+    {
+      "kind": "quote",
+      "source_page": 30,
+      "output_page": 50,
+      "text": "Moritz: „Ich hätte gedacht, die binomische Formel gibt es nur mit x“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 30,
+      "output_page": 50,
+      "text": "Lehrerin: *Kommt rein*\nLehrerin: „Könnt ihr das Listening auch leiser machen? Wir schreiben \ngerade Englisch-Schulaufgabe“\nFrau Bullard: „Ja, klar.“\nLehrerin: *Bedankt sich und geht*\nFrau Bullard: „Wer war das?“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 30,
+      "output_page": 50,
+      "text": "Frau Bullard: „Manuel! Pay attention!“\nManuel: „Was mach ich na?“\nFrau Bullard: „Schau ned so“\nManuel: „Ja, soll ich die Augen zu machen oder was?“\nManuel: *Macht die Augen zu*\nFrau Bullard: „Manuel, mach die Augen auf!“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 30,
+      "output_page": 50,
+      "text": "Frau Bullard: *Ruft Tim zum lesen auf*\nTim: „Wolln Sie nicht wen aufrufen, der Lesen kann?“\nFrau Bullard: „Dann müsste ich in eine andere Klasse gehen.“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 30,
+      "output_page": 50,
+      "text": "Herr Schönberger: *Erklärt, wie man am Taschenrechner Sinus im Bo­\ngenmaß eingibt und einstellt* „Oben steht ‚D‘ für degree, er meint, es \nmuss auf ‚R‘ umgestellt werden“\nHerr Schönberger: „Das ‚D‘ steht nicht für Deutschland“\nTim: „‚R‘ wie Radler“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 30,
+      "output_page": 51,
+      "text": "Frau Bullard: „It‘s serious.“\nJohanna: *singt* „Why so serious, why so serious“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 30,
+      "output_page": 51,
+      "text": "Herr Gibis: „Jetzt drückst du die Entertaste.“\nJohanna: „Wo ist die?“"
+    },
+    {
+      "kind": "quote",
+      "source_page": 30,
+      "output_page": 51,
+      "text": "*Zu Coronazeiten*\n*Alle Schüler sitzen*\nHerr Hippe: *Erklärt Söllner etwas an seinem Platz*\nLehrerin: *Kommt rein* „Alle auf die Plätze!“ (An Herr Hippe gerichtet)"
+    }
+  ],
+  "photos": [
+    {
+      "id": "cover-composition",
+      "source_page": 1,
+      "source_bbox": [
+        24.285,
+        180.0446,
+        571.485,
+        609.1823
+      ],
+      "output_page": 1
+    },
+    {
+      "id": "Manuel Axinger: portrait",
+      "source_page": 2,
+      "source_bbox": [
+        53.82025146484375,
+        53.717041015625,
+        178.23800659179688,
+        240.52001953125
+      ],
+      "output_page": 3
+    },
+    {
+      "id": "Manuel Axinger: childhood",
+      "source_page": 2,
+      "source_bbox": [
+        424.2869873046875,
+        215.98326110839844,
+        541.5579833984375,
+        391.8900146484375
+      ],
+      "output_page": 3
+    },
+    {
+      "id": "Anna Bauer: portrait",
+      "source_page": 2,
+      "source_bbox": [
+        53.71699905395508,
+        449.9825439453125,
+        178.23800659179688,
+        636.7750244140625
+      ],
+      "output_page": 4
+    },
+    {
+      "id": "Anna Bauer: childhood",
+      "source_page": 2,
+      "source_bbox": [
+        424.2869873046875,
+        612.239013671875,
+        541.5579833984375,
+        788.14599609375
+      ],
+      "output_page": 4
+    },
+    {
+      "id": "Emilia Bauer: portrait",
+      "source_page": 3,
+      "source_bbox": [
+        53.71699905395508,
+        53.717041015625,
+        178.23800659179688,
+        240.52001953125
+      ],
+      "output_page": 5
+    },
+    {
+      "id": "Emilia Bauer: childhood",
+      "source_page": 3,
+      "source_bbox": [
+        424.2869873046875,
+        215.9832763671875,
+        541.5579833984375,
+        391.8900146484375
+      ],
+      "output_page": 5
+    },
+    {
+      "id": "Felix Beckstein: portrait",
+      "source_page": 3,
+      "source_bbox": [
+        53.7599983215332,
+        449.9720153808594,
+        178.23800659179688,
+        636.7750244140625
+      ],
+      "output_page": 6
+    },
+    {
+      "id": "Felix Beckstein: childhood",
+      "source_page": 3,
+      "source_bbox": [
+        424.2869873046875,
+        612.239013671875,
+        541.5579833984375,
+        788.14599609375
+      ],
+      "output_page": 6
+    },
+    {
+      "id": "Vincent Bergler: portrait",
+      "source_page": 4,
+      "source_bbox": [
+        53.7564697265625,
+        53.717041015625,
+        178.23800659179688,
+        240.52001953125
+      ],
+      "output_page": 7
+    },
+    {
+      "id": "Vincent Bergler: childhood",
+      "source_page": 4,
+      "source_bbox": [
+        424.2869873046875,
+        215.9830322265625,
+        541.5579833984375,
+        391.8900146484375
+      ],
+      "output_page": 7
+    },
+    {
+      "id": "Johannes Bullok: portrait",
+      "source_page": 4,
+      "source_bbox": [
+        53.71699905395508,
+        449.9825439453125,
+        178.23800659179688,
+        636.7750244140625
+      ],
+      "output_page": 8
+    },
+    {
+      "id": "Johannes Bullok: childhood",
+      "source_page": 4,
+      "source_bbox": [
+        424.2869873046875,
+        612.239013671875,
+        541.5579833984375,
+        788.14599609375
+      ],
+      "output_page": 8
+    },
+    {
+      "id": "Eric Danner: portrait",
+      "source_page": 5,
+      "source_bbox": [
+        53.71699905395508,
+        53.72802734375,
+        178.23800659179688,
+        240.52001953125
+      ],
+      "output_page": 9
+    },
+    {
+      "id": "Eric Danner: childhood",
+      "source_page": 5,
+      "source_bbox": [
+        424.2869873046875,
+        215.9832763671875,
+        541.5579833984375,
+        391.8900146484375
+      ],
+      "output_page": 9
+    },
+    {
+      "id": "Simon Dirigl: portrait",
+      "source_page": 5,
+      "source_bbox": [
+        53.71699905395508,
+        449.9825134277344,
+        178.23800659179688,
+        636.7750244140625
+      ],
+      "output_page": 10
+    },
+    {
+      "id": "Simon Dirigl: childhood",
+      "source_page": 5,
+      "source_bbox": [
+        424.2869873046875,
+        612.239013671875,
+        541.5579833984375,
+        788.14599609375
+      ],
+      "output_page": 10
+    },
+    {
+      "id": "Jonas Dürr: portrait",
+      "source_page": 6,
+      "source_bbox": [
+        53.71699905395508,
+        53.717041015625,
+        178.23800659179688,
+        240.52001953125
+      ],
+      "output_page": 11
+    },
+    {
+      "id": "Jonas Dürr: childhood",
+      "source_page": 6,
+      "source_bbox": [
+        424.2869873046875,
+        215.98329162597656,
+        541.5579833984375,
+        391.8900146484375
+      ],
+      "output_page": 11
+    },
+    {
+      "id": "Steven Feldbusch: portrait",
+      "source_page": 6,
+      "source_bbox": [
+        53.71699905395508,
+        449.9720153808594,
+        178.23800659179688,
+        636.7750244140625
+      ],
+      "output_page": 12
+    },
+    {
+      "id": "Steven Feldbusch: childhood",
+      "source_page": 6,
+      "source_bbox": [
+        424.2869873046875,
+        612.239013671875,
+        541.5579833984375,
+        788.14599609375
+      ],
+      "output_page": 12
+    },
+    {
+      "id": "Marcel Georgi: portrait",
+      "source_page": 7,
+      "source_bbox": [
+        53.71699905395508,
+        53.717041015625,
+        178.23800659179688,
+        240.52001953125
+      ],
+      "output_page": 13
+    },
+    {
+      "id": "Marcel Georgi: childhood",
+      "source_page": 7,
+      "source_bbox": [
+        424.2869873046875,
+        215.98329162597656,
+        541.5579833984375,
+        391.8900146484375
+      ],
+      "output_page": 13
+    },
+    {
+      "id": "Lena Girg: portrait",
+      "source_page": 7,
+      "source_bbox": [
+        53.76458740234375,
+        449.9720153808594,
+        178.23800659179688,
+        636.7750244140625
+      ],
+      "output_page": 14
+    },
+    {
+      "id": "Lena Girg: childhood",
+      "source_page": 7,
+      "source_bbox": [
+        424.2869873046875,
+        612.239013671875,
+        541.5579833984375,
+        788.14599609375
+      ],
+      "output_page": 14
+    },
+    {
+      "id": "Alexander Horner: portrait",
+      "source_page": 8,
+      "source_bbox": [
+        53.71699905395508,
+        53.717041015625,
+        178.23800659179688,
+        240.52001953125
+      ],
+      "output_page": 15
+    },
+    {
+      "id": "Alexander Horner: childhood",
+      "source_page": 8,
+      "source_bbox": [
+        424.2869873046875,
+        215.9832763671875,
+        541.5579833984375,
+        391.8900146484375
+      ],
+      "output_page": 15
+    },
+    {
+      "id": "Lena Ihlow: portrait",
+      "source_page": 8,
+      "source_bbox": [
+        53.7552490234375,
+        449.9720153808594,
+        178.23800659179688,
+        636.7750244140625
+      ],
+      "output_page": 16
+    },
+    {
+      "id": "Lena Ihlow: childhood",
+      "source_page": 8,
+      "source_bbox": [
+        424.3392333984375,
+        612.239013671875,
+        541.5579833984375,
+        788.14599609375
+      ],
+      "output_page": 16
+    },
+    {
+      "id": "Eva Kerstensteiner: portrait",
+      "source_page": 9,
+      "source_bbox": [
+        53.7713623046875,
+        53.717041015625,
+        178.23800659179688,
+        240.52001953125
+      ],
+      "output_page": 17
+    },
+    {
+      "id": "Eva Kerstensteiner: childhood",
+      "source_page": 9,
+      "source_bbox": [
+        424.2869873046875,
+        215.9832763671875,
+        541.5579833984375,
+        391.8900146484375
+      ],
+      "output_page": 17
+    },
+    {
+      "id": "Felix Koller: portrait",
+      "source_page": 9,
+      "source_bbox": [
+        53.82025146484375,
+        449.9720153808594,
+        178.23800659179688,
+        636.7750244140625
+      ],
+      "output_page": 18
+    },
+    {
+      "id": "Felix Koller: childhood",
+      "source_page": 9,
+      "source_bbox": [
+        424.2869873046875,
+        612.239013671875,
+        541.5579833984375,
+        788.14599609375
+      ],
+      "output_page": 18
+    },
+    {
+      "id": "Dominik Kudaschow: portrait",
+      "source_page": 10,
+      "source_bbox": [
+        53.76100158691406,
+        53.717041015625,
+        178.23800659179688,
+        240.52001953125
+      ],
+      "output_page": 19
+    },
+    {
+      "id": "Dominik Kudaschow: childhood",
+      "source_page": 10,
+      "source_bbox": [
+        424.2869873046875,
+        215.9830322265625,
+        541.5579833984375,
+        391.8900146484375
+      ],
+      "output_page": 19
+    },
+    {
+      "id": "Isabell Lang: portrait",
+      "source_page": 10,
+      "source_bbox": [
+        53.7662353515625,
+        449.9720153808594,
+        178.23800659179688,
+        636.7750244140625
+      ],
+      "output_page": 20
+    },
+    {
+      "id": "Isabell Lang: childhood",
+      "source_page": 10,
+      "source_bbox": [
+        424.3260498046875,
+        612.239013671875,
+        541.5579833984375,
+        788.14599609375
+      ],
+      "output_page": 20
+    },
+    {
+      "id": "Leander Lutter: portrait",
+      "source_page": 11,
+      "source_bbox": [
+        53.82025146484375,
+        53.717041015625,
+        178.23800659179688,
+        240.52001953125
+      ],
+      "output_page": 21
+    },
+    {
+      "id": "Leander Lutter: childhood",
+      "source_page": 11,
+      "source_bbox": [
+        424.322021484375,
+        215.98329162597656,
+        541.5579833984375,
+        391.8900146484375
+      ],
+      "output_page": 21
+    },
+    {
+      "id": "Anastasija Mededa: portrait",
+      "source_page": 11,
+      "source_bbox": [
+        53.71699905395508,
+        449.9825439453125,
+        178.23800659179688,
+        636.7750244140625
+      ],
+      "output_page": 22
+    },
+    {
+      "id": "Anastasija Mededa: childhood",
+      "source_page": 11,
+      "source_bbox": [
+        424.2869873046875,
+        612.239013671875,
+        541.5579833984375,
+        788.14599609375
+      ],
+      "output_page": 22
+    },
+    {
+      "id": "Dominik Rappl: portrait",
+      "source_page": 12,
+      "source_bbox": [
+        53.71699905395508,
+        53.72802734375,
+        178.23800659179688,
+        240.52001953125
+      ],
+      "output_page": 23
+    },
+    {
+      "id": "Dominik Rappl: childhood",
+      "source_page": 12,
+      "source_bbox": [
+        424.2869873046875,
+        215.98326110839844,
+        541.5579833984375,
+        391.8900146484375
+      ],
+      "output_page": 23
+    },
+    {
+      "id": "Moritz Rothfischer: portrait",
+      "source_page": 12,
+      "source_bbox": [
+        53.71699905395508,
+        449.9720153808594,
+        178.23800659179688,
+        636.7750244140625
+      ],
+      "output_page": 24
+    },
+    {
+      "id": "Moritz Rothfischer: childhood",
+      "source_page": 12,
+      "source_bbox": [
+        424.2869873046875,
+        612.239013671875,
+        541.5579833984375,
+        788.14599609375
+      ],
+      "output_page": 24
+    },
+    {
+      "id": "Johanna Saake: portrait",
+      "source_page": 13,
+      "source_bbox": [
+        53.7642822265625,
+        53.717041015625,
+        178.23800659179688,
+        240.52001953125
+      ],
+      "output_page": 25
+    },
+    {
+      "id": "Johanna Saake: childhood",
+      "source_page": 13,
+      "source_bbox": [
+        424.3380126953125,
+        215.9830322265625,
+        541.5579833984375,
+        391.8900146484375
+      ],
+      "output_page": 25
+    },
+    {
+      "id": "Louis Scherübl: portrait",
+      "source_page": 13,
+      "source_bbox": [
+        53.71699905395508,
+        449.9825439453125,
+        178.23800659179688,
+        636.7750244140625
+      ],
+      "output_page": 26
+    },
+    {
+      "id": "Louis Scherübl: childhood",
+      "source_page": 13,
+      "source_bbox": [
+        424.2869873046875,
+        612.239013671875,
+        541.5579833984375,
+        788.14599609375
+      ],
+      "output_page": 26
+    },
+    {
+      "id": "Lilli Schön: portrait",
+      "source_page": 14,
+      "source_bbox": [
+        53.82099914550781,
+        53.717041015625,
+        178.23800659179688,
+        240.52001953125
+      ],
+      "output_page": 27
+    },
+    {
+      "id": "Lilli Schön: childhood",
+      "source_page": 14,
+      "source_bbox": [
+        424.2869873046875,
+        215.9832763671875,
+        541.5579833984375,
+        391.8900146484375
+      ],
+      "output_page": 27
+    },
+    {
+      "id": "Gabriel Schreiner: portrait",
+      "source_page": 14,
+      "source_bbox": [
+        53.73541259765625,
+        449.9720153808594,
+        178.23800659179688,
+        636.7750244140625
+      ],
+      "output_page": 28
+    },
+    {
+      "id": "Gabriel Schreiner: childhood",
+      "source_page": 14,
+      "source_bbox": [
+        424.2869873046875,
+        612.239013671875,
+        541.5579833984375,
+        788.14599609375
+      ],
+      "output_page": 28
+    },
+    {
+      "id": "Dominik Söllner: portrait",
+      "source_page": 15,
+      "source_bbox": [
+        53.71699905395508,
+        53.72802734375,
+        178.23800659179688,
+        240.52001953125
+      ],
+      "output_page": 29
+    },
+    {
+      "id": "Dominik Söllner: childhood",
+      "source_page": 15,
+      "source_bbox": [
+        424.2869873046875,
+        215.9832763671875,
+        541.5579833984375,
+        391.8900146484375
+      ],
+      "output_page": 29
+    },
+    {
+      "id": "Michael Stigler: portrait",
+      "source_page": 15,
+      "source_bbox": [
+        53.71699905395508,
+        449.9720153808594,
+        178.23800659179688,
+        636.7750244140625
+      ],
+      "output_page": 30
+    },
+    {
+      "id": "Michael Stigler: childhood",
+      "source_page": 15,
+      "source_bbox": [
+        424.2869873046875,
+        612.239013671875,
+        541.5579833984375,
+        788.14599609375
+      ],
+      "output_page": 30
+    },
+    {
+      "id": "Sabrina Uhlich: portrait",
+      "source_page": 16,
+      "source_bbox": [
+        53.71699905395508,
+        53.717041015625,
+        178.23800659179688,
+        240.52001953125
+      ],
+      "output_page": 31
+    },
+    {
+      "id": "Sabrina Uhlich: childhood",
+      "source_page": 16,
+      "source_bbox": [
+        424.2869873046875,
+        215.98326110839844,
+        541.5579833984375,
+        391.8900146484375
+      ],
+      "output_page": 31
+    },
+    {
+      "id": "Tim Wiedermann: portrait",
+      "source_page": 16,
+      "source_bbox": [
+        53.736083984375,
+        449.9720153808594,
+        178.23800659179688,
+        636.7750244140625
+      ],
+      "output_page": 32
+    },
+    {
+      "id": "Tim Wiedermann: childhood",
+      "source_page": 16,
+      "source_bbox": [
+        424.2869873046875,
+        612.239013671875,
+        541.5579833984375,
+        788.14599609375
+      ],
+      "output_page": 32
+    },
+    {
+      "id": "chapter-preview",
+      "source_page": 17,
+      "source_bbox": [
+        36.0,
+        36.000244140625,
+        559.2750244140625,
+        384.8500061035156
+      ],
+      "output_page": 33
+    },
+    {
+      "id": "memory-17-1",
+      "source_page": 17,
+      "source_bbox": [
+        36.0,
+        36.000244140625,
+        559.2750244140625,
+        384.8500061035156
+      ],
+      "output_page": 34
+    },
+    {
+      "id": "memory-17-2",
+      "source_page": 17,
+      "source_bbox": [
+        36.0,
+        413.9770202636719,
+        559.2750244140625,
+        806.433349609375
+      ],
+      "output_page": 34
+    },
+    {
+      "id": "memory-18-1",
+      "source_page": 18,
+      "source_bbox": [
+        36.0,
+        36.000244140625,
+        297.6377868652344,
+        384.8500061035156
+      ],
+      "output_page": 35
+    },
+    {
+      "id": "memory-18-2",
+      "source_page": 18,
+      "source_bbox": [
+        331.65399169921875,
+        36.0,
+        559.2750244140625,
+        384.8500061035156
+      ],
+      "output_page": 35
+    },
+    {
+      "id": "memory-18-3",
+      "source_page": 18,
+      "source_bbox": [
+        36.0,
+        413.9770202636719,
+        559.2750244140625,
+        805.8900146484375
+      ],
+      "output_page": 35
+    },
+    {
+      "id": "memory-19-1",
+      "source_page": 19,
+      "source_bbox": [
+        36.0,
+        408.3990173339844,
+        559.2750244140625,
+        805.8900146484375
+      ],
+      "output_page": 36
+    },
+    {
+      "id": "memory-19-2",
+      "source_page": 19,
+      "source_bbox": [
+        123.30699920654297,
+        36.0,
+        471.9679870605469,
+        384.8500061035156
+      ],
+      "output_page": 36
+    },
+    {
+      "id": "memory-20-1",
+      "source_page": 20,
+      "source_bbox": [
+        36.0,
+        36.000244140625,
+        559.2750244140625,
+        430.86602783203125
+      ],
+      "output_page": 37
+    },
+    {
+      "id": "memory-20-2",
+      "source_page": 20,
+      "source_bbox": [
+        36.0,
+        464.1683044433594,
+        559.2750244140625,
+        805.8900146484375
+      ],
+      "output_page": 37
+    },
+    {
+      "id": "memory-21-1",
+      "source_page": 21,
+      "source_bbox": [
+        36.0,
+        413.4333190917969,
+        559.2750244140625,
+        805.8900146484375
+      ],
+      "output_page": 38
+    },
+    {
+      "id": "memory-21-2",
+      "source_page": 21,
+      "source_bbox": [
+        36.0,
+        36.0,
+        559.2750244140625,
+        384.8500061035156
+      ],
+      "output_page": 38
+    },
+    {
+      "id": "memory-22-1",
+      "source_page": 22,
+      "source_bbox": [
+        36.0,
+        457.03900146484375,
+        559.2750244140625,
+        805.8900146484375
+      ],
+      "output_page": 39
+    },
+    {
+      "id": "memory-22-2",
+      "source_page": 22,
+      "source_bbox": [
+        36.0,
+        36.000244140625,
+        320.19500732421875,
+        428.4569396972656
+      ],
+      "output_page": 39
+    },
+    {
+      "id": "memory-22-3",
+      "source_page": 22,
+      "source_bbox": [
+        348.7770080566406,
+        36.000244140625,
+        559.2750244140625,
+        428.4569396972656
+      ],
+      "output_page": 39
+    },
+    {
+      "id": "memory-23-1",
+      "source_page": 23,
+      "source_bbox": [
+        36.0,
+        413.4332580566406,
+        256.64654541015625,
+        805.8899536132812
+      ],
+      "output_page": 40
+    },
+    {
+      "id": "memory-23-2",
+      "source_page": 23,
+      "source_bbox": [
+        281.2850036621094,
+        413.4330139160156,
+        559.2750244140625,
+        805.8900146484375
+      ],
+      "output_page": 40
+    },
+    {
+      "id": "memory-23-3",
+      "source_page": 23,
+      "source_bbox": [
+        36.0,
+        36.0,
+        559.2750244140625,
+        384.8500061035156
+      ],
+      "output_page": 40
+    },
+    {
+      "id": "memory-24-1",
+      "source_page": 24,
+      "source_bbox": [
+        36.0,
+        36.0,
+        559.2750244140625,
+        402.94500732421875
+      ],
+      "output_page": 41
+    },
+    {
+      "id": "memory-24-2",
+      "source_page": 24,
+      "source_bbox": [
+        36.0,
+        445.0400085449219,
+        559.2750244140625,
+        805.8900146484375
+      ],
+      "output_page": 41
+    },
+    {
+      "id": "memory-25-1",
+      "source_page": 25,
+      "source_bbox": [
+        36.0,
+        36.0,
+        559.2750244140625,
+        402.94500732421875
+      ],
+      "output_page": 42
+    },
+    {
+      "id": "memory-25-2",
+      "source_page": 25,
+      "source_bbox": [
+        36.0,
+        438.94512939453125,
+        559.2750244140625,
+        805.8900146484375
+      ],
+      "output_page": 42
+    },
+    {
+      "id": "Frau Bullard",
+      "source_page": 26,
+      "source_bbox": [
+        363.32037353515625,
+        167.2449951171875,
+        559.2750244140625,
+        428.5179443359375
+      ],
+      "output_page": 44
+    },
+    {
+      "id": "Herr Schönberger",
+      "source_page": 26,
+      "source_bbox": [
+        363.32037353515625,
+        521.5750732421875,
+        559.2750244140625,
+        782.8480224609375
+      ],
+      "output_page": 45
+    },
+    {
+      "id": "Herr Götz",
+      "source_page": 27,
+      "source_bbox": [
+        363.32037353515625,
+        120.4730224609375,
+        559.2750244140625,
+        381.7460021972656
+      ],
+      "output_page": 46
+    },
+    {
+      "id": "Herr Hippe",
+      "source_page": 27,
+      "source_bbox": [
+        363.32037353515625,
+        539.2919921875,
+        559.2750244140625,
+        800.5652465820312
+      ],
+      "output_page": 47
+    },
+    {
+      "id": "quote-detail-13",
+      "source_page": 29,
+      "source_bbox": [
+        428.88189697265625,
+        785.4541015625,
+        559.275634765625,
+        812.9766235351562
+      ],
+      "output_page": 52
+    }
+  ]
+}
