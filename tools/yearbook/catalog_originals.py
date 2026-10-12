@@ -80,6 +80,8 @@ def catalog():
                                'frame_bbox': list(local), 'image_id': image.get('Self'),
                                'oriented_pixels': size, 'exif_orientation': orientation,
                                'layout_rotation_degrees_clockwise': rotation,
+                               'layout_reflected_vertical_before_rotation': image_transform.a*image_transform.d-image_transform.b*image_transform.c<0,
+                               'image_transform': list(image_transform),
                                'crop_normalized': crop,
                                'sha256': hashlib.sha256(path.read_bytes()).hexdigest()})
     source = fitz.open(SOURCE)

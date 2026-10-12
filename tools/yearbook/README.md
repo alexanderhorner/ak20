@@ -70,3 +70,23 @@ byte-identical original PDF and complete 106-file authoring package remain
 archived in the repository. All content and all 88 original linked image files
 are still present in the redesigned document. Website and password appear only
 in small type on the final page.
+
+## Cover and print refinement
+
+`build_print.py` adds generated grip hands to the untouched original cutout,
+removes the original decorative arrow at the user's request, and gives the book
+separate front/back covers. Source artwork and prompts are in
+`resources/design/yearbook/illustrations/`; print styles are in `styles/print.css`.
+
+```sh
+python3 tools/yearbook/build_print.py --prototype-only
+python3 tools/yearbook/make_print_study.py
+python3 tools/yearbook/build_print.py
+python3 tools/yearbook/make_print_study.py --pdf
+```
+
+Outputs live in `docs/yearbook/iterations/yearbook-print/`: the complete web PDF,
+a two-page cover-panel PDF, and the 50-page numbered interior. The interior's
+first page is a right-hand page; margins are mirrored (45 pt binding, 31 pt
+outside), with outer-edge folios and chapter tabs. Contents references and links
+use the numbered interior. The cover panels have no running headers or folios.
