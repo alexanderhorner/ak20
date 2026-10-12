@@ -21,7 +21,7 @@ For each further reviewable iteration:
 | --- | --- | --- |
 | 5 — refined color, original-source photographs | [PDF](iterations/yearbook-refined/AK20-Jahrbuch-Verfeinert.pdf) | `bbf9ea7` — photo checks and portable contents links |
 | 6 — photograph cover, peeking hands, mirrored interior | [PDF](iterations/yearbook-print/AK20-Jahrbuch-Web.pdf) | `7bf5a68` |
-| 7 — abstract covers, quiet endpapers, photograph on page 3 | [PDF](iterations/yearbook-jacket/AK20-Jahrbuch-Web.pdf) | `97a434d` — HTML checkpoint; final PDF checkpoint follows |
+| 7 — abstract covers, quiet endpapers, photograph on page 3 | [PDF](iterations/yearbook-jacket/AK20-Jahrbuch-Web.pdf) | `97a434d` — HTML; `674500c` — final PDF and print exports |
 
 The latest complete book has 56 PDF pages and a 52-page interior. Exterior
 covers, inside-cover panels and interior are exported separately. The original
