@@ -1,0 +1,3 @@
+# Archival package bytes, including original CRLF metadata, must round-trip.
+original/** -text
+fonts/** -text
