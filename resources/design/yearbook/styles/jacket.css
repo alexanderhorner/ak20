@@ -72,3 +72,4 @@ footer{position:absolute;left:38pt;right:38pt;bottom:24pt;display:flex;justify-c
 .back-mark span{display:block;font:7.5pt Mono;letter-spacing:.6pt}
 .colophon-mark{position:absolute;left:38pt;right:38pt;top:351pt;text-align:center;font:23pt FrauncesText}
 .colophon-mark span{display:block;margin-top:18pt;font:8pt Mono;letter-spacing:1.3pt;color:var(--muted)}
+.rosette.lilac g{fill:var(--lilac)}

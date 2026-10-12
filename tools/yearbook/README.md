@@ -90,3 +90,27 @@ a two-page cover-panel PDF, and the 50-page numbered interior. The interior's
 first page is a right-hand page; margins are mirrored (45 pt binding, 31 pt
 outside), with outer-edge folios and chapter tabs. Contents references and links
 use the numbered interior. The cover panels have no running headers or folios.
+
+## Latest: abstract covers and endpapers
+
+The latest review uses `build_jacket.py`:
+
+```sh
+python3 tools/yearbook/build_jacket.py --prototype-only
+python3 tools/yearbook/build_jacket.py
+```
+
+The complete 56-page web book is in
+`docs/yearbook/iterations/yearbook-jacket/AK20-Jahrbuch-Web.pdf`: abstract front,
+quiet inside-front, class photo on PDF page 3 / print folio 1, 52 numbered paper
+pages, matching inside-back, and a quieter exterior back. `AK20-Umschlag.pdf`
+contains the two exterior panels; `AK20-Vorsatz.pdf` the two inside panels;
+`AK20-Innenteil.pdf` the 52-page interior. The website/password are quietly on
+the final paper page, before the inside-back and exterior-back covers.
+
+The source photograph check (`verify_photos.py`) independently compares linked
+originals with the published PDF to catch rotations, reflections and cropping
+errors. Every subsequent export also compares its actual photo derivatives.
+Contents anchors become explicit PDF destinations, so all 34 links work in
+both the complete book and the extracted interior. Print/source/art checks are
+recorded in each edition's audit.

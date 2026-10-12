@@ -22,3 +22,12 @@ The Laravel download remains `storage/app/public/pdf/Abschlusszeitung2020.pdf`.
 The original package is an archive: edit derivatives, not these files. Its
 packaged fonts are retained for reconstructing the original document; the new
 edition uses only the separately licensed fonts in `fonts/`.
+
+- `styles/`: shared type/color rules and edition-specific print geometry.
+- `illustrations/`: retained image-tool grain, print-sharp SVG compositions, and
+  generated grip hands. `illustrations/hands-prompt.json` records the exact
+  built-in image-tool prompt and the saved `hands.png` source; the original face
+  is used separately and remains unchanged.
+- `photo-verification.json`: independent visual correspondence with the original
+  PDF, including the InDesign reflection on Marcel's portrait. Original-photo
+  cropping/orientation stays explicit and editable in the catalog.

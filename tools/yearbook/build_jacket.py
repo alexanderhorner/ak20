@@ -265,7 +265,7 @@ with sync_playwright() as pw:
     record(NEW_URL,'end-url',0);record('Passwort: Parameterverfahren','end-access',0)
     add('Klasse 10a',f'''<div class="colophon-mark">Klasse 10a<span>2020</span></div><div class="back-access"><a href="https://{NEW_URL}">{NEW_URL}</a><span>Passwort: Parameterverfahren</span></div>''','colophon')
     add('Klasse 10a',inside_cover('lilac'),'inner-cover')
-    add('Bis bald','<div class="back-mark">Klasse 10a<span>2020</span></div>','back')
+    add('Rückseite','<div class="back-mark">Klasse 10a<span>2020</span></div>','back')
     html_path=PROTO/'index.html';html_path.write_text(document(pages),encoding='utf-8')
     page.goto(html_path.as_uri());page.evaluate('document.fonts.ready');page.wait_for_function('Array.from(document.images).every(i=>i.complete)')
     assert page.evaluate("document.fonts.check('12px Fraunces') && document.fonts.check('12px Manrope') && document.fonts.check('12px Mono')"), 'fonts not loaded'
@@ -342,7 +342,7 @@ for link in contents_links:
     pdf[3].delete_link(link)
     pdf[3].insert_link({'kind':fitz.LINK_GOTO,'from':link['from'],'page':anchor_pages[anchor],'to':fitz.Point(0,0)})
 toc=[[1,'Unser Jahr',1],[1,'Klasse 10a',3],[1,'Inhalt',4],[1,'Steckbriefe',5]]+[[2,p['name'],i+5] for i,p in enumerate(profiles)]
-for section in ['Fotos','Unsere Lehrer','Historische Zitate','Bis bald']:toc.append([1,section,next(i+1 for i,p in enumerate(pages) if p['section']==section)])
+for section in ['Fotos','Unsere Lehrer','Historische Zitate','Rückseite']:toc.append([1,section,next(i+1 for i,p in enumerate(pages) if p['section']==section)])
 pdf.set_toc(toc);pdf.set_metadata({'title':'AK20 · Klasse 10a · Abschlussjahrbuch 2020','author':'Klasse 10a','subject':'Abschlussjahrbuch 2020; vollständiger Originalinhalt; ak20.alexanderhorner.de'})
 pdf.set_page_labels([{'startpage':0,'prefix':'Vorderseite'}, {'startpage':1,'prefix':'Vorderer Vorsatz'}, {'startpage':2,'style':'D','firstpagenum':1}, {'startpage':len(pdf)-2,'prefix':'Hinterer Vorsatz'}, {'startpage':len(pdf)-1,'prefix':'Rückseite'}])
 FINAL=OUT/'AK20-Jahrbuch-Web.pdf';pdf.save(FINAL,garbage=4,deflate=True);pdf.close();pdf=fitz.open(FINAL)
