@@ -26,3 +26,7 @@ All 30 student profiles, childhood pictures and portraits, nine original photo s
 Every factual text block is verified against its redesigned page. Comparison ignores whitespace, capitalization of field labels, label colons, and discretionary hyphens introduced by the original line wrapping. The original dinosaur/heart emoji uses a custom Type3 font; its artwork is rendered inline and preserved in the embedded original. Decorative oversized title fragments and shadows are replaced by the new design. No wording, names, dates, wishes, anecdotes, or quotes are edited or shortened.
 
 The build also checks profile text bounds, the source-image placement count, and byte identity of the embedded original. The original blank last page becomes a designed back cover.
+
+## Editorial version two
+
+The second design and its design system, image concept, HTML prototype, print proofs and checks are documented in `previews/yearbook-editorial/README.md`. Build it with `build_editorial.py` and produce its design study with `make_design_study.py`. Neither command replaces version one's PDF or changes the website.
