@@ -114,3 +114,19 @@ errors. Every subsequent export also compares its actual photo derivatives.
 Contents anchors become explicit PDF destinations, so all 34 links work in
 both the complete book and the extracted interior. Print/source/art checks are
 recorded in each edition's audit.
+
+## Final detail review
+
+After exporting the latest jacket edition, run the independent relationship
+audit. It measures screen and print layouts, checks photo-frame padding, shared
+text axes, caption gaps, photo baselines, mirrored corner direction, footer
+clearance and overlaps. It exits unsuccessfully if any relationship fails.
+
+```sh
+python3 tools/yearbook/detail_audit.py --output docs/yearbook/iterations/yearbook-jacket/review --render
+python3 tools/yearbook/make_jacket_proofs.py
+```
+
+The optional render produces fourteen larger four-page sheets covering the
+complete 56-page PDF, suitable for detailed visual review. Content preservation
+and final PDF/HTML fidelity remain part of `build_jacket.py`.

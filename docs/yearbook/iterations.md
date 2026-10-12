@@ -39,3 +39,16 @@ keeping their center and grip aligned with the photo edge. The complete web PDF,
 52-page interior, HTML proof and opening/detail previews are refreshed. The
 larger-hands edition remains preserved at checkpoint `674500c`. All content,
 photo and layout checks pass for this refinement.
+
+### Final alignment and spacing refinement
+
+The complete 56-page edition receives a final page-by-page detail pass. Facts
+and anecdotes now share a reading axis; panels have balanced padding and no
+trailing list margin; photo frames have even padding; captions align with their
+frames; teacher frames meet the outer page grid and badges center beneath them.
+Panel/header radii mirror to the outside edge of the physical page.
+
+The independent detail audit measures screen and print layouts and checks
+proximity, alignment, bounds and footer clearance. Larger review sheets cover
+all pages. Previous designs and the smaller-hands checkpoint `0c35485` remain
+preserved. Nothing is deployed.

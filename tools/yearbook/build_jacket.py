@@ -53,6 +53,9 @@ def art(src,bbox,x,y,w,h,key,extra='',kind='photo',original=None):
     iw,ih=export['export_pixels'];scale=min(w/iw,h/ih)
     pw,ph=iw*scale,ih*scale
     xx,yy=x+(w-pw)/2,y+(h-ph)/2
+    # Child pictures share the page's left grid, even when derivative pixel
+    # rounding changes their aspect ratio slightly. Mounts follow actual art.
+    if extra=='child-photo':xx=x
     export['effective_ppi']=round(min(iw/pw,ih/ph)*72,1)
     if src>0:
         pix=source[src].get_pixmap(matrix=fitz.Matrix(1,1),clip=b,alpha=False)
@@ -62,8 +65,13 @@ def art(src,bbox,x,y,w,h,key,extra='',kind='photo',original=None):
         export['visual_correlation_with_original_pdf']=round(score,5)
     item['derivative']=str(path);item['original']=export
     filename=path.name
-    mount=f'<span class="gallery-mount" style="left:{xx-3:.4f}pt;top:{yy-3:.4f}pt;width:{pw+6:.4f}pt;height:{ph+6:.4f}pt"></span>' if extra=='gallery-photo' else ''
-    return mount+f'<img class="native-art {extra}" id="{item["id"]}" src="assets/{filename}" alt="{html.escape(key)}" style="left:{xx:.4f}pt;top:{yy:.4f}pt;width:{pw:.4f}pt;height:{ph:.4f}pt">'
+    frame={'gallery-photo':('gallery-mount',3),'child-photo':('child-mount',6),'teacher-photo':('teacher-photo-mount',7)}.get(extra)
+    mount=''
+    if frame:
+        cls,padding=frame
+        mount=f'<span class="{cls}" style="left:{xx-padding:.4f}pt;top:{yy-padding:.4f}pt;width:{pw+2*padding:.4f}pt;height:{ph+2*padding:.4f}pt" aria-hidden="true"></span>'
+    caption=f'<span class="teacher-caption" style="left:{xx-7:.4f}pt;top:{yy+ph+7+12:.4f}pt">UNSERE LEHRER / 2020</span>' if extra=='teacher-photo' else ''
+    return mount+f'<img class="native-art {extra}" id="{item["id"]}" src="assets/{filename}" alt="{html.escape(key)}" style="left:{xx:.4f}pt;top:{yy:.4f}pt;width:{pw:.4f}pt;height:{ph:.4f}pt">'+caption
 
 def emoji_markup(t,src):
     value=esc(t)
@@ -122,7 +130,7 @@ record('Klasse 10a','cover',0)
 cover=f'''<span class="cover-label">ABSCHLUSSJAHRBUCH / 2020</span><div class="cover-title"><h1>Unser<br>Jahr<span class="red-text">.</span></h1><p class="cover-class">Klasse 10a</p></div>
 <div class="year-seal">2020</div>
 {art(0,(0,0,86,110),38,350,86,110,'cover cutout',original=CATALOG['cover'][0])}
-{art(0,(0,0,6000,4000),38,413,519,346,'cover class photo',original=CATALOG['cover'][1])}
+{art(0,(0,0,6000,4000),38,413,W-76,(W-76)*2/3,'cover class photo',original=CATALOG['cover'][1])}
 {hands(37,394.75,94,94/3)}'''
 photo_body=cover.replace('<span class="cover-label">ABSCHLUSSJAHRBUCH / 2020</span>','')
 front='<span class="cover-label">ABSCHLUSSJAHRBUCH / Klasse 10a</span><div class="abstract-cover-title"><h1>10a<span class="red-text">.</span></h1><p>2020</p></div>'
@@ -162,9 +170,9 @@ for n,p in enumerate(profiles):
     traits=''.join(f'<li>{emoji_markup(t,p["source"])}</li>' for t in p['traits'])
     nickname=f'<p class="nickname">{esc(p["nick"])}</p>' if p['nick'] else ''
     body=f'''<div id="student-{n}" class="student-stage"><div class="profile-title"><h1><span class="first-name">{esc(first)}</span><span class="surname">{esc(surname)}</span></h1>{nickname}</div>
-{rosette(211,319,88,'profile',True)}<span class="student-index">{n+1:02}</span><div class="child-mount"></div>
-{art(p['source'],p['images'][0]['bbox'],350.34,96,206.66,310,p['name']+': portrait')}
-{art(p['source'],p['images'][1]['bbox'],44,237,111,163,p['name']+': childhood')}
+{rosette(211,319,88,'profile',True)}<span class="student-index">{n+1:02}</span>
+{art(p['source'],p['images'][0]['bbox'],W-38-206.66,96,206.66,310,p['name']+': portrait')}
+{art(p['source'],p['images'][1]['bbox'],44,237,111,163,p['name']+': childhood','child-photo')}
 <span class="photo-caption then">KINDERFOTO</span><span class="photo-caption now">KLASSE 10a</span>
 </div><div class="profile-copy"><dl class="facts">{facts}</dl><section class="traits"><h2>Typische<br><em>Eigenschaften:</em></h2><ul>{traits}</ul></section></div>'''
     add('Steckbriefe',body,'student', ['red','blue','butter','lilac'][n%4])
@@ -194,8 +202,8 @@ for i in [25,26]:
         for trait in traits:record(trait,'teacher-trait',i)
         img=min(ib,key=lambda q:abs((q['bbox'][1]+q['bbox'][3])/2-(b['bbox'][1]+b['bbox'][3])/2))
         body=f'''<div class="teacher-title"><h1>{esc(name)}</h1><span class="eyebrow">EIGENSCHAFTEN UNSERER LEHRER</span></div>
-<ul class="teacher-traits">{''.join(f'<li>{esc(t)}</li>' for t in traits)}</ul><div class="teacher-photo-mount"></div>
-{art(i,img['bbox'],364,211,178,244,name)}<span class="teacher-caption">UNSERE LEHRER / 2020</span>{rosette(398,528,88,'butter',True)}<span class="teacher-badge">{1+j if i==25 else 3+j:02}</span>'''
+<ul class="teacher-traits">{''.join(f'<li>{esc(t)}</li>' for t in traits)}</ul>
+{art(i,img['bbox'],W-38-7-178,211,178,244,name,'teacher-photo')}{rosette(W-38-7-89-44,528,88,'butter',True)}<span class="teacher-badge" style="left:{W-38-7-89-44}pt">{1+j if i==25 else 3+j:02}</span>'''
         add('Unsere Lehrer',body,'teacher', ['blue','butter'][j])
 
 # Real dialogue, not invented sample quotations. Browser measures and paginates it.
