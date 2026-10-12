@@ -8,6 +8,7 @@ from zipfile import ZipFile
 from urllib.parse import unquote, urlparse
 import hashlib
 import json
+import math
 import xml.etree.ElementTree as ET
 
 import pymupdf as fitz
@@ -58,6 +59,16 @@ def catalog():
                 page_number, page_rect = max(pages, key=lambda p: (p[1] & spread_rect).get_area())
                 local = fitz.Rect(spread_rect.x0 - page_rect.x0, spread_rect.y0 - page_rect.y0,
                                   spread_rect.x1 - page_rect.x0, spread_rect.y1 - page_rect.y0)
+                graphic = image.find('Properties/GraphicBounds')
+                image_rect = fitz.Rect(*(float(graphic.get(k)) for k in ['Left', 'Top', 'Right', 'Bottom']))
+                image_transform = matrix(image) * transform
+                bounds = image_rect * image_transform
+                crop = [(spread_rect.x0 - bounds.x0) / bounds.width,
+                        (spread_rect.y0 - bounds.y0) / bounds.height,
+                        (spread_rect.x1 - bounds.x0) / bounds.width,
+                        (spread_rect.y1 - bounds.y0) / bounds.height]
+                crop = [max(0, min(1, v)) for v in crop]
+                rotation = round(math.degrees(math.atan2(image_transform.b, image_transform.a)) / 90) * 90
                 filename = Path(unquote(urlparse(link.get('LinkResourceURI')).path)).name
                 path = PACKAGE / 'Links' / filename
                 assert path.is_file(), ('Missing linked original', filename)
@@ -68,6 +79,8 @@ def catalog():
                 frames.append({'file': 'Links/' + filename, 'source_page': page_number,
                                'frame_bbox': list(local), 'image_id': image.get('Self'),
                                'oriented_pixels': size, 'exif_orientation': orientation,
+                               'layout_rotation_degrees_clockwise': rotation,
+                               'crop_normalized': crop,
                                'sha256': hashlib.sha256(path.read_bytes()).hexdigest()})
     source = fitz.open(SOURCE)
     regions = []

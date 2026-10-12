@@ -36,3 +36,37 @@ The second design and its design system, image concept, HTML prototype, print pr
 The user requested a commit for every reviewable design iteration. Preserve previous PDF editions and commit each finished proof before further design changes. See `docs/yearbook/iterations.md` for the saved versions. The preferred color checkpoint is `6a3bf67`.
 
 The larger-illustration revision is built by `build_illustrated.py` and documented in `docs/yearbook/iterations/yearbook-illustrated/README.md`.
+
+## Original-source revision
+
+`build_refined.py` starts from the preferred color edition and uses the original
+InDesign-linked photographs. Shared styles and vector illustrations live in
+`resources/design/yearbook/`; source data and filename/geometry mappings are
+archived there as well. The photo catalog can be rebuilt with
+`catalog_originals.py`.
+
+Prototype and review first:
+
+```sh
+python3 tools/yearbook/build_refined.py --prototype-only
+python3 tools/yearbook/make_refined_study.py
+```
+
+Then export the same layout:
+
+```sh
+python3 tools/yearbook/build_refined.py
+python3 tools/yearbook/make_refined_study.py --pdf
+```
+
+Outputs: `docs/yearbook/iterations/yearbook-refined/`. Photography targets 240
+ppi without upsampling, JPEG quality 91 with full chroma detail, and lossless PNG
+for transparency/screenshots. IDML records original cropping and actual layout
+orientation; the catalog makes future recropping or regrouping possible. Fonts
+and structural shapes remain vector. Original files are not modified.
+
+This web PDF omits the earlier editions' large original-PDF attachment. The
+byte-identical original PDF and complete 106-file authoring package remain
+archived in the repository. All content and all 88 original linked image files
+are still present in the redesigned document. Website and password appear only
+in small type on the final page.
