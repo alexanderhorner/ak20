@@ -4,10 +4,10 @@ A print-ready A4 yearbook preview on `design/yearbook-2020`. This does not chang
 
 ## Outputs
 
-- `previews/yearbook/AK20-Jahrbuch-Redesign.pdf`: 52-page redesign with bookmarks and an embedded, byte-identical copy of the original PDF.
-- `previews/yearbook/preview.jpg`: eight-page visual overview.
-- `previews/yearbook/page-*.png`: selected full-page previews.
-- `previews/yearbook/content-audit.json`: source checksum, content checks, and photo placement inventory. Contains the same personal information as the source PDF; keep it with the yearbook.
+- `docs/yearbook/iterations/yearbook/AK20-Jahrbuch-Redesign.pdf`: 52-page redesign with bookmarks and an embedded, byte-identical copy of the original PDF.
+- `docs/yearbook/iterations/yearbook/preview.jpg`: eight-page visual overview.
+- `docs/yearbook/iterations/yearbook/page-*.png`: selected full-page previews.
+- `docs/yearbook/iterations/yearbook/content-audit.json`: source checksum, content checks, and photo placement inventory. Contains the same personal information as the source PDF; keep it with the yearbook.
 
 ## Rebuild
 
@@ -29,10 +29,10 @@ The build also checks profile text bounds, the source-image placement count, and
 
 ## Editorial version two
 
-The second design and its design system, image concept, HTML prototype, print proofs and checks are documented in `previews/yearbook-editorial/README.md`. Build it with `build_editorial.py` and produce its design study with `make_design_study.py`. Neither command replaces version one's PDF or changes the website.
+The second design and its design system, image concept, HTML prototype, print proofs and checks are documented in `docs/yearbook/iterations/yearbook-editorial/README.md`. Build it with `build_editorial.py` and produce its design study with `make_design_study.py`. Neither command replaces version one's PDF or changes the website.
 
 ## Iteration checkpoints
 
-The user requested a commit for every reviewable design iteration. Preserve previous PDF editions and commit each finished proof before further design changes. See `previews/yearbook-iterations.md` for the saved versions. The preferred color checkpoint is `6a3bf67`.
+The user requested a commit for every reviewable design iteration. Preserve previous PDF editions and commit each finished proof before further design changes. See `docs/yearbook/iterations.md` for the saved versions. The preferred color checkpoint is `6a3bf67`.
 
-The larger-illustration revision is built by `build_illustrated.py` and documented in `previews/yearbook-illustrated/README.md`.
+The larger-illustration revision is built by `build_illustrated.py` and documented in `docs/yearbook/iterations/yearbook-illustrated/README.md`.

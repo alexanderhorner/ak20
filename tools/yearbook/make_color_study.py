@@ -4,7 +4,7 @@ import re,json
 from playwright.sync_api import sync_playwright
 from PIL import Image,ImageDraw
 ROOT=Path(__file__).resolve().parents[2]
-OUT=ROOT/'previews/yearbook-color';PROTO=OUT/'prototype'
+OUT=ROOT/'docs/yearbook/iterations/yearbook-color';PROTO=OUT/'prototype'
 source=(PROTO/'index.html').read_text();css=re.search(r'<style>(.*?)</style>',source,re.S).group(1)
 audit=json.loads((OUT/'content-audit.json').read_text())
 extra='''

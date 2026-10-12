@@ -5,7 +5,7 @@ from playwright.sync_api import sync_playwright
 from PIL import Image,ImageDraw
 
 ROOT=Path(__file__).resolve().parents[2]
-OUT=ROOT/'previews/yearbook-editorial';PROTO=OUT/'prototype'
+OUT=ROOT/'docs/yearbook/iterations/yearbook-editorial';PROTO=OUT/'prototype'
 source=(PROTO/'index.html').read_text()
 css=re.search(r'<style>(.*?)</style>',source,re.S).group(1)
 EXTRA='''

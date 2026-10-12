@@ -11,10 +11,10 @@ from PIL import Image, ImageDraw
 
 ROOT = Path(__file__).resolve().parents[2]
 SOURCE = ROOT/'storage/app/public/pdf/Abschlusszeitung2020.pdf'
-V1 = ROOT/'previews/yearbook/AK20-Jahrbuch-Redesign.pdf'
-V2 = ROOT/'previews/yearbook-editorial/AK20-Jahrbuch-Editorial.pdf'
-V3 = ROOT/'previews/yearbook-color/AK20-Jahrbuch-Farbe.pdf'
-OUT = ROOT/'previews/yearbook-illustrated'
+V1 = ROOT/'docs/yearbook/iterations/yearbook/AK20-Jahrbuch-Redesign.pdf'
+V2 = ROOT/'docs/yearbook/iterations/yearbook-editorial/AK20-Jahrbuch-Editorial.pdf'
+V3 = ROOT/'docs/yearbook/iterations/yearbook-color/AK20-Jahrbuch-Farbe.pdf'
+OUT = ROOT/'docs/yearbook/iterations/yearbook-illustrated'
 PROTO = OUT/'prototype'
 ASSETS = PROTO/'assets'
 for folder in [OUT,PROTO,ASSETS]: folder.mkdir(parents=True,exist_ok=True)
@@ -172,12 +172,12 @@ for n,(src,text) in enumerate(quote_groups):
     quote_cards.append({'src':src,'text':text,'html':f'<article class="quote" data-quote="{n}"><div class="quote-rule"></div><p>{dialogue(text)}</p></article>'})
 
 CSS='''
-@font-face{font-family:Fraunces;src:url('../../../tools/yearbook/fonts/Fraunces-Display.ttf');font-weight:600}
-@font-face{font-family:FrauncesText;src:url('../../../tools/yearbook/fonts/Fraunces-Text.ttf')}
-@font-face{font-family:FrauncesItalic;src:url('../../../tools/yearbook/fonts/Fraunces-Italic.ttf')}
-@font-face{font-family:Manrope;src:url('../../../tools/yearbook/fonts/Manrope-Regular.ttf');font-weight:400}
-@font-face{font-family:Manrope;src:url('../../../tools/yearbook/fonts/Manrope-Semibold.ttf');font-weight:600}
-@font-face{font-family:Mono;src:url('../../../tools/yearbook/fonts/IBMPlexMono-Regular.ttf')}
+@font-face{font-family:Fraunces;src:url('../../../../../resources/design/yearbook/fonts/Fraunces-Display.ttf');font-weight:600}
+@font-face{font-family:FrauncesText;src:url('../../../../../resources/design/yearbook/fonts/Fraunces-Text.ttf')}
+@font-face{font-family:FrauncesItalic;src:url('../../../../../resources/design/yearbook/fonts/Fraunces-Italic.ttf')}
+@font-face{font-family:Manrope;src:url('../../../../../resources/design/yearbook/fonts/Manrope-Regular.ttf');font-weight:400}
+@font-face{font-family:Manrope;src:url('../../../../../resources/design/yearbook/fonts/Manrope-Semibold.ttf');font-weight:600}
+@font-face{font-family:Mono;src:url('../../../../../resources/design/yearbook/fonts/IBMPlexMono-Regular.ttf')}
 :root{--ink:#30243b;--paper:#f7f1e6;--red:#c7523c;--blue:#b9d0d7;--butter:#eed88b;--lilac:#d7c9df;--line:#cbbfc1;--muted:#5f5360}
 *{box-sizing:border-box}body{margin:0;padding:24px;background:#ded7cf;color:var(--ink);font-family:Manrope,sans-serif;font-size:11pt;line-height:1.45}
 main{display:grid;grid-template-columns:repeat(2,210mm);gap:24px;justify-content:center}.page{width:210mm;height:297mm;position:relative;background:var(--paper);overflow:hidden}

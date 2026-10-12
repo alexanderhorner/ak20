@@ -1,0 +1,107 @@
+ADOBE INDESIGN - DRUCKANLEITUNGEN FÜR BELICHTUNGSBÜROBERICHT
+
+SATZDATEINAME: Abschlusszeitung 10a.indd
+
+PACKDATUM: 04.06.20 14:57
+Erstellungsdatum 04.06.20
+Änderungsdatum: 04.06.20
+
+AUFTRAGGEBER
+
+Firma: 
+Ansprechpartner: 
+Adresse: 
+
+
+
+
+
+Telefon: 
+Fax: 
+E-Mail: 
+
+BESONDERE ANWEISUNGEN UND ANDERE ANMERKUNGEN
+
+
+
+
+
+
+Externe Zusatzmodule 0
+Nicht deckende Objekte: Auf Seite1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 24, 29
+
+SCHRIFTARTEN
+12 Schriftart(en) verwendet; 0 fehlend, 0 eingebettet, 0 unvollst., 0 geschützt
+
+Schriftarten verpackt
+- Name: AppleColorEmoji; Typ: TrueType, Status: OK
+- Name: CourierNewPS-BoldMT; Typ: OpenType TrueType, Status: OK
+- Name: Lato-Regular; Typ: TrueType, Status: OK
+- Name: Lora-Bold; Typ: TrueType, Status: OK
+- Name: Lora-BoldItalic; Typ: TrueType, Status: OK
+- Name: Lora-Italic; Typ: TrueType, Status: OK
+- Name: Lora-Regular; Typ: TrueType, Status: OK
+- Name: MinionPro-Regular; Typ: OpenType Type 1, Status: OK
+- Name: Montserrat-Black; Typ: TrueType, Status: OK
+- Name: Montserrat-BlackItalic; Typ: TrueType, Status: OK
+- Name: Montserrat-BoldItalic; Typ: TrueType, Status: OK
+- Name: Montserrat-ExtraBold; Typ: TrueType, Status: OK
+
+
+FARBEN UND DRUCKFARBEN
+4 Prozessfarbe(n); 0 Volltonfarbe(n)
+
+- Name und Typ: Prozessfarbe Cyan; Winkel: 0,000; Linien/Zoll: 0,000
+- Name und Typ: Prozessfarbe Magenta; Winkel: 0,000; Linien/Zoll: 0,000
+- Name und Typ: Prozessfarbe Gelb; Winkel: 0,000; Linien/Zoll: 0,000
+- Name und Typ: Prozessfarbe Schwarz; Winkel: 0,000; Linien/Zoll: 0,000
+
+
+VERKNÜPFUNGEN UND BILDER
+(Nur fehlende & eingebettete Verknüpfungen)
+Verknüpfungen und Bilder: 88 Verknüpfung(en) gefunden; 0 geändert, 0 fehlend, 0 Zugriff nicht möglich
+Bilder: 0 eingebettet, 88 verwenden RGB-Farbraum
+
+
+DRUCKEINSTELLUNGEN
+PPD: n. zutr., (Brother HL-L5100DN series)
+Druckausgabe: Drucker
+Anzahl der Exemplare: 1
+Druckbögen: Nein
+Gerade/Ungerade Seiten: Beides
+Seiten: Alle
+Probedruck: Nein
+Unterteilung: Ohne
+Skalieren: 100 %, 100 %
+Seitenposition: Oben links
+Ebenen drucken: Sichtbare und druckbare Ebenen
+Druckermarken: Ohne
+Anschnitt: 0 mm, 0 mm, 0 mm, 0 mm
+Farbe: Composite-RGB
+Überfüllungsmodus:  Ohne
+Bilddaten senden: Auflösung reduzieren
+OPI/DCS-Bildersetzung: Nein
+Seitenformat: A4
+Papierabmessungen: 210 mm x 297 mm
+Format: Hochformat
+Negativ: Nein
+Spiegelmodus: Aus
+
+
+DATEIPAKETLISTE
+
+1. Abschlusszeitung 10a.indd; Typ: Adobe InDesign-Satzdatei; Größe: 28236K
+2. Abschlusszeitung 10a.idml; Typ: InDesign Markup-Dokument; Größe: 220K
+3. Abschlusszeitung 10a.pdf; Typ: Adobe Acrobat-Dokument; Größe: 18390K
+4. Apple Color Emoji.ttc; Typ: Schriftartendatei; Größe: 203057K
+5. Courier New Bold.ttf; Typ: Schriftartendatei; Größe: 675K
+6. Lato-Regular.ttf; Typ: Schriftartendatei; Größe: 73K
+7. Lora-Bold.ttf; Typ: Schriftartendatei; Größe: 188K
+8. Lora-BoldItalic.ttf; Typ: Schriftartendatei; Größe: 175K
+9. Lora-Italic.ttf; Typ: Schriftartendatei; Größe: 170K
+10. Lora-Regular.ttf; Typ: Schriftartendatei; Größe: 169K
+11. MinionPro-Regular.otf; Typ: Schriftartendatei; Größe: 213K
+12. Montserrat-Black.ttf; Typ: Schriftartendatei; Größe: 251K
+13. Montserrat-BlackItalic.ttf; Typ: Schriftartendatei; Größe: 255K
+14. Montserrat-BoldItalic.ttf; Typ: Schriftartendatei; Größe: 243K
+15. Montserrat-ExtraBold.ttf; Typ: Schriftartendatei; Größe: 239K

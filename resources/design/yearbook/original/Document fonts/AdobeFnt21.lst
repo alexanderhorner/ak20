@@ -1,0 +1,269 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lora-Italic
+FamilyName:Lora
+StyleName:Italic
+MenuName:Lora
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Lora Italic
+WritingScript:Roman
+OutlineFileName:/Users/alexanderhorner/Library/Mobile Documents/com~apple~CloudDocs/Adobe InDesign/Abschlusszeitung 10a/Document fonts/Lora-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:174772
+FileModTime:331599600
+NameArray:0,Win,1,Lora
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/alexanderhorner/Library/Mobile Documents/com~apple~CloudDocs/Adobe InDesign/Abschlusszeitung 10a/Document fonts/AdobeFnt21.lst
+FileLength:6618
+FileModTime:614688333
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lora-Bold
+FamilyName:Lora
+StyleName:Bold
+MenuName:Lora
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Lora Bold
+WritingScript:Roman
+OutlineFileName:/Users/alexanderhorner/Library/Mobile Documents/com~apple~CloudDocs/Adobe InDesign/Abschlusszeitung 10a/Document fonts/Lora-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:193268
+FileModTime:331599600
+NameArray:0,Win,1,Lora
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CourierNewPS-BoldMT
+FamilyName:Courier New
+StyleName:Bold
+MenuName:Courier New
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Courier New Bold
+WritingScript:Roman
+OutlineFileName:/Users/alexanderhorner/Library/Mobile Documents/com~apple~CloudDocs/Adobe InDesign/Abschlusszeitung 10a/Document fonts/Courier New Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:691796
+FileModTime:612968203
+NameArray:0,Mac,4,Courier New Bold
+NameArray:0,Win,1,Courier New
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Montserrat-BoldItalic
+FamilyName:Montserrat
+StyleName:Bold Italic
+MenuName:Montserrat
+StyleBits:3
+WeightClass:700
+WidthClass:5
+AngleClass:1
+FullName:Montserrat Bold Italic
+WritingScript:Roman
+OutlineFileName:/Users/alexanderhorner/Library/Mobile Documents/com~apple~CloudDocs/Adobe InDesign/Abschlusszeitung 10a/Document fonts/Montserrat-BoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:249556
+FileModTime:345423600
+NameArray:0,Win,1,Montserrat
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-Regular
+FamilyName:Lato
+StyleName:Regular
+MenuName:Lato
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Lato Regular
+WritingScript:Roman
+OutlineFileName:/Users/alexanderhorner/Library/Mobile Documents/com~apple~CloudDocs/Adobe InDesign/Abschlusszeitung 10a/Document fonts/Lato-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:75136
+FileModTime:314056800
+NameArray:0,Win,1,Lato
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Montserrat-BlackItalic
+FamilyName:Montserrat
+StyleName:Black Italic
+MenuName:Montserrat Black
+StyleBits:1
+WeightClass:900
+WidthClass:5
+AngleClass:1
+FullName:Montserrat Black Italic
+WritingScript:Roman
+OutlineFileName:/Users/alexanderhorner/Library/Mobile Documents/com~apple~CloudDocs/Adobe InDesign/Abschlusszeitung 10a/Document fonts/Montserrat-BlackItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:261732
+FileModTime:345423600
+NameArray:0,Win,1,Montserrat Black
+NameArray:0,Win,16,Montserrat
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/alexanderhorner/Library/Mobile Documents/com~apple~CloudDocs/Adobe InDesign/Abschlusszeitung 10a/Document fonts/.Apple Color Emoji.ttc.icloud
+FileLength:173
+FileModTime:597968131
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:/Users/alexanderhorner/Library/Mobile Documents/com~apple~CloudDocs/Adobe InDesign/Abschlusszeitung 10a/Document fonts/MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:604953631
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Montserrat-ExtraBold
+FamilyName:Montserrat
+StyleName:ExtraBold
+MenuName:Montserrat ExtraBold
+StyleBits:0
+WeightClass:800
+WidthClass:5
+AngleClass:0
+FullName:Montserrat ExtraBold
+WritingScript:Roman
+OutlineFileName:/Users/alexanderhorner/Library/Mobile Documents/com~apple~CloudDocs/Adobe InDesign/Abschlusszeitung 10a/Document fonts/Montserrat-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:244868
+FileModTime:345423600
+NameArray:0,Win,1,Montserrat ExtraBold
+NameArray:0,Win,16,Montserrat
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Montserrat-Black
+FamilyName:Montserrat
+StyleName:Black
+MenuName:Montserrat Black
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Montserrat Black
+WritingScript:Roman
+OutlineFileName:/Users/alexanderhorner/Library/Mobile Documents/com~apple~CloudDocs/Adobe InDesign/Abschlusszeitung 10a/Document fonts/Montserrat-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:257552
+FileModTime:345423600
+NameArray:0,Win,1,Montserrat Black
+NameArray:0,Win,16,Montserrat
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lora-BoldItalic
+FamilyName:Lora
+StyleName:Bold Italic
+MenuName:Lora
+StyleBits:3
+WeightClass:700
+WidthClass:5
+AngleClass:1
+FullName:Lora Bold Italic
+WritingScript:Roman
+OutlineFileName:/Users/alexanderhorner/Library/Mobile Documents/com~apple~CloudDocs/Adobe InDesign/Abschlusszeitung 10a/Document fonts/Lora-BoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:179928
+FileModTime:331599600
+NameArray:0,Win,1,Lora
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lora-Regular
+FamilyName:Lora
+StyleName:Regular
+MenuName:Lora
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Lora Regular
+WritingScript:Roman
+OutlineFileName:/Users/alexanderhorner/Library/Mobile Documents/com~apple~CloudDocs/Adobe InDesign/Abschlusszeitung 10a/Document fonts/Lora-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:173616
+FileModTime:331599600
+NameArray:0,Win,1,Lora
+%EndFont
+

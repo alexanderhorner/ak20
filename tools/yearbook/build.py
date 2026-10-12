@@ -11,7 +11,7 @@ from PIL import Image, ImageOps, ImageDraw
 
 ROOT = Path(__file__).resolve().parents[2]
 SOURCE = ROOT / 'storage/app/public/pdf/Abschlusszeitung2020.pdf'
-OUT = ROOT / 'previews/yearbook'
+OUT = ROOT / 'docs/yearbook/iterations/yearbook'
 OUT.mkdir(parents=True, exist_ok=True)
 W, H = 595.276, 841.89
 INK, CREAM, CORAL, LIME, LILAC = '#202638', '#FAF6EC', '#F37962', '#D9ED88', '#CBC5F4'
