@@ -1,0 +1,18 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "transparent_background": true,
+  "assets": [
+    {
+      "key": "book",
+      "prompt": "Use case: illustration-story. Asset type: a print-quality background illustration for a refined, joyful German school yearbook. A single stylized open notebook made from five gently curved, overlapping cut-paper shapes, pages fanning from a central spine. Mid-century editorial illustration, elegant and simple, quiet playfulness. Flat warm ivory, muted ochre, pale sky blue, a small coral accent, minimal aubergine detail. Very light fine grain within the paper shapes, matte finish. Generous transparent space around the object. Clear readable silhouette, beautiful restrained curves, no photorealism, no 3D shadows, no text, numbers, badges, loops, scribbles, squiggles, emojis or faces. Make a usable high-resolution isolated illustration, not a concept board. Transparent background."
+    },
+    {
+      "key": "arch",
+      "prompt": "Use case: stylized-concept. Asset type: a single high-resolution abstract cut-paper illustration to sit quietly behind yearbook chapter typography. A warm yellow partial sun, one broad sky-blue curved arch, and a small folded coral paper shape, composed as one spacious asymmetric graphic. Mid-century editorial elegance, sophisticated but joyful, restrained irregular curves, a little fine paper grain within the shapes. Simple large forms with plenty of transparent breathing room. Soft muted print colors matching ivory paper and aubergine type. Not a logo, badge, icon sheet, or concept board. No text, numbers, pen loops, squiggles, thin winding lines, confetti, gradients, 3D effects or people. Transparent background."
+    },
+    {
+      "key": "grain",
+      "prompt": "Use case: stylized-concept. Asset type: seamless subtle fine paper-grain texture layer for print typography backgrounds. A uniform, very sparse field of microscopic neutral-gray speckles and very fine paper fibers on an otherwise transparent canvas. Extremely restrained, delicate matte uncoated-paper grain, even from edge to edge, no large visible features. High resolution, designed as a repeating square tile. No folds, stains, creases, vignettes, clouding, gradients, borders, scratches, shapes, illustrations or text. Mostly transparent, with faint neutral gray grain only; the warm color will be supplied by the page underneath. Transparent background."
+    }
+  ]
+}
